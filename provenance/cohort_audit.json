@@ -1,0 +1,30 @@
+{
+  "original_records": 128,
+  "n": 120,
+  "healthy": 31,
+  "mcao": 89,
+  "exact_duplicate_pairs": 8,
+  "duplicate_pairs_cross_legacy_folds": 8,
+  "legacy_group_date_mismatches": 81,
+  "filename_date_class_counts": {
+    "2025-10-28": {
+      "0": 16,
+      "1": 28
+    },
+    "2025-11-01": {
+      "0": 13,
+      "1": 48
+    },
+    "2025-11-03": {
+      "0": 0,
+      "1": 13
+    },
+    "unknown": {
+      "0": 2,
+      "1": 0
+    }
+  },
+  "date_provenance": "original filename timestamp through copy_manifest, not assigned legacy date labels",
+  "source_sha256": "34f0bd0d1c2f60788b0ae0dd181f9eb958f39cb7bfdd603e67159ca3790366b8",
+  "protocol_sha256": "f068c273f3fc6e5a5cc390ea3093b46383dac7fdb17186e3ab01df9a00ef7d56"
+}

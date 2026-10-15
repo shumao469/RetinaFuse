@@ -1,0 +1,513 @@
+﻿group_type,held_out_group,id,label,p,t,pred,group,model_name,group_semantics
+date,2025-11-03,health_001,0,0.9833775162696838,0.74,1,G3,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-01,health_002,0,0.2598877549171448,0.5,0,G2,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-03,health_003,0,0.0574534982442855,0.74,0,G3,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-01,health_004,0,0.1943559944629669,0.5,0,G2,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-10-28,health_005,0,0.2829812169075012,0.53,0,G1,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-10-28,health_006,0,0.3168419599533081,0.53,0,G1,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-03,health_007,0,0.4803398549556732,0.74,0,G3,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-03,health_008,0,0.3762155175209045,0.74,0,G3,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-01,health_009,0,0.3480377793312073,0.5,0,G2,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-10-28,health_010,0,0.3727286458015442,0.53,0,G1,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-10-28,health_011,0,0.377448707818985,0.53,0,G1,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-01,health_012,0,0.3713907599449157,0.5,0,G2,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-10-28,health_013,0,0.7028558254241943,0.53,1,G1,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-01,health_014,0,0.6545697450637817,0.5,1,G2,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-01,health_015,0,0.3068627119064331,0.5,0,G2,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-03,health_016,0,0.7639679908752441,0.74,1,G3,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-10-28,health_017,0,0.7999114394187927,0.53,1,G1,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-10-28,health_018,0,0.7505084276199341,0.53,1,G1,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-03,health_019,0,0.2891161441802978,0.74,0,G3,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-10-28,health_020,0,0.1987063139677047,0.53,0,G1,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-03,health_021,0,0.4309257268905639,0.74,0,G3,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-03,health_022,0,0.747315526008606,0.74,1,G3,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-01,health_023,0,0.6064377427101135,0.5,1,G2,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-03,health_024,0,0.0977165102958679,0.74,0,G3,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-01,health_025,0,0.2836154401302337,0.5,0,G2,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-10-28,health_026,0,0.7002498507499695,0.53,1,G1,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-10-28,health_027,0,0.4663903713226318,0.53,0,G1,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-01,health_028,0,0.2240445017814636,0.5,0,G2,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-03,health_029,0,0.0496120788156986,0.74,0,G3,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-01,health_030,0,0.128420889377594,0.5,0,G2,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-10-28,health_031,0,0.3929468989372253,0.53,0,G1,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_001,1,0.978547215461731,0.5,1,G2,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_002,1,0.9871871471405028,0.74,1,G3,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_003,1,0.8568766117095947,0.5,1,G2,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_004,1,0.7449786067008972,0.53,1,G1,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_005,1,0.8373218774795532,0.5,1,G2,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_006,1,0.9617223739624025,0.5,1,G2,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_007,1,0.5614352226257324,0.53,1,G1,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_008,1,0.9878052473068236,0.5,1,G2,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_009,1,0.929324507713318,0.74,1,G3,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_010,1,0.7799118757247925,0.53,1,G1,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_011,1,0.9813356399536132,0.5,1,G2,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_012,1,0.9094492197036744,0.5,1,G2,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_013,1,0.7993941903114319,0.53,1,G1,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_014,1,0.9718213081359864,0.5,1,G2,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_015,1,0.9643096923828124,0.74,1,G3,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_016,1,0.8486839532852173,0.53,1,G1,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_017,1,0.9877321124076844,0.74,1,G3,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_018,1,0.8421645164489746,0.53,1,G1,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_019,1,0.9862295389175416,0.5,1,G2,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_020,1,0.9889614582061768,0.5,1,G2,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_021,1,0.9911782145500184,0.74,1,G3,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_022,1,0.7937852144241333,0.53,1,G1,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_023,1,0.8070015907287598,0.53,1,G1,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_024,1,0.8933451175689697,0.53,1,G1,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_025,1,0.9003572463989258,0.53,1,G1,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_026,1,0.8847863674163818,0.53,1,G1,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_027,1,0.9833406805992126,0.5,1,G2,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_028,1,0.9520843625068665,0.53,1,G1,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_029,1,0.9896411895751952,0.5,1,G2,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_030,1,0.8985774517059326,0.74,1,G3,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_031,1,0.565399706363678,0.74,0,G3,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_032,1,0.9506343603134156,0.74,1,G3,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_033,1,0.9004756212234497,0.5,1,G2,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_034,1,0.7694313526153564,0.53,1,G1,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_035,1,0.8812878131866455,0.74,1,G3,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_036,1,0.984285295009613,0.5,1,G2,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_037,1,0.7525523900985718,0.53,1,G1,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_038,1,0.8608454465866089,0.5,1,G2,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_039,1,0.8049901723861694,0.53,1,G1,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_040,1,0.9875308275222778,0.74,1,G3,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_041,1,0.93171489238739,0.53,1,G1,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_042,1,0.9256567358970642,0.74,1,G3,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_043,1,0.2113640010356903,0.74,0,G3,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_044,1,0.9465768337249756,0.53,1,G1,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_045,1,0.9806507229804992,0.5,1,G2,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_046,1,0.9823333621025084,0.74,1,G3,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_047,1,0.966403305530548,0.74,1,G3,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_048,1,0.8250433206558228,0.53,1,G1,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_049,1,0.698983371257782,0.74,0,G3,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_050,1,0.9816854000091552,0.74,1,G3,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_051,1,0.9316272735595704,0.53,1,G1,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_052,1,0.9758136868476868,0.5,1,G2,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_053,1,0.4889054298400879,0.74,0,G3,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_054,1,0.7669752836227417,0.53,1,G1,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_055,1,0.8058090209960938,0.74,1,G3,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_056,1,0.7085996270179749,0.53,1,G1,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_057,1,0.9789106845855712,0.74,1,G3,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_058,1,0.9813170433044434,0.5,1,G2,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_059,1,0.6708724498748779,0.74,0,G3,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_060,1,0.9338886737823486,0.5,1,G2,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_061,1,0.9030539989471436,0.53,1,G1,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_062,1,0.9823150634765624,0.74,1,G3,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_063,1,0.2236077487468719,0.74,0,G3,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_064,1,0.9307820200920104,0.5,1,G2,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_065,1,0.981037735939026,0.5,1,G2,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_066,1,0.8605519533157349,0.5,1,G2,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_067,1,0.9370362758636476,0.5,1,G2,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_068,1,0.2295434027910232,0.74,0,G3,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_069,1,0.9300764799118042,0.53,1,G1,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_070,1,0.966159462928772,0.5,1,G2,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_071,1,0.9854485392570496,0.74,1,G3,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_072,1,0.9784435629844666,0.74,1,G3,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_073,1,0.8193659782409668,0.53,1,G1,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_074,1,0.9779974222183228,0.5,1,G2,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_075,1,0.9570817351341248,0.53,1,G1,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_076,1,0.9302036762237548,0.53,1,G1,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_077,1,0.9847365617752076,0.74,1,G3,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_078,1,0.92828106880188,0.53,1,G1,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_079,1,0.867728590965271,0.53,1,G1,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_080,1,0.3083829879760742,0.5,0,G2,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_081,1,0.989665150642395,0.74,1,G3,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_082,1,0.9259204864501952,0.53,1,G1,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_083,1,0.9277862906455994,0.53,1,G1,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_084,1,0.9757970571517944,0.74,1,G3,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_085,1,0.9245603084564208,0.53,1,G1,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_086,1,0.8819043636322021,0.5,1,G2,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_087,1,0.9238088726997375,0.5,1,G2,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_088,1,0.9373875856399536,0.5,1,G2,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_089,1,0.9535277485847472,0.74,1,G3,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_090,1,0.950109839439392,0.5,1,G2,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_091,1,0.5501453876495361,0.74,0,G3,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_092,1,0.5757488012313843,0.5,1,G2,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_093,1,0.9222754836082458,0.53,1,G1,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_094,1,0.9506818056106568,0.74,1,G3,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_095,1,0.4142169952392578,0.5,0,G2,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_096,1,0.5986783504486084,0.74,0,G3,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_097,1,0.4594420194625854,0.5,0,G2,RetinaFuse,supplied stratified three groups; date identity unverified
+date,2025-11-03,health_001,0,0.4902933943810881,0.63,0,G3,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-01,health_002,0,0.8778953901785206,0.74,1,G2,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-03,health_003,0,0.2741783665229175,0.63,0,G3,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-01,health_004,0,0.6644885811351068,0.74,0,G2,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-10-28,health_005,0,0.6355818782162532,0.65,0,G1,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-10-28,health_006,0,0.8902572950614487,0.65,1,G1,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-03,health_007,0,0.3894386699024557,0.63,0,G3,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-03,health_008,0,0.4924998918053146,0.63,0,G3,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-01,health_009,0,0.5224661712791985,0.74,0,G2,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-10-28,health_010,0,0.551369571985905,0.65,0,G1,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-10-28,health_011,0,0.8419161641724732,0.65,1,G1,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-01,health_012,0,0.5929710372035913,0.74,0,G2,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-10-28,health_013,0,0.8534714203316095,0.65,1,G1,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-01,health_014,0,0.6088295375700586,0.74,0,G2,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-01,health_015,0,0.6925274898426784,0.74,0,G2,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-03,health_016,0,0.7248433402750728,0.63,1,G3,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-10-28,health_017,0,0.6108459183045722,0.65,0,G1,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-10-28,health_018,0,0.467549884487427,0.65,0,G1,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-03,health_019,0,0.6979759326892112,0.63,1,G3,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-10-28,health_020,0,0.7641038073198887,0.65,1,G1,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-03,health_021,0,0.9276554750126392,0.63,1,G3,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-03,health_022,0,0.5758530476615663,0.63,0,G3,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-01,health_023,0,0.8249342800457355,0.74,1,G2,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-03,health_024,0,0.4025073814185531,0.63,0,G3,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-01,health_025,0,0.7253301275824221,0.74,0,G2,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-10-28,health_026,0,0.7000985967044894,0.65,1,G1,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-10-28,health_027,0,0.5792791065515255,0.65,0,G1,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-01,health_028,0,0.5716546059759013,0.74,0,G2,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-03,health_029,0,0.6672556768982522,0.63,1,G3,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-01,health_030,0,0.8847643875360883,0.74,1,G2,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-10-28,health_031,0,0.3586248462662923,0.65,0,G1,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_001,1,0.820100403960077,0.74,1,G2,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_002,1,0.7796654872699841,0.63,1,G3,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_003,1,0.7965254691263131,0.74,1,G2,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_004,1,0.7004151542676146,0.65,1,G1,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_005,1,0.8336081224574898,0.74,1,G2,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_006,1,0.9732005438898916,0.74,1,G2,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_007,1,0.8615757150513828,0.65,1,G1,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_008,1,0.9572583626770425,0.74,1,G2,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_009,1,0.3378319873198425,0.63,0,G3,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_010,1,0.7122428831706166,0.65,1,G1,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_011,1,0.8149195254178194,0.74,1,G2,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_012,1,0.8694741275205916,0.74,1,G2,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_013,1,0.7064327054045885,0.65,1,G1,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_014,1,0.5955457126874116,0.74,0,G2,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_015,1,0.9747487612922072,0.63,1,G3,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_016,1,0.7688994685731046,0.65,1,G1,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_017,1,0.700540484434282,0.63,1,G3,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_018,1,0.8033814994834613,0.65,1,G1,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_019,1,0.8643557058840634,0.74,1,G2,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_020,1,0.8552430052267879,0.74,1,G2,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_021,1,0.932910487275036,0.63,1,G3,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_022,1,0.4449702481986679,0.65,0,G1,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_023,1,0.8998996299013177,0.65,1,G1,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_024,1,0.6256996494825744,0.65,0,G1,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_025,1,0.8245130086610043,0.65,1,G1,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_026,1,0.7207817549889236,0.65,1,G1,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_027,1,0.8804332342991429,0.74,1,G2,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_028,1,0.892204610063027,0.65,1,G1,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_029,1,0.9484789772892545,0.74,1,G2,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_030,1,0.7225689280215686,0.63,1,G3,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_031,1,0.3804002691752228,0.63,0,G3,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_032,1,0.762973958629305,0.63,1,G3,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_033,1,0.8821233256991596,0.74,1,G2,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_034,1,0.9414415689428036,0.65,1,G1,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_035,1,0.8591724939243481,0.63,1,G3,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_036,1,0.8447337915414319,0.74,1,G2,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_037,1,0.6918257597889426,0.65,1,G1,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_038,1,0.8631783100194319,0.74,1,G2,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_039,1,0.8498843908567739,0.65,1,G1,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_040,1,0.90085223866758,0.63,1,G3,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_041,1,0.8927935314786966,0.65,1,G1,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_042,1,0.8615635140117691,0.63,1,G3,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_043,1,0.8981322610062986,0.63,1,G3,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_044,1,0.9037112181339484,0.65,1,G1,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_045,1,0.9233895134125985,0.74,1,G2,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_046,1,0.3493710378703481,0.63,0,G3,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_047,1,0.5193820918935934,0.63,0,G3,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_048,1,0.7597957178921312,0.65,1,G1,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_049,1,0.6568644009568415,0.63,1,G3,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_050,1,0.8854476481967816,0.63,1,G3,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_051,1,0.8459467799674689,0.65,1,G1,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_052,1,0.7372074541811409,0.74,0,G2,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_053,1,0.7538739211322445,0.63,1,G3,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_054,1,0.8456136926165901,0.65,1,G1,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_055,1,0.7432279175811859,0.63,1,G3,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_056,1,0.8976359520796438,0.65,1,G1,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_057,1,0.6783656125919151,0.63,1,G3,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_058,1,0.8400408715028371,0.74,1,G2,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_059,1,0.8045122470024265,0.63,1,G3,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_060,1,0.965933959271706,0.74,1,G2,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_061,1,0.8245381868908302,0.65,1,G1,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_062,1,0.803832283332564,0.63,1,G3,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_063,1,0.8175566205185203,0.63,1,G3,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_064,1,0.9686276537712034,0.74,1,G2,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_065,1,0.9512828084322752,0.74,1,G2,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_066,1,0.8567835653941365,0.74,1,G2,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_067,1,0.8249431582576436,0.74,1,G2,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_068,1,0.8706567464004469,0.63,1,G3,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_069,1,0.8228697540702512,0.65,1,G1,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_070,1,0.8754982925706787,0.74,1,G2,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_071,1,0.8235509175641679,0.63,1,G3,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_072,1,0.9124450389664756,0.63,1,G3,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_073,1,0.7299795756095262,0.65,1,G1,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_074,1,0.8255200134498473,0.74,1,G2,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_075,1,0.3452646033748811,0.65,0,G1,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_076,1,0.2405121926146048,0.65,0,G1,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_077,1,0.5629087683903603,0.63,0,G3,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_078,1,0.8263694780147294,0.65,1,G1,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_079,1,0.8568601463076633,0.65,1,G1,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_080,1,0.7093792723656311,0.74,0,G2,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_081,1,0.5926102855002652,0.63,0,G3,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_082,1,0.4604037042758777,0.65,0,G1,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_083,1,0.8286499509186448,0.65,1,G1,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_084,1,0.7063130634771102,0.63,1,G3,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_085,1,0.4489089138156722,0.65,0,G1,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_086,1,0.8296586729840713,0.74,1,G2,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_087,1,0.4085640035444887,0.74,0,G2,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_088,1,0.6077694023596242,0.74,0,G2,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_089,1,0.8448277020505587,0.63,1,G3,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_090,1,0.6537548806667521,0.74,0,G2,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_091,1,0.7726400622670042,0.63,1,G3,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_092,1,0.8574696841483536,0.74,1,G2,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_093,1,0.7586238165162219,0.65,1,G1,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_094,1,0.7481188762184829,0.63,1,G3,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_095,1,0.944359412221295,0.74,1,G2,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_096,1,0.8470044857586457,0.63,1,G3,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_097,1,0.8776061692740258,0.74,1,G2,RF ensemble,supplied stratified three groups; date identity unverified
+date,2025-11-03,health_001,0,0.4916428327560425,0.77,0,G3,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-01,health_002,0,0.7096837162971497,0.8300000000000001,0,G2,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-03,health_003,0,0.6411488056182861,0.77,0,G3,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-01,health_004,0,0.3097270429134369,0.8300000000000001,0,G2,Set attention,supplied stratified three groups; date identity unverified
+date,2025-10-28,health_005,0,0.7196426391601562,0.71,1,G1,Set attention,supplied stratified three groups; date identity unverified
+date,2025-10-28,health_006,0,0.8365030288696289,0.71,1,G1,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-03,health_007,0,0.6889762282371521,0.77,0,G3,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-03,health_008,0,0.7450833916664124,0.77,0,G3,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-01,health_009,0,0.3839665353298187,0.8300000000000001,0,G2,Set attention,supplied stratified three groups; date identity unverified
+date,2025-10-28,health_010,0,0.6947543025016785,0.71,0,G1,Set attention,supplied stratified three groups; date identity unverified
+date,2025-10-28,health_011,0,0.7490860819816589,0.71,1,G1,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-01,health_012,0,0.5654944777488708,0.8300000000000001,0,G2,Set attention,supplied stratified three groups; date identity unverified
+date,2025-10-28,health_013,0,0.8313495516777039,0.71,1,G1,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-01,health_014,0,0.4563392698764801,0.8300000000000001,0,G2,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-01,health_015,0,0.8888494372367859,0.8300000000000001,1,G2,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-03,health_016,0,0.6932705044746399,0.77,0,G3,Set attention,supplied stratified three groups; date identity unverified
+date,2025-10-28,health_017,0,0.6446226835250854,0.71,0,G1,Set attention,supplied stratified three groups; date identity unverified
+date,2025-10-28,health_018,0,0.7107413411140442,0.71,1,G1,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-03,health_019,0,0.7426972985267639,0.77,0,G3,Set attention,supplied stratified three groups; date identity unverified
+date,2025-10-28,health_020,0,0.775021493434906,0.71,1,G1,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-03,health_021,0,0.8672402501106262,0.77,1,G3,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-03,health_022,0,0.7360793948173523,0.77,0,G3,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-01,health_023,0,0.934072971343994,0.8300000000000001,1,G2,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-03,health_024,0,0.4812434017658233,0.77,0,G3,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-01,health_025,0,0.6354763507843018,0.8300000000000001,0,G2,Set attention,supplied stratified three groups; date identity unverified
+date,2025-10-28,health_026,0,0.6460521817207336,0.71,0,G1,Set attention,supplied stratified three groups; date identity unverified
+date,2025-10-28,health_027,0,0.509840190410614,0.71,0,G1,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-01,health_028,0,0.7569560408592224,0.8300000000000001,0,G2,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-03,health_029,0,0.8206636309623718,0.77,1,G3,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-01,health_030,0,0.9444558024406432,0.8300000000000001,1,G2,Set attention,supplied stratified three groups; date identity unverified
+date,2025-10-28,health_031,0,0.5590470433235168,0.71,0,G1,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_001,1,0.9373629689216614,0.8300000000000001,1,G2,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_002,1,0.865179717540741,0.77,1,G3,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_003,1,0.34427610039711,0.8300000000000001,0,G2,Set attention,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_004,1,0.7153658866882324,0.71,1,G1,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_005,1,0.5540390014648438,0.8300000000000001,0,G2,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_006,1,0.972461760044098,0.8300000000000001,1,G2,Set attention,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_007,1,0.9552955031394958,0.71,1,G1,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_008,1,0.9696401953697203,0.8300000000000001,1,G2,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_009,1,0.6814451813697815,0.77,0,G3,Set attention,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_010,1,0.7284874320030212,0.71,1,G1,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_011,1,0.4466010332107544,0.8300000000000001,0,G2,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_012,1,0.7006698250770569,0.8300000000000001,0,G2,Set attention,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_013,1,0.6920573115348816,0.71,0,G1,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_014,1,0.2442592829465866,0.8300000000000001,0,G2,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_015,1,0.8353230357170105,0.77,1,G3,Set attention,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_016,1,0.7520323395729065,0.71,1,G1,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_017,1,0.7429355978965759,0.77,0,G3,Set attention,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_018,1,0.7007635235786438,0.71,0,G1,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_019,1,0.6546168923377991,0.8300000000000001,0,G2,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_020,1,0.9416136741638184,0.8300000000000001,1,G2,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_021,1,0.8740485310554504,0.77,1,G3,Set attention,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_022,1,0.5836934447288513,0.71,0,G1,Set attention,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_023,1,0.8255166411399841,0.71,1,G1,Set attention,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_024,1,0.7513971328735352,0.71,1,G1,Set attention,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_025,1,0.7977994084358215,0.71,1,G1,Set attention,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_026,1,0.7132914066314697,0.71,1,G1,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_027,1,0.6498703360557556,0.8300000000000001,0,G2,Set attention,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_028,1,0.7217099666595459,0.71,1,G1,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_029,1,0.9034969210624696,0.8300000000000001,1,G2,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_030,1,0.8030614256858826,0.77,1,G3,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_031,1,0.6744632720947266,0.77,0,G3,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_032,1,0.8313741683959961,0.77,1,G3,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_033,1,0.877378523349762,0.8300000000000001,1,G2,Set attention,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_034,1,0.856513500213623,0.71,1,G1,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_035,1,0.8101913332939148,0.77,1,G3,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_036,1,0.7852337956428528,0.8300000000000001,0,G2,Set attention,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_037,1,0.6751177906990051,0.71,0,G1,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_038,1,0.7912111282348633,0.8300000000000001,0,G2,Set attention,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_039,1,0.7361988425254822,0.71,1,G1,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_040,1,0.8570931553840637,0.77,1,G3,Set attention,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_041,1,0.8799160122871399,0.71,1,G1,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_042,1,0.8358165621757507,0.77,1,G3,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_043,1,0.7247388362884521,0.77,0,G3,Set attention,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_044,1,0.9349923133850098,0.71,1,G1,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_045,1,0.9544915556907654,0.8300000000000001,1,G2,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_046,1,0.6662776470184326,0.77,0,G3,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_047,1,0.7778757214546204,0.77,1,G3,Set attention,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_048,1,0.8344071507453918,0.71,1,G1,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_049,1,0.7165162563323975,0.77,0,G3,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_050,1,0.91597580909729,0.77,1,G3,Set attention,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_051,1,0.7934028506278992,0.71,1,G1,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_052,1,0.4638504683971405,0.8300000000000001,0,G2,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_053,1,0.7672298550605774,0.77,0,G3,Set attention,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_054,1,0.7717230916023254,0.71,1,G1,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_055,1,0.7359991073608398,0.77,0,G3,Set attention,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_056,1,0.7957213521003723,0.71,1,G1,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_057,1,0.7046520709991455,0.77,0,G3,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_058,1,0.7729682922363281,0.8300000000000001,0,G2,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_059,1,0.8275799751281738,0.77,1,G3,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_060,1,0.9385063648223876,0.8300000000000001,1,G2,Set attention,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_061,1,0.8987746238708496,0.71,1,G1,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_062,1,0.778950035572052,0.77,1,G3,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_063,1,0.8614389896392822,0.77,1,G3,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_064,1,0.9704572558403016,0.8300000000000001,1,G2,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_065,1,0.9719436168670654,0.8300000000000001,1,G2,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_066,1,0.9155111312866212,0.8300000000000001,1,G2,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_067,1,0.9493797421455384,0.8300000000000001,1,G2,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_068,1,0.9095152020454408,0.77,1,G3,Set attention,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_069,1,0.7016301155090332,0.71,0,G1,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_070,1,0.9661371111869812,0.8300000000000001,1,G2,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_071,1,0.8079977035522461,0.77,1,G3,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_072,1,0.8009267449378967,0.77,1,G3,Set attention,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_073,1,0.6317049264907837,0.71,0,G1,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_074,1,0.9646901488304138,0.8300000000000001,1,G2,Set attention,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_075,1,0.4252924919128418,0.71,0,G1,Set attention,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_076,1,0.5041541457176208,0.71,0,G1,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_077,1,0.7329826354980469,0.77,0,G3,Set attention,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_078,1,0.661155641078949,0.71,0,G1,Set attention,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_079,1,0.6239826679229736,0.71,0,G1,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_080,1,0.6063050031661987,0.8300000000000001,0,G2,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_081,1,0.6717634201049805,0.77,0,G3,Set attention,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_082,1,0.5218865871429443,0.71,0,G1,Set attention,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_083,1,0.7747478485107422,0.71,1,G1,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_084,1,0.7185692191123962,0.77,0,G3,Set attention,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_085,1,0.6461979746818542,0.71,0,G1,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_086,1,0.8766288161277771,0.8300000000000001,1,G2,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_087,1,0.0490766428411006,0.8300000000000001,0,G2,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_088,1,0.4863550364971161,0.8300000000000001,0,G2,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_089,1,0.7272252440452576,0.77,0,G3,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_090,1,0.9295571446418762,0.8300000000000001,1,G2,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_091,1,0.7381947636604309,0.77,0,G3,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_092,1,0.949868142604828,0.8300000000000001,1,G2,Set attention,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_093,1,0.7546486854553223,0.71,1,G1,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_094,1,0.8284023404121399,0.77,1,G3,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_095,1,0.9650117754936218,0.8300000000000001,1,G2,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_096,1,0.8207714557647705,0.77,1,G3,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_097,1,0.9185553193092346,0.8300000000000001,1,G2,Set attention,supplied stratified three groups; date identity unverified
+date,2025-11-03,health_001,0,0.8264857840577611,0.64,1,G3,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-01,health_002,0,0.5082501860391334,0.64,0,G2,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-03,health_003,0,0.1006802729353787,0.64,0,G3,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-01,health_004,0,0.3171005837975147,0.64,0,G2,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-10-28,health_005,0,0.1505645069632267,0.76,0,G1,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-10-28,health_006,0,0.2356863084817957,0.76,0,G1,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-03,health_007,0,0.6514933243165234,0.64,1,G3,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-03,health_008,0,0.4288754791138653,0.64,0,G3,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-01,health_009,0,0.3371027631244178,0.64,0,G2,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-10-28,health_010,0,0.5559701821166158,0.76,0,G1,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-10-28,health_011,0,0.801116369337308,0.76,1,G1,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-01,health_012,0,0.5690580073100996,0.64,0,G2,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-10-28,health_013,0,0.8042422714999156,0.76,1,G1,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-01,health_014,0,0.7840132892974956,0.64,1,G2,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-01,health_015,0,0.7801986930718896,0.64,1,G2,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-03,health_016,0,0.6720942327072124,0.64,1,G3,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-10-28,health_017,0,0.2430735931585301,0.76,0,G1,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-10-28,health_018,0,0.1698845181473233,0.76,0,G1,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-03,health_019,0,0.3675758779848265,0.64,0,G3,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-10-28,health_020,0,0.3781536374643001,0.76,0,G1,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-03,health_021,0,0.4181818277405801,0.64,0,G3,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-03,health_022,0,0.7353017873771845,0.64,1,G3,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-01,health_023,0,0.9529790828235818,0.64,1,G2,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-03,health_024,0,0.3264075073343292,0.64,0,G3,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-01,health_025,0,0.3219450087012599,0.64,0,G2,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-10-28,health_026,0,0.6287695754049242,0.76,0,G1,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-10-28,health_027,0,0.189125689641314,0.76,0,G1,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-01,health_028,0,0.6617990894315552,0.64,1,G2,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-03,health_029,0,0.320683333946133,0.64,0,G3,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-01,health_030,0,0.451279661831389,0.64,0,G2,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-10-28,health_031,0,0.2409357722837666,0.76,0,G1,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_001,1,0.614019535246649,0.64,0,G2,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_002,1,0.3444489379720653,0.64,0,G3,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_003,1,0.8377104197648023,0.64,1,G2,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_004,1,0.7917479581756602,0.76,1,G1,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_005,1,0.8543187514061424,0.64,1,G2,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_006,1,0.9837761345110604,0.64,1,G2,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_007,1,0.9756144871169068,0.76,1,G1,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_008,1,0.969207860292254,0.64,1,G2,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_009,1,0.8537772132882763,0.64,1,G3,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_010,1,0.9564865439381638,0.76,1,G1,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_011,1,0.9281756804918716,0.64,1,G2,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_012,1,0.7562359449899207,0.64,1,G2,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_013,1,0.5021111991511638,0.76,0,G1,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_014,1,0.8285036178356198,0.64,1,G2,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_015,1,0.8970501503082469,0.64,1,G3,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_016,1,0.9076345637344468,0.76,1,G1,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_017,1,0.879495259812416,0.64,1,G3,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_018,1,0.7882218084886504,0.76,1,G1,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_019,1,0.8796098652096983,0.64,1,G2,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_020,1,0.8105215938402663,0.64,1,G2,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_021,1,0.8829822512514107,0.64,1,G3,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_022,1,0.6942198118639288,0.76,0,G1,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_023,1,0.8710420007332799,0.76,1,G1,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_024,1,0.8706819079839372,0.76,1,G1,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_025,1,0.7802235727365725,0.76,1,G1,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_026,1,0.8656901162067445,0.76,1,G1,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_027,1,0.7543461288380388,0.64,1,G2,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_028,1,0.8995208607892584,0.76,1,G1,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_029,1,0.8403582242809705,0.64,1,G2,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_030,1,0.8419317193697786,0.64,1,G3,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_031,1,0.6370550849964772,0.64,0,G3,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_032,1,0.8367486787913283,0.64,1,G3,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_033,1,0.5564310242794432,0.64,0,G2,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_034,1,0.7128057040874411,0.76,0,G1,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_035,1,0.8331171727268216,0.64,1,G3,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_036,1,0.6545950500014819,0.64,1,G2,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_037,1,0.6886657719405422,0.76,0,G1,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_038,1,0.6593978248811014,0.64,1,G2,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_039,1,0.645621608926281,0.76,0,G1,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_040,1,0.9136770861536088,0.64,1,G3,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_041,1,0.6287636243076119,0.76,0,G1,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_042,1,0.9310505575893018,0.64,1,G3,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_043,1,0.5463333009068306,0.64,0,G3,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_044,1,0.7623352397468814,0.76,1,G1,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_045,1,0.7312472637393487,0.64,1,G2,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_046,1,0.7623006476299141,0.64,1,G3,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_047,1,0.8339388168673241,0.64,1,G3,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_048,1,0.477765669205009,0.76,0,G1,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_049,1,0.6340797912304816,0.64,0,G3,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_050,1,0.9592770766273444,0.64,1,G3,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_051,1,0.970339271696556,0.76,1,G1,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_052,1,0.9631683882998456,0.64,1,G2,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_053,1,0.6511424730235216,0.64,1,G3,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_054,1,0.7291623006456627,0.76,0,G1,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_055,1,0.6969342894636412,0.64,1,G3,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_056,1,0.6750887322449448,0.76,0,G1,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_057,1,0.5067292232164127,0.64,0,G3,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_058,1,0.6380740504408627,0.64,0,G2,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_059,1,0.821175453761348,0.64,1,G3,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_060,1,0.9667934442552448,0.64,1,G2,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_061,1,0.9682754970805816,0.76,1,G1,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_062,1,0.4963874508747158,0.64,0,G3,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_063,1,0.4103825640580029,0.64,0,G3,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_064,1,0.9825974978153637,0.64,1,G2,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_065,1,0.9800663787490924,0.64,1,G2,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_066,1,0.9905307915539066,0.64,1,G2,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_067,1,0.7799838477778935,0.64,1,G2,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_068,1,0.9373223956282256,0.64,1,G3,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_069,1,0.9349953159322666,0.76,1,G1,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_070,1,0.9439930027982516,0.64,1,G2,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_071,1,0.843482993258535,0.64,1,G3,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_072,1,0.5388762676750746,0.64,0,G3,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_073,1,0.8967973569697566,0.76,1,G1,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_074,1,0.9372688652211536,0.64,1,G2,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_075,1,0.6647984865870437,0.76,0,G1,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_076,1,0.9771318047332898,0.76,1,G1,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_077,1,0.9326388302128016,0.64,1,G3,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_078,1,0.6856732557414671,0.76,0,G1,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_079,1,0.6063385431418171,0.76,0,G1,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_080,1,0.5593417618757066,0.64,0,G2,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_081,1,0.6067829364610547,0.64,0,G3,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_082,1,0.6517755369999854,0.76,0,G1,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_083,1,0.5481784437677794,0.76,0,G1,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_084,1,0.3221980453278563,0.64,0,G3,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_085,1,0.7836668656927955,0.76,1,G1,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_086,1,0.9397633971025532,0.64,1,G2,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_087,1,0.9286707980853476,0.64,1,G2,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_088,1,0.8313273173948941,0.64,1,G2,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_089,1,0.9052941622544456,0.64,1,G3,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_090,1,0.9278157072525672,0.64,1,G2,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_091,1,0.9058127400382564,0.64,1,G3,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_092,1,0.4635330364565878,0.64,0,G2,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-10-28,stroke_093,1,0.826968448234638,0.76,1,G1,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_094,1,0.8157207518749401,0.64,1,G3,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_095,1,0.8108088104755533,0.64,1,G2,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-03,stroke_096,1,0.6200863929442384,0.64,0,G3,SNN V1,supplied stratified three groups; date identity unverified
+date,2025-11-01,stroke_097,1,0.3449595910401269,0.64,0,G2,SNN V1,supplied stratified three groups; date identity unverified

@@ -1,0 +1,158 @@
+[
+  {
+    "file": "benchmark\\code\\analyze.py",
+    "source_sha256": "5ce3e993526437f399fdd1fcc52cb02773d02c2faa87274ee651e5f9693eaf8e",
+    "release_sha256": "ba406567cfe2ccf6982afd7062c06f10ee7b4825ef58cf41eb548ec377cda676",
+    "changes": "Manuscript-consistent local vendor alias; configurable run root; mask-source fallback uses the pinned local vendor when needed. No numerical hyperparameter or trained state is altered."
+  },
+  {
+    "file": "benchmark\\code\\audit_labels.py",
+    "source_sha256": "df3718c7fd1177605e2be49bdec231fa0cc43215c665f7073bf07e8c34e1480c",
+    "release_sha256": "41c911b2632f2df7cea583c91e2eb935cb789154b6127167f08a2f4d34704207",
+    "changes": "Manuscript-consistent local vendor alias; configurable run root; mask-source fallback uses the pinned local vendor when needed. No numerical hyperparameter or trained state is altered."
+  },
+  {
+    "file": "benchmark\\code\\common.py",
+    "source_sha256": "5faf50ec776931e42c6795ab6ac8f0fe0b798d9dc582e6652d4cc168cfbf4b48",
+    "release_sha256": "fb7d5badd46f07dce663b374497f020b436019a347514ff9fb376b1af64df5de",
+    "changes": "Manuscript-consistent local vendor alias; configurable run root; mask-source fallback uses the pinned local vendor when needed. No numerical hyperparameter or trained state is altered."
+  },
+  {
+    "file": "benchmark\\code\\decoder.py",
+    "source_sha256": "e2a2dca3a8c40adcff9c35c872b9f4f84876b641a3abd5b95acbd95d75858460",
+    "release_sha256": "9322e48839fb8926c9b6cec4c2644fc87a3b1cebaa94927684fde036549d508e",
+    "changes": "Manuscript-consistent local vendor alias; configurable run root; mask-source fallback uses the pinned local vendor when needed. No numerical hyperparameter or trained state is altered."
+  },
+  {
+    "file": "benchmark\\code\\models.py",
+    "source_sha256": "a4bc1afe89c7d6b6240b7e86196c0bcc74c439912c2c6bec1b5ab62fd93e4e45",
+    "release_sha256": "b30986ba4ebd2eca99b8d85d1473851b08461b2a097cad152dfda596a79d5081",
+    "changes": "Manuscript-consistent local vendor alias; configurable run root; mask-source fallback uses the pinned local vendor when needed. No numerical hyperparameter or trained state is altered."
+  },
+  {
+    "file": "benchmark\\code\\postflight.py",
+    "source_sha256": "6a47d6d0067e32c60686cb043e99987606695c64020e95912ad39bfcf06562e1",
+    "release_sha256": "7d8c52faf857a2a39d8a1b2ad62f39b0a1da6a011ffea0e40e83d95b10f3f1d9",
+    "changes": "Manuscript-consistent local vendor alias; configurable run root; mask-source fallback uses the pinned local vendor when needed. No numerical hyperparameter or trained state is altered."
+  },
+  {
+    "file": "benchmark\\code\\prepare.py",
+    "source_sha256": "2cfe9d20857c412dd8922d4641a168eaafd0016beea506b114fb58c4464895b3",
+    "release_sha256": "112257dd9fac372f4c565805ff3dbc27aee6699f36a5a7944725f7de272860fe",
+    "changes": "Manuscript-consistent local vendor alias; configurable run root; mask-source fallback uses the pinned local vendor when needed. No numerical hyperparameter or trained state is altered."
+  },
+  {
+    "file": "benchmark\\code\\smoke_training.py",
+    "source_sha256": "c24a02569485d31eb0e114b47f133cab98bac73044b888b8200ee7882700f23c",
+    "release_sha256": "9243053785e45bf2b96417db203188f7adac6827e31ea51bbd27cf0eb7d5d76e",
+    "changes": "Manuscript-consistent local vendor alias; configurable run root; mask-source fallback uses the pinned local vendor when needed. No numerical hyperparameter or trained state is altered."
+  },
+  {
+    "file": "benchmark\\code\\train.py",
+    "source_sha256": "4904cb0a6e546dbbd5916f016ea4976b1b96fdf207ce056c558c56b26b4bb6e5",
+    "release_sha256": "c821d88321ceb19723b3c7b0e73916417d878bdae59169fe5e7489cd72cf9904",
+    "changes": "Manuscript-consistent local vendor alias; configurable run root; mask-source fallback uses the pinned local vendor when needed. No numerical hyperparameter or trained state is altered."
+  },
+  {
+    "file": "benchmark\\code\\verify.py",
+    "source_sha256": "ec74134681e69e21c0a665af8152035e70fa92506e249277de3668cba262cef1",
+    "release_sha256": "5c22a3dbdcb88ec7c8330b41df9e2ce7ac0aa43ac7b8141095731f6b477c230f",
+    "changes": "Manuscript-consistent local vendor alias; configurable run root; mask-source fallback uses the pinned local vendor when needed. No numerical hyperparameter or trained state is altered."
+  },
+  {
+    "file": "benchmark\\code\\worker.py",
+    "source_sha256": "d28cc3b9e25afca6106c7a174e8ec44b9d8f27a26200a506de5d84a2e115f0f8",
+    "release_sha256": "afe12ee680f4ad298e61bd5bd3592380e8717808f30dae226dbbe515b2628090",
+    "changes": "Manuscript-consistent local vendor alias; configurable run root; mask-source fallback uses the pinned local vendor when needed. No numerical hyperparameter or trained state is altered."
+  },
+  {
+    "file": "benchmark\\audit_tools\\analyze_representation_comparisons.py",
+    "source_sha256": "dc05f3d0b9f37b72f872add202f215f1eeef87dd6308f44d029e161e08539681",
+    "release_sha256": "9a53dad6283d8a7b3150cd2e40fee96f1acd703a863f780579cd23102fba2690",
+    "changes": "Manuscript-consistent local vendor alias; configurable run root; mask-source fallback uses the pinned local vendor when needed. No numerical hyperparameter or trained state is altered."
+  },
+  {
+    "file": "benchmark\\audit_tools\\audit_converter_repository.py",
+    "source_sha256": "dca23a8b42cc4c5787f10c49c46cbbd20d758dc5147531eba555d15131772a49",
+    "release_sha256": "b10e0d5502a2eb245658f638142c63431c3301446fbdf826c6d5fddc989f43b6",
+    "changes": "Manuscript-consistent local vendor alias; configurable run root; mask-source fallback uses the pinned local vendor when needed. No numerical hyperparameter or trained state is altered."
+  },
+  {
+    "file": "benchmark\\audit_tools\\audit_decoder_caches.py",
+    "source_sha256": "f9a5d789fa631f9a61f4154e678765e73f16a1ba898fda30013127fe61bb09d8",
+    "release_sha256": "449a0b7f7304e0b37ca8edcb25ffff238ef54ed6776025d3f9c7ef0362e43fb8",
+    "changes": "Manuscript-consistent local vendor alias; configurable run root; mask-source fallback uses the pinned local vendor when needed. No numerical hyperparameter or trained state is altered."
+  },
+  {
+    "file": "benchmark\\audit_tools\\audit_event_timestamps.py",
+    "source_sha256": "978ecf090d01f94c6bf1fc386f346801febdc98aa0a4aa719588433dcdffa784",
+    "release_sha256": "e05667d1087ca0a6a1ec811b4c80ac81ecaef96a895ced808efd5c839d57bee6",
+    "changes": "Manuscript-consistent local vendor alias; configurable run root; mask-source fallback uses the pinned local vendor when needed. No numerical hyperparameter or trained state is altered."
+  },
+  {
+    "file": "benchmark\\audit_tools\\audit_input_fingerprints.py",
+    "source_sha256": "54a8e3d6929552cfee77e2b150900bb8bd6afdeb5d89b4156998688bfdbf2b55",
+    "release_sha256": "952e307c69fe3ce8f53a7c7421e95ff7a0a948bf6c68500ada0b60938e6eb8e0",
+    "changes": "Manuscript-consistent local vendor alias; configurable run root; mask-source fallback uses the pinned local vendor when needed. No numerical hyperparameter or trained state is altered."
+  },
+  {
+    "file": "benchmark\\audit_tools\\audit_locked_test_candidates.py",
+    "source_sha256": "d792e3d79910839375fb36cbadc1ee76baae79808084ea76e406db545a6fca29",
+    "release_sha256": "f50c5af9f5c47963172da39f0e5988cf6d674fd32a68f5b537a8ed8fc2400a9a",
+    "changes": "Manuscript-consistent local vendor alias; configurable run root; mask-source fallback uses the pinned local vendor when needed. No numerical hyperparameter or trained state is altered."
+  },
+  {
+    "file": "benchmark\\audit_tools\\check_input_integrity.py",
+    "source_sha256": "4e9b627939a299bb6d0750fb18e4fffe63a3c04f922bccfce92f2747561cf7c8",
+    "release_sha256": "b1573d90577f4ee7c157d09940213394bb8f8da603de1258984a6dbc67a7134f",
+    "changes": "Manuscript-consistent local vendor alias; configurable run root; mask-source fallback uses the pinned local vendor when needed. No numerical hyperparameter or trained state is altered."
+  },
+  {
+    "file": "benchmark\\audit_tools\\export_operating_point_metrics.py",
+    "source_sha256": "4d5a433e8f878b3a58e341003e83f471a059ec43af2a3e15ec4a5d095ac57d7b",
+    "release_sha256": "2946b2d01836d081ef250656e44ae574a1da7f8fdcda89a9af73bcbd73149fa0",
+    "changes": "Manuscript-consistent local vendor alias; configurable run root; mask-source fallback uses the pinned local vendor when needed. No numerical hyperparameter or trained state is altered."
+  },
+  {
+    "file": "benchmark\\audit_tools\\final_metric_consistency.py",
+    "source_sha256": "53dafa4b9b168c0107cd20e68aa56c03538d81a747c78d9bc530a24ff6d5964e",
+    "release_sha256": "52dc204971ff2a3e9f0c732b39658fc74d5d0cf820d3aaaac2df9ec7b7bf9466",
+    "changes": "Manuscript-consistent local vendor alias; configurable run root; mask-source fallback uses the pinned local vendor when needed. No numerical hyperparameter or trained state is altered."
+  },
+  {
+    "file": "benchmark\\audit_tools\\probe_legacy_timestamp_mapping.py",
+    "source_sha256": "9e4b5bdd86c66e7cd4de9be701c1a62392ad1e590187c48373cac1d1cda60efb",
+    "release_sha256": "a9379f5280ed8472e2a13a83cc31462f91b8a06655535219b98dc337c866b440",
+    "changes": "Manuscript-consistent local vendor alias; configurable run root; mask-source fallback uses the pinned local vendor when needed. No numerical hyperparameter or trained state is altered."
+  },
+  {
+    "file": "benchmark\\audit_tools\\test_decoder_contract.py",
+    "source_sha256": "0176fe0b908b885b0ee1e3760a61cd3d6513eed0e1a019ba65a8fb65382742ae",
+    "release_sha256": "75080ff39202bed8f488831eb3fa3a1fc3d6af8d65b9a64ef35b21a1234616cc",
+    "changes": "Manuscript-consistent local vendor alias; configurable run root; mask-source fallback uses the pinned local vendor when needed. No numerical hyperparameter or trained state is altered."
+  },
+  {
+    "file": "benchmark\\audit_tools\\test_frozen_gate_contract.py",
+    "source_sha256": "2887911bcde58d7840562c5a817eae98962b15055fc995bf7553f56152f639c8",
+    "release_sha256": "0923e23a3ea698af9edd2ebe38db4361ef36ed1d39826f4c64baedede323ddb1",
+    "changes": "Manuscript-consistent local vendor alias; configurable run root; mask-source fallback uses the pinned local vendor when needed. No numerical hyperparameter or trained state is altered."
+  },
+  {
+    "file": "benchmark\\audit_tools\\test_native_numeric_contract.py",
+    "source_sha256": "042debf000864ddac62c020412f9c3a9a3acad446892eb64fe3f89da34a8e184",
+    "release_sha256": "9be56ec506da62ccc84f6182c0a9e8cf89f8c221f63624b3545fd2679c1fc82d",
+    "changes": "Manuscript-consistent local vendor alias; configurable run root; mask-source fallback uses the pinned local vendor when needed. No numerical hyperparameter or trained state is altered."
+  },
+  {
+    "file": "benchmark\\audit_tools\\verify_completed.py",
+    "source_sha256": "ed85ac3137e881ddbf7b1ed4b53784b98d7934e80852b31f9be67ecd09387118",
+    "release_sha256": "3281d16302b4fe557a364aae531839ad708a8767b822f1d50b2c09af46966b46",
+    "changes": "Manuscript-consistent local vendor alias; configurable run root; mask-source fallback uses the pinned local vendor when needed. No numerical hyperparameter or trained state is altered."
+  },
+  {
+    "file": "benchmark\\followup\\gate_controls.py",
+    "source_sha256": "8773f22a5e1e5b9f91f293e468af4101383869faf78269bc14f906273500725a",
+    "release_sha256": "8546fd6b756fdb7c44eea7bdffd83c226cd3d9a86fe9f0838477881b53401856",
+    "changes": "Manuscript-consistent local vendor alias; configurable run root; mask-source fallback uses the pinned local vendor when needed. No numerical hyperparameter or trained state is altered."
+  }
+]

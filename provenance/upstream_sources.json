@@ -1,0 +1,30 @@
+[
+  {
+    "name": "retinafuse",
+    "url": "https://github.com/taotao9029/OCTA_Fusion.git",
+    "commit": "051ef4dbe85735454c8ee40c423cfd3c683ed568",
+    "path": "components/retinafuse",
+    "rights": "Upstream copyright and terms apply; no relicensing by this integration."
+  },
+  {
+    "name": "rf_ensemble",
+    "url": "https://github.com/taotao9029/OCTA_RF.git",
+    "commit": "e7d6984637e07e11709967a5abf7112b617aec3b",
+    "path": "components/rf_ensemble",
+    "rights": "Upstream copyright and terms apply; no relicensing by this integration."
+  },
+  {
+    "name": "set_attention",
+    "url": "https://github.com/taotao9029/OCTA_Segment-set-attention.git",
+    "commit": "7f3855eef6117519e75f2742c86dbde966baa0f2",
+    "path": "components/set_attention",
+    "rights": "Upstream copyright and terms apply; no relicensing by this integration."
+  },
+  {
+    "name": "snn",
+    "url": "https://github.com/taotao9029/OCTA_SNN.git",
+    "commit": "d8b8662b76cbd24ff5ba423d8144ce0fbda91196",
+    "path": "components/snn",
+    "rights": "Upstream copyright and terms apply; no relicensing by this integration."
+  }
+]

@@ -1,0 +1,14 @@
+﻿component,parameter,value
+cohort,animals,128
+cohort,MCAO,97
+cohort,healthy controls,31
+frame input,sequence bins,60
+frame input,polarity channels,2
+frame input,height pixels,64
+frame input,width pixels,64
+summary input,features,12
+embeddings,dimension,256
+transformer,heads,8
+transformer,layers,1
+validation,outer folds,5
+validation,held-out groups,3

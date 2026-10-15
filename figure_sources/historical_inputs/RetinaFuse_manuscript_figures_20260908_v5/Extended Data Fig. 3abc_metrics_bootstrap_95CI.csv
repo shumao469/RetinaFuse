@@ -1,0 +1,43 @@
+﻿model,metric,estimate,ci_low,ci_high,n,n_bootstrap,unit,analysis_mode
+RetinaFuse,AUROC,0.9534419687396076,0.906218822746924,0.9866977053541736,128,5000,animal,supplied multiview held-out
+RetinaFuse,AP,0.9832714478245164,0.9642075622562156,0.995850714746174,128,5000,animal,supplied multiview held-out
+RetinaFuse,Brier,0.0713172056920201,0.0446213335377506,0.1009827061891402,128,5000,animal,supplied multiview held-out
+RetinaFuse,Accuracy,0.90625,0.8515625,0.953125,128,5000,animal,supplied multiview held-out
+RetinaFuse,Sensitivity,0.9278350515463918,0.8762886597938144,0.979381443298969,128,5000,animal,supplied multiview held-out
+RetinaFuse,Specificity,0.8387096774193549,0.7096774193548387,0.967741935483871,128,5000,animal,supplied multiview held-out
+RetinaFuse,Balanced accuracy,0.8832723644828733,0.8084469571000998,0.9477884935151314,128,5000,animal,supplied multiview held-out
+Frame-only,AUROC,0.93947455936149,0.8875956102427669,0.979381443298969,128,5000,animal,supplied multiview held-out
+Frame-only,AP,0.9793464489491046,0.9588585700493548,0.9939079036548868,128,5000,animal,supplied multiview held-out
+Frame-only,Brier,0.0822081385780616,0.056004478413663,0.1118037112781167,128,5000,animal,supplied multiview held-out
+Frame-only,Accuracy,0.8671875,0.8046875,0.921875,128,5000,animal,supplied multiview held-out
+Frame-only,Sensitivity,0.8969072164948454,0.8350515463917526,0.9484536082474226,128,5000,animal,supplied multiview held-out
+Frame-only,Specificity,0.7741935483870968,0.6129032258064516,0.9032258064516128,128,5000,animal,supplied multiview held-out
+Frame-only,Balanced accuracy,0.8355503824409711,0.7548885932823413,0.9103757898237446,128,5000,animal,supplied multiview held-out
+Statistics-only,AUROC,0.8027934818756236,0.715330894579315,0.8799467908214167,128,5000,animal,supplied multiview held-out
+Statistics-only,AP,0.9303291056488904,0.8974869371000695,0.95902720883154,128,5000,animal,supplied multiview held-out
+Statistics-only,Brier,0.1588116372315779,0.1446918984695487,0.1732736575876967,128,5000,animal,supplied multiview held-out
+Statistics-only,Accuracy,0.6953125,0.609375,0.7734375,128,5000,animal,supplied multiview held-out
+Statistics-only,Sensitivity,0.6907216494845361,0.5979381443298969,0.7835051546391752,128,5000,animal,supplied multiview held-out
+Statistics-only,Specificity,0.7096774193548387,0.5483870967741935,0.8709677419354839,128,5000,animal,supplied multiview held-out
+Statistics-only,Balanced accuracy,0.7001995344196874,0.6047389424675756,0.7904888593282342,128,5000,animal,supplied multiview held-out
+RF ensemble,AUROC,0.8051213834386431,0.7073495177918191,0.8912537412703692,128,5000,animal,supplied multiview held-out
+RF ensemble,AP,0.9090517308618288,0.8480043733065379,0.9626128036401408,128,5000,animal,supplied multiview held-out
+RF ensemble,Brier,0.1418706193981297,0.1178287173704327,0.1673125264351533,128,5000,animal,supplied multiview held-out
+RF ensemble,Accuracy,0.71875,0.640625,0.796875,128,5000,animal,supplied multiview held-out
+RF ensemble,Sensitivity,0.7525773195876289,0.6597938144329897,0.8350515463917526,128,5000,animal,supplied multiview held-out
+RF ensemble,Specificity,0.6129032258064516,0.4516129032258064,0.7741935483870968,128,5000,animal,supplied multiview held-out
+RF ensemble,Balanced accuracy,0.6827402726970402,0.5821416694379781,0.7788493515131361,128,5000,animal,supplied multiview held-out
+Set attention,AUROC,0.6997006983704689,0.5773195876288659,0.814100432324576,128,5000,animal,supplied multiview held-out
+Set attention,AP,0.8434372074220111,0.7761543193944689,0.9169666216948535,128,5000,animal,supplied multiview held-out
+Set attention,Brier,0.1769912400208976,0.1357873642807546,0.2205064683851341,128,5000,animal,supplied multiview held-out
+Set attention,Accuracy,0.671875,0.5859375,0.75,128,5000,animal,supplied multiview held-out
+Set attention,Sensitivity,0.711340206185567,0.6185567010309279,0.8041237113402062,128,5000,animal,supplied multiview held-out
+Set attention,Specificity,0.5483870967741935,0.3870967741935484,0.7096774193548387,128,5000,animal,supplied multiview held-out
+Set attention,Balanced accuracy,0.6298636514798803,0.5285999334885267,0.7259727302959761,128,5000,animal,supplied multiview held-out
+SNN V1,AUROC,0.9125374127036914,0.8526770867974726,0.9590954439640836,128,5000,animal,supplied multiview held-out
+SNN V1,AP,0.9693919363494732,0.9468402401650692,0.9868586281401608,128,5000,animal,supplied multiview held-out
+SNN V1,Brier,0.0984087981046032,0.0731974476177488,0.1255164648549893,128,5000,animal,supplied multiview held-out
+SNN V1,Accuracy,0.859375,0.796875,0.9140625,128,5000,animal,supplied multiview held-out
+SNN V1,Sensitivity,0.865979381443299,0.7938144329896907,0.9278350515463918,128,5000,animal,supplied multiview held-out
+SNN V1,Specificity,0.8387096774193549,0.7096774193548387,0.967741935483871,128,5000,animal,supplied multiview held-out
+SNN V1,Balanced accuracy,0.852344529431327,0.773029597605587,0.92068506817426,128,5000,animal,supplied multiview held-out

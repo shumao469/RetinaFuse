@@ -1,0 +1,7 @@
+﻿model,metric,estimate,ci_low,ci_high,n,n_bootstrap,unit,analysis_mode
+RetinaFuse,Brier,0.0713172056920201,0.0446213335377506,0.1009827061891402,128,5000,animal,supplied multiview held-out
+Frame-only,Brier,0.0822081385780616,0.056004478413663,0.1118037112781167,128,5000,animal,supplied multiview held-out
+Statistics-only,Brier,0.1588116372315779,0.1446918984695487,0.1732736575876967,128,5000,animal,supplied multiview held-out
+RF ensemble,Brier,0.1418706193981297,0.1178287173704327,0.1673125264351533,128,5000,animal,supplied multiview held-out
+Set attention,Brier,0.1769912400208976,0.1357873642807546,0.2205064683851341,128,5000,animal,supplied multiview held-out
+SNN V1,Brier,0.0984087981046032,0.0731974476177488,0.1255164648549893,128,5000,animal,supplied multiview held-out

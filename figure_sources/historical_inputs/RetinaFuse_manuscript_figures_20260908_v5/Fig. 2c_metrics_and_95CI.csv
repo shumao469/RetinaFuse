@@ -1,0 +1,7 @@
+﻿model,metric,estimate,ci_low,ci_high,n,n_bootstrap,unit,analysis_mode
+RetinaFuse,AUROC,0.9534419687396076,0.906218822746924,0.9866977053541736,128,5000,animal,supplied multiview held-out
+Frame-only,AUROC,0.93947455936149,0.8875956102427669,0.979381443298969,128,5000,animal,supplied multiview held-out
+Statistics-only,AUROC,0.8027934818756236,0.715330894579315,0.8799467908214167,128,5000,animal,supplied multiview held-out
+RF ensemble,AUROC,0.8051213834386431,0.7073495177918191,0.8912537412703692,128,5000,animal,supplied multiview held-out
+Set attention,AUROC,0.6997006983704689,0.5773195876288659,0.814100432324576,128,5000,animal,supplied multiview held-out
+SNN V1,AUROC,0.9125374127036914,0.8526770867974726,0.9590954439640836,128,5000,animal,supplied multiview held-out

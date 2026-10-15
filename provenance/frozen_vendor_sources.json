@@ -1,0 +1,16 @@
+[
+  {
+    "component": "retinafuse",
+    "commit": "051ef4dbe85735454c8ee40c423cfd3c683ed568",
+    "upstream_path": "train_fusion.py",
+    "destination": "benchmark/vendor/retinafuse_core.py",
+    "sha256": "34f0bd0d1c2f60788b0ae0dd181f9eb958f39cb7bfdd603e67159ca3790366b8"
+  },
+  {
+    "component": "retinafuse",
+    "commit": "051ef4dbe85735454c8ee40c423cfd3c683ed568",
+    "upstream_path": "seg.py",
+    "destination": "benchmark/vendor/seg.py",
+    "sha256": "f930efc93d0c0d30d4f1781cb4cdc05005d67abe5c89c8189155bc80a93ea1c5"
+  }
+]

@@ -1,0 +1,482 @@
+[
+  {
+    "image": 1,
+    "source": "C:\\Users\\Administrator\\Documents\\Codex\\2026-08-24\\e-0824\\scripts\\retinafuse_ncs_editable_20261015_v5\\build\\Fig5_matched_representation_benchmark_im1.png",
+    "source_sha256": "0ceca7f1d9b588ba2a87aea3ce44da774b93ab95021a119e966ec66cbee7989a",
+    "display": "C:\\Users\\Administrator\\Documents\\Codex\\2026-08-24\\e-0824\\scripts\\retinafuse_ncs_editable_20261015_v6\\build\\Fig5_display_letterbox_01.png",
+    "display_sha256": "51407045bdbb73406e8274da0b35de1718b89304719d59eb47a356efee2bfd32",
+    "source_grid": [
+      64,
+      64
+    ],
+    "display_content": [
+      64,
+      40
+    ],
+    "padding_top_bottom": [
+      12,
+      12
+    ],
+    "source_video_aspect": [
+      1936,
+      1216
+    ],
+    "purpose": "Illustration only; benchmark input tensors, predictions and metrics unchanged"
+  },
+  {
+    "image": 2,
+    "source": "C:\\Users\\Administrator\\Documents\\Codex\\2026-08-24\\e-0824\\scripts\\retinafuse_ncs_editable_20261015_v5\\build\\Fig5_matched_representation_benchmark_im2.png",
+    "source_sha256": "0f775ad2172ac6da7b59b668e53a3a3d4c5df4737940db46be0dfaee4d84f5b6",
+    "display": "C:\\Users\\Administrator\\Documents\\Codex\\2026-08-24\\e-0824\\scripts\\retinafuse_ncs_editable_20261015_v6\\build\\Fig5_display_letterbox_02.png",
+    "display_sha256": "103dd0cc949ff182ec093cd23fa8508ab9111d6b76b2f57e7d85fa7b34b7abc3",
+    "source_grid": [
+      64,
+      64
+    ],
+    "display_content": [
+      64,
+      40
+    ],
+    "padding_top_bottom": [
+      12,
+      12
+    ],
+    "source_video_aspect": [
+      1936,
+      1216
+    ],
+    "purpose": "Illustration only; benchmark input tensors, predictions and metrics unchanged"
+  },
+  {
+    "image": 3,
+    "source": "C:\\Users\\Administrator\\Documents\\Codex\\2026-08-24\\e-0824\\scripts\\retinafuse_ncs_editable_20261015_v5\\build\\Fig5_matched_representation_benchmark_im3.png",
+    "source_sha256": "ef7bb2019da23a186ff89f883f9362a566d3ceacdb74ee51a0ee07ab7943f6d4",
+    "display": "C:\\Users\\Administrator\\Documents\\Codex\\2026-08-24\\e-0824\\scripts\\retinafuse_ncs_editable_20261015_v6\\build\\Fig5_display_letterbox_03.png",
+    "display_sha256": "89e5a92a0a4ead4b0a29f09b2764b9959f7cc16a27774ca4f1fadc3939b02301",
+    "source_grid": [
+      64,
+      64
+    ],
+    "display_content": [
+      64,
+      40
+    ],
+    "padding_top_bottom": [
+      12,
+      12
+    ],
+    "source_video_aspect": [
+      1936,
+      1216
+    ],
+    "purpose": "Illustration only; benchmark input tensors, predictions and metrics unchanged"
+  },
+  {
+    "image": 4,
+    "source": "C:\\Users\\Administrator\\Documents\\Codex\\2026-08-24\\e-0824\\scripts\\retinafuse_ncs_editable_20261015_v5\\build\\Fig5_matched_representation_benchmark_im4.png",
+    "source_sha256": "294d65800985b6fedb5c00a8656c387723196ae03f6f094e957b7226e3275331",
+    "display": "C:\\Users\\Administrator\\Documents\\Codex\\2026-08-24\\e-0824\\scripts\\retinafuse_ncs_editable_20261015_v6\\build\\Fig5_display_letterbox_04.png",
+    "display_sha256": "febb45faa846aa9261574031d0681a4af59141b2dfa068203ef6baac9127274f",
+    "source_grid": [
+      64,
+      64
+    ],
+    "display_content": [
+      64,
+      40
+    ],
+    "padding_top_bottom": [
+      12,
+      12
+    ],
+    "source_video_aspect": [
+      1936,
+      1216
+    ],
+    "purpose": "Illustration only; benchmark input tensors, predictions and metrics unchanged"
+  },
+  {
+    "image": 5,
+    "source": "C:\\Users\\Administrator\\Documents\\Codex\\2026-08-24\\e-0824\\scripts\\retinafuse_ncs_editable_20261015_v5\\build\\Fig5_matched_representation_benchmark_im5.png",
+    "source_sha256": "a55ca07e4cf29be1c54caf372194ff72283a0f77856780e3cdcd7900f2588b0f",
+    "display": "C:\\Users\\Administrator\\Documents\\Codex\\2026-08-24\\e-0824\\scripts\\retinafuse_ncs_editable_20261015_v6\\build\\Fig5_display_letterbox_05.png",
+    "display_sha256": "fe2d949c608a1796c8d22b85d85d4cd59d4be55979e093c86dc6783bd37a19d1",
+    "source_grid": [
+      64,
+      64
+    ],
+    "display_content": [
+      64,
+      40
+    ],
+    "padding_top_bottom": [
+      12,
+      12
+    ],
+    "source_video_aspect": [
+      1936,
+      1216
+    ],
+    "purpose": "Illustration only; benchmark input tensors, predictions and metrics unchanged"
+  },
+  {
+    "image": 6,
+    "source": "C:\\Users\\Administrator\\Documents\\Codex\\2026-08-24\\e-0824\\scripts\\retinafuse_ncs_editable_20261015_v5\\build\\Fig5_matched_representation_benchmark_im6.png",
+    "source_sha256": "ef7bb2019da23a186ff89f883f9362a566d3ceacdb74ee51a0ee07ab7943f6d4",
+    "display": "C:\\Users\\Administrator\\Documents\\Codex\\2026-08-24\\e-0824\\scripts\\retinafuse_ncs_editable_20261015_v6\\build\\Fig5_display_letterbox_06.png",
+    "display_sha256": "89e5a92a0a4ead4b0a29f09b2764b9959f7cc16a27774ca4f1fadc3939b02301",
+    "source_grid": [
+      64,
+      64
+    ],
+    "display_content": [
+      64,
+      40
+    ],
+    "padding_top_bottom": [
+      12,
+      12
+    ],
+    "source_video_aspect": [
+      1936,
+      1216
+    ],
+    "purpose": "Illustration only; benchmark input tensors, predictions and metrics unchanged"
+  },
+  {
+    "image": 7,
+    "source": "C:\\Users\\Administrator\\Documents\\Codex\\2026-08-24\\e-0824\\scripts\\retinafuse_ncs_editable_20261015_v5\\build\\Fig5_matched_representation_benchmark_im7.png",
+    "source_sha256": "294d65800985b6fedb5c00a8656c387723196ae03f6f094e957b7226e3275331",
+    "display": "C:\\Users\\Administrator\\Documents\\Codex\\2026-08-24\\e-0824\\scripts\\retinafuse_ncs_editable_20261015_v6\\build\\Fig5_display_letterbox_07.png",
+    "display_sha256": "febb45faa846aa9261574031d0681a4af59141b2dfa068203ef6baac9127274f",
+    "source_grid": [
+      64,
+      64
+    ],
+    "display_content": [
+      64,
+      40
+    ],
+    "padding_top_bottom": [
+      12,
+      12
+    ],
+    "source_video_aspect": [
+      1936,
+      1216
+    ],
+    "purpose": "Illustration only; benchmark input tensors, predictions and metrics unchanged"
+  },
+  {
+    "image": 8,
+    "source": "C:\\Users\\Administrator\\Documents\\Codex\\2026-08-24\\e-0824\\scripts\\retinafuse_ncs_editable_20261015_v5\\build\\Fig5_matched_representation_benchmark_im8.png",
+    "source_sha256": "a55ca07e4cf29be1c54caf372194ff72283a0f77856780e3cdcd7900f2588b0f",
+    "display": "C:\\Users\\Administrator\\Documents\\Codex\\2026-08-24\\e-0824\\scripts\\retinafuse_ncs_editable_20261015_v6\\build\\Fig5_display_letterbox_08.png",
+    "display_sha256": "fe2d949c608a1796c8d22b85d85d4cd59d4be55979e093c86dc6783bd37a19d1",
+    "source_grid": [
+      64,
+      64
+    ],
+    "display_content": [
+      64,
+      40
+    ],
+    "padding_top_bottom": [
+      12,
+      12
+    ],
+    "source_video_aspect": [
+      1936,
+      1216
+    ],
+    "purpose": "Illustration only; benchmark input tensors, predictions and metrics unchanged"
+  },
+  {
+    "image": 9,
+    "source": "C:\\Users\\Administrator\\Documents\\Codex\\2026-08-24\\e-0824\\scripts\\retinafuse_ncs_editable_20261015_v5\\build\\Fig5_matched_representation_benchmark_im9.png",
+    "source_sha256": "a6318d61f72feddadb35ebba9858221db791b87739876e9b61ef39f44d6bfe01",
+    "display": "C:\\Users\\Administrator\\Documents\\Codex\\2026-08-24\\e-0824\\scripts\\retinafuse_ncs_editable_20261015_v6\\build\\Fig5_display_letterbox_09.png",
+    "display_sha256": "a24f933e76d3a57075ecb162822a0679b8622777f9705a5a5434abea76ec552d",
+    "source_grid": [
+      64,
+      64
+    ],
+    "display_content": [
+      64,
+      40
+    ],
+    "padding_top_bottom": [
+      12,
+      12
+    ],
+    "source_video_aspect": [
+      1936,
+      1216
+    ],
+    "purpose": "Illustration only; benchmark input tensors, predictions and metrics unchanged"
+  },
+  {
+    "image": 10,
+    "source": "C:\\Users\\Administrator\\Documents\\Codex\\2026-08-24\\e-0824\\scripts\\retinafuse_ncs_editable_20261015_v5\\build\\Fig5_matched_representation_benchmark_im10.png",
+    "source_sha256": "ceabc67376b32222f55520518e3cfef046974cb0fd1abf58040af7a8252ad0e7",
+    "display": "C:\\Users\\Administrator\\Documents\\Codex\\2026-08-24\\e-0824\\scripts\\retinafuse_ncs_editable_20261015_v6\\build\\Fig5_display_letterbox_10.png",
+    "display_sha256": "dd935803c405c3ea6e2f0767e5e3bef2cf6256009cb9e951fa61944f56748da2",
+    "source_grid": [
+      64,
+      64
+    ],
+    "display_content": [
+      64,
+      40
+    ],
+    "padding_top_bottom": [
+      12,
+      12
+    ],
+    "source_video_aspect": [
+      1936,
+      1216
+    ],
+    "purpose": "Illustration only; benchmark input tensors, predictions and metrics unchanged"
+  },
+  {
+    "image": 12,
+    "source": "C:\\Users\\Administrator\\Documents\\Codex\\2026-08-24\\e-0824\\scripts\\retinafuse_ncs_editable_20261015_v5\\build\\Fig5_matched_representation_benchmark_im12.png",
+    "source_sha256": "368cd39ce57ab6cfda782be32dbda1fd10f97fe14ee4792d53c00575b9983811",
+    "display": "C:\\Users\\Administrator\\Documents\\Codex\\2026-08-24\\e-0824\\scripts\\retinafuse_ncs_editable_20261015_v6\\build\\Fig5_display_letterbox_12.png",
+    "display_sha256": "8c06dabee25e48da4d1737bf27750a0cd424d17dd16d859740951f354d27401a",
+    "source_grid": [
+      64,
+      64
+    ],
+    "display_content": [
+      64,
+      40
+    ],
+    "padding_top_bottom": [
+      12,
+      12
+    ],
+    "source_video_aspect": [
+      1936,
+      1216
+    ],
+    "purpose": "Illustration only; benchmark input tensors, predictions and metrics unchanged"
+  },
+  {
+    "image": 13,
+    "source": "C:\\Users\\Administrator\\Documents\\Codex\\2026-08-24\\e-0824\\scripts\\retinafuse_ncs_editable_20261015_v5\\build\\Fig5_matched_representation_benchmark_im13.png",
+    "source_sha256": "4dba8be4f6f05e401139f43d25e30a764a4c315e4408044298851a6253f01e4e",
+    "display": "C:\\Users\\Administrator\\Documents\\Codex\\2026-08-24\\e-0824\\scripts\\retinafuse_ncs_editable_20261015_v6\\build\\Fig5_display_letterbox_13.png",
+    "display_sha256": "39fb5e039bc9170835f1387de5e1573c319fd2ca68726d69c5abd9ed69b51b10",
+    "source_grid": [
+      64,
+      64
+    ],
+    "display_content": [
+      64,
+      40
+    ],
+    "padding_top_bottom": [
+      12,
+      12
+    ],
+    "source_video_aspect": [
+      1936,
+      1216
+    ],
+    "purpose": "Illustration only; benchmark input tensors, predictions and metrics unchanged"
+  },
+  {
+    "image": 14,
+    "source": "C:\\Users\\Administrator\\Documents\\Codex\\2026-08-24\\e-0824\\scripts\\retinafuse_ncs_editable_20261015_v5\\build\\Fig5_matched_representation_benchmark_im14.png",
+    "source_sha256": "6f6fbd451131c361567c90ceb7c33f016a332ae6a700f124618dd3bcc70a86f7",
+    "display": "C:\\Users\\Administrator\\Documents\\Codex\\2026-08-24\\e-0824\\scripts\\retinafuse_ncs_editable_20261015_v6\\build\\Fig5_display_letterbox_14.png",
+    "display_sha256": "104db3af344ac687f3fe33532fff31bb5167cdaad4926d4bc289bd4185ecd85e",
+    "source_grid": [
+      64,
+      64
+    ],
+    "display_content": [
+      64,
+      40
+    ],
+    "padding_top_bottom": [
+      12,
+      12
+    ],
+    "source_video_aspect": [
+      1936,
+      1216
+    ],
+    "purpose": "Illustration only; benchmark input tensors, predictions and metrics unchanged"
+  },
+  {
+    "image": 15,
+    "source": "C:\\Users\\Administrator\\Documents\\Codex\\2026-08-24\\e-0824\\scripts\\retinafuse_ncs_editable_20261015_v5\\build\\Fig5_matched_representation_benchmark_im15.png",
+    "source_sha256": "f66e00a03ecbf035f6c71772d33112d15d35f86bee3de14dac3ad8763cd3b3da",
+    "display": "C:\\Users\\Administrator\\Documents\\Codex\\2026-08-24\\e-0824\\scripts\\retinafuse_ncs_editable_20261015_v6\\build\\Fig5_display_letterbox_15.png",
+    "display_sha256": "2ed61b3221ced013e7b7c93bacda0c708aeef682ed0d221ae7f4d563782ad7a3",
+    "source_grid": [
+      64,
+      64
+    ],
+    "display_content": [
+      64,
+      40
+    ],
+    "padding_top_bottom": [
+      12,
+      12
+    ],
+    "source_video_aspect": [
+      1936,
+      1216
+    ],
+    "purpose": "Illustration only; benchmark input tensors, predictions and metrics unchanged"
+  },
+  {
+    "image": 16,
+    "source": "C:\\Users\\Administrator\\Documents\\Codex\\2026-08-24\\e-0824\\scripts\\retinafuse_ncs_editable_20261015_v5\\build\\Fig5_matched_representation_benchmark_im16.png",
+    "source_sha256": "cc8766aa2556f8838b034c2781ebc9ea66b8655d9fe1b155b6dbd2e319ef78b7",
+    "display": "C:\\Users\\Administrator\\Documents\\Codex\\2026-08-24\\e-0824\\scripts\\retinafuse_ncs_editable_20261015_v6\\build\\Fig5_display_letterbox_16.png",
+    "display_sha256": "8ac839de999c1c75b82a1e25467c70372d2ac886948def9b23b5f6c512ce32fb",
+    "source_grid": [
+      64,
+      64
+    ],
+    "display_content": [
+      64,
+      40
+    ],
+    "padding_top_bottom": [
+      12,
+      12
+    ],
+    "source_video_aspect": [
+      1936,
+      1216
+    ],
+    "purpose": "Illustration only; benchmark input tensors, predictions and metrics unchanged"
+  },
+  {
+    "image": 17,
+    "source": "C:\\Users\\Administrator\\Documents\\Codex\\2026-08-24\\e-0824\\scripts\\retinafuse_ncs_editable_20261015_v5\\build\\Fig5_matched_representation_benchmark_im17.png",
+    "source_sha256": "6f6fbd451131c361567c90ceb7c33f016a332ae6a700f124618dd3bcc70a86f7",
+    "display": "C:\\Users\\Administrator\\Documents\\Codex\\2026-08-24\\e-0824\\scripts\\retinafuse_ncs_editable_20261015_v6\\build\\Fig5_display_letterbox_17.png",
+    "display_sha256": "104db3af344ac687f3fe33532fff31bb5167cdaad4926d4bc289bd4185ecd85e",
+    "source_grid": [
+      64,
+      64
+    ],
+    "display_content": [
+      64,
+      40
+    ],
+    "padding_top_bottom": [
+      12,
+      12
+    ],
+    "source_video_aspect": [
+      1936,
+      1216
+    ],
+    "purpose": "Illustration only; benchmark input tensors, predictions and metrics unchanged"
+  },
+  {
+    "image": 18,
+    "source": "C:\\Users\\Administrator\\Documents\\Codex\\2026-08-24\\e-0824\\scripts\\retinafuse_ncs_editable_20261015_v5\\build\\Fig5_matched_representation_benchmark_im18.png",
+    "source_sha256": "f66e00a03ecbf035f6c71772d33112d15d35f86bee3de14dac3ad8763cd3b3da",
+    "display": "C:\\Users\\Administrator\\Documents\\Codex\\2026-08-24\\e-0824\\scripts\\retinafuse_ncs_editable_20261015_v6\\build\\Fig5_display_letterbox_18.png",
+    "display_sha256": "2ed61b3221ced013e7b7c93bacda0c708aeef682ed0d221ae7f4d563782ad7a3",
+    "source_grid": [
+      64,
+      64
+    ],
+    "display_content": [
+      64,
+      40
+    ],
+    "padding_top_bottom": [
+      12,
+      12
+    ],
+    "source_video_aspect": [
+      1936,
+      1216
+    ],
+    "purpose": "Illustration only; benchmark input tensors, predictions and metrics unchanged"
+  },
+  {
+    "image": 19,
+    "source": "C:\\Users\\Administrator\\Documents\\Codex\\2026-08-24\\e-0824\\scripts\\retinafuse_ncs_editable_20261015_v5\\build\\Fig5_matched_representation_benchmark_im19.png",
+    "source_sha256": "cc8766aa2556f8838b034c2781ebc9ea66b8655d9fe1b155b6dbd2e319ef78b7",
+    "display": "C:\\Users\\Administrator\\Documents\\Codex\\2026-08-24\\e-0824\\scripts\\retinafuse_ncs_editable_20261015_v6\\build\\Fig5_display_letterbox_19.png",
+    "display_sha256": "8ac839de999c1c75b82a1e25467c70372d2ac886948def9b23b5f6c512ce32fb",
+    "source_grid": [
+      64,
+      64
+    ],
+    "display_content": [
+      64,
+      40
+    ],
+    "padding_top_bottom": [
+      12,
+      12
+    ],
+    "source_video_aspect": [
+      1936,
+      1216
+    ],
+    "purpose": "Illustration only; benchmark input tensors, predictions and metrics unchanged"
+  },
+  {
+    "image": 20,
+    "source": "C:\\Users\\Administrator\\Documents\\Codex\\2026-08-24\\e-0824\\scripts\\retinafuse_ncs_editable_20261015_v5\\build\\Fig5_matched_representation_benchmark_im20.png",
+    "source_sha256": "e5eafa810bce194f871d68c7f8e2f1905228d6357589fdc891926370c888dbb3",
+    "display": "C:\\Users\\Administrator\\Documents\\Codex\\2026-08-24\\e-0824\\scripts\\retinafuse_ncs_editable_20261015_v6\\build\\Fig5_display_letterbox_20.png",
+    "display_sha256": "75dd3bade97fc8917d1d38cf66ad3a830f9bf453f888fc963f91d9f739ecb46c",
+    "source_grid": [
+      64,
+      64
+    ],
+    "display_content": [
+      64,
+      40
+    ],
+    "padding_top_bottom": [
+      12,
+      12
+    ],
+    "source_video_aspect": [
+      1936,
+      1216
+    ],
+    "purpose": "Illustration only; benchmark input tensors, predictions and metrics unchanged"
+  },
+  {
+    "image": 21,
+    "source": "C:\\Users\\Administrator\\Documents\\Codex\\2026-08-24\\e-0824\\scripts\\retinafuse_ncs_editable_20261015_v5\\build\\Fig5_matched_representation_benchmark_im21.png",
+    "source_sha256": "56ef7846d1ef6b52ad7aee997d1ca61491b92ed0b6140cf14f6c3dd1148acd81",
+    "display": "C:\\Users\\Administrator\\Documents\\Codex\\2026-08-24\\e-0824\\scripts\\retinafuse_ncs_editable_20261015_v6\\build\\Fig5_display_letterbox_21.png",
+    "display_sha256": "fbd3e62e868821ac70eb073a4566da66da07066f1a75751d72db8c927f59f80f",
+    "source_grid": [
+      64,
+      64
+    ],
+    "display_content": [
+      64,
+      40
+    ],
+    "padding_top_bottom": [
+      12,
+      12
+    ],
+    "source_video_aspect": [
+      1936,
+      1216
+    ],
+    "purpose": "Illustration only; benchmark input tensors, predictions and metrics unchanged"
+  }
+]

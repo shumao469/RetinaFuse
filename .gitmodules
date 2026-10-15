@@ -1,0 +1,12 @@
+[submodule "retinafuse"]
+	path = components/retinafuse
+	url = https://github.com/taotao9029/OCTA_Fusion.git
+[submodule "rf_ensemble"]
+	path = components/rf_ensemble
+	url = https://github.com/taotao9029/OCTA_RF.git
+[submodule "set_attention"]
+	path = components/set_attention
+	url = https://github.com/taotao9029/OCTA_Segment-set-attention.git
+[submodule "snn"]
+	path = components/snn
+	url = https://github.com/taotao9029/OCTA_SNN.git

@@ -1,0 +1,9 @@
+{
+  "python": "3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)]",
+  "torch": "2.10.0.dev20251206+cu128",
+  "cuda": "12.8",
+  "platform": "Windows-11-10.0.26100-SP0",
+  "gpu_index": 0,
+  "gpu_name": "NVIDIA GeForce RTX 5090",
+  "started": 1791929367.6767273
+}

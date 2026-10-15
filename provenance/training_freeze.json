@@ -1,0 +1,18 @@
+{
+  "protocol_sha256": "f068c273f3fc6e5a5cc390ea3093b46383dac7fdb17186e3ab01df9a00ef7d56",
+  "manifest_sha256": "67f84b7e92953188aceedd28f75ed514bc4d398fbcb525b6343eceab56b4a613",
+  "implementation": {
+    "analyze.py": "5ce3e993526437f399fdd1fcc52cb02773d02c2faa87274ee651e5f9693eaf8e",
+    "audit_labels.py": "df3718c7fd1177605e2be49bdec231fa0cc43215c665f7073bf07e8c34e1480c",
+    "common.py": "5faf50ec776931e42c6795ab6ac8f0fe0b798d9dc582e6652d4cc168cfbf4b48",
+    "decoder.py": "e2a2dca3a8c40adcff9c35c872b9f4f84876b641a3abd5b95acbd95d75858460",
+    "models.py": "a4bc1afe89c7d6b6240b7e86196c0bcc74c439912c2c6bec1b5ab62fd93e4e45",
+    "postflight.py": "6a47d6d0067e32c60686cb043e99987606695c64020e95912ad39bfcf06562e1",
+    "prepare.py": "2cfe9d20857c412dd8922d4641a168eaafd0016beea506b114fb58c4464895b3",
+    "smoke_training.py": "c24a02569485d31eb0e114b47f133cab98bac73044b888b8200ee7882700f23c",
+    "supervisor.py": "823ddfc33b652a3dcf928d098c0fdcf7ffde184b3e6aa3ca55764c9d56494da1",
+    "train.py": "4904cb0a6e546dbbd5916f016ea4976b1b96fdf207ce056c558c56b26b4bb6e5",
+    "verify.py": "ec74134681e69e21c0a665af8152035e70fa92506e249277de3668cba262cef1",
+    "worker.py": "d28cc3b9e25afca6106c7a174e8ec44b9d8f27a26200a506de5d84a2e115f0f8"
+  }
+}

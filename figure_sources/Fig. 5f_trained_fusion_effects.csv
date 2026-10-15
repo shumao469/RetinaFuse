@@ -1,0 +1,4 @@
+﻿design,condition,comparator,metric,delta,ci95_low,ci95_high,family_ci99_low,family_ci99_high,n,bootstrap_unit,n_resamples,direction,positive_evidence
+fivefold,graychange_4fps_t002,Frame-only,brier,-0.0129622764977243,-0.0310578581404726,0.0040340812848128,-0.0379207889761218,0.0091281208016337,120,animal,5000,RetinaFuse minus comparator,False
+fivefold,graychange_4fps_t002,Global-weight-fusion,brier,-0.0105800327214469,-0.0246305612685386,0.0020282348396018,-0.0295724023060971,0.0061772583108514,120,animal,5000,RetinaFuse minus comparator,False
+fivefold,graychange_4fps_t002,Concat-fusion,brier,0.0017023509578432,-0.012058211248577,0.0152884391524035,-0.016043980283834,0.0196855646468982,120,animal,5000,RetinaFuse minus comparator,False

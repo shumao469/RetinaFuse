@@ -1,0 +1,13 @@
+﻿animal_id,label,model,probability,threshold,input_key
+health_002,0,Single-frame,0.31333943,0.4666666666666666,single_frame
+health_002,0,Mean-image,0.2273002566666666,0.4833333333333333,mean_image
+health_002,0,Unordered-frames,0.1153103813333333,0.4866666666666666,raw_sequence
+health_002,0,Raw-video,0.0797634083333333,0.3999999999999999,raw_sequence
+health_002,0,Frame-difference-video,0.22361628,0.4433333333333333,simple_differences[29]
+health_002,0,RetinaFuse,0.1199692496666666,0.4533333333333333,graychange_4fps_t002_events
+stroke_002,1,Single-frame,0.5705309333333334,0.4866666666666666,single_frame
+stroke_002,1,Mean-image,0.7593999133333332,0.4633333333333334,mean_image
+stroke_002,1,Unordered-frames,0.8293910333333333,0.5066666666666667,raw_sequence
+stroke_002,1,Raw-video,0.95100405,0.4966666666666666,raw_sequence
+stroke_002,1,Frame-difference-video,0.3941123066666667,0.4466666666666667,simple_differences[29]
+stroke_002,1,RetinaFuse,0.8051558499999999,0.5466666666666667,graychange_4fps_t002_events

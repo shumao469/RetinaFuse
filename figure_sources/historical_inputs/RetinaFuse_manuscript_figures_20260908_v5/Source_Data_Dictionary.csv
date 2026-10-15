@@ -1,0 +1,543 @@
+﻿file,column,dtype,non_null_rows,total_rows
+Extended Data Fig. 8abc_representative_selection.csv,category,object,4,4
+Extended Data Fig. 8abc_representative_selection.csv,animal_id,object,4,4
+Extended Data Fig. 8abc_representative_selection.csv,label,int64,4,4
+Extended Data Fig. 8abc_representative_selection.csv,fold,int64,4,4
+Extended Data Fig. 8abc_representative_selection.csv,target_class,int64,4,4
+Extended Data Fig. 8abc_representative_selection.csv,probability,float64,4,4
+Extended Data Fig. 8abc_representative_selection.csv,correct,int64,4,4
+Extended Data Fig. 8abc_representative_selection.csv,target_margin,float64,4,4
+Extended Data Fig. 8abc_representative_selection.csv,cam_margin_drop,float64,4,4
+Extended Data Fig. 8abc_representative_selection.csv,random_mean_margin_drop,float64,4,4
+Extended Data Fig. 8abc_representative_selection.csv,excess_margin_drop,float64,4,4
+Extended Data Fig. 8abc_representative_selection.csv,random_lo,float64,4,4
+Extended Data Fig. 8abc_representative_selection.csv,random_hi,float64,4,4
+Extended Data Fig. 8abc_representative_selection.csv,masked_voxels,int64,4,4
+Extended Data Fig. 8abc_representative_selection.csv,cam_removed_event_mass,float64,4,4
+Extended Data Fig. 8abc_representative_selection.csv,random_removed_event_mass_mean,float64,4,4
+Extended Data Fig. 8abc_representative_selection.csv,eligible_voxels,int64,4,4
+Extended Data Fig. 8abc_representative_selection.csv,n_random,int64,4,4
+Extended Data Fig. 8abc_representative_selection.csv,target_prob,float64,4,4
+Extended Data Fig. 8de_all_animal_density_matched_occlusion.csv,animal_id,object,128,128
+Extended Data Fig. 8de_all_animal_density_matched_occlusion.csv,label,int64,128,128
+Extended Data Fig. 8de_all_animal_density_matched_occlusion.csv,fold,int64,128,128
+Extended Data Fig. 8de_all_animal_density_matched_occlusion.csv,target_class,int64,128,128
+Extended Data Fig. 8de_all_animal_density_matched_occlusion.csv,probability,float64,128,128
+Extended Data Fig. 8de_all_animal_density_matched_occlusion.csv,correct,int64,128,128
+Extended Data Fig. 8de_all_animal_density_matched_occlusion.csv,target_margin,float64,128,128
+Extended Data Fig. 8de_all_animal_density_matched_occlusion.csv,cam_margin_drop,float64,128,128
+Extended Data Fig. 8de_all_animal_density_matched_occlusion.csv,random_mean_margin_drop,float64,128,128
+Extended Data Fig. 8de_all_animal_density_matched_occlusion.csv,excess_margin_drop,float64,128,128
+Extended Data Fig. 8de_all_animal_density_matched_occlusion.csv,random_lo,float64,128,128
+Extended Data Fig. 8de_all_animal_density_matched_occlusion.csv,random_hi,float64,128,128
+Extended Data Fig. 8de_all_animal_density_matched_occlusion.csv,masked_voxels,int64,128,128
+Extended Data Fig. 8de_all_animal_density_matched_occlusion.csv,cam_removed_event_mass,float64,128,128
+Extended Data Fig. 8de_all_animal_density_matched_occlusion.csv,random_removed_event_mass_mean,float64,128,128
+Extended Data Fig. 8de_all_animal_density_matched_occlusion.csv,eligible_voxels,int64,128,128
+Extended Data Fig. 8de_all_animal_density_matched_occlusion.csv,n_random,int64,128,128
+Extended Data Fig. 8de_random_occlusion_controls.csv,animal_id,object,2560,2560
+Extended Data Fig. 8de_random_occlusion_controls.csv,replicate,int64,2560,2560
+Extended Data Fig. 8de_random_occlusion_controls.csv,margin_drop,float64,2560,2560
+Extended Data Fig. 8de_random_occlusion_controls.csv,removed_event_mass,float64,2560,2560
+Extended Data Fig. 1a_fold_class_counts.csv,fold,int64,5,5
+Extended Data Fig. 1a_fold_class_counts.csv,0,int64,5,5
+Extended Data Fig. 1a_fold_class_counts.csv,1,int64,5,5
+Extended Data Fig. 1b_animal_predictions_six_models.csv,model,object,768,768
+Extended Data Fig. 1b_animal_predictions_six_models.csv,ablation,object,768,768
+Extended Data Fig. 1b_animal_predictions_six_models.csv,id,object,768,768
+Extended Data Fig. 1b_animal_predictions_six_models.csv,label,int64,768,768
+Extended Data Fig. 1b_animal_predictions_six_models.csv,fold,int64,768,768
+Extended Data Fig. 1b_animal_predictions_six_models.csv,p,float64,768,768
+Extended Data Fig. 1b_animal_predictions_six_models.csv,t,float64,768,768
+Extended Data Fig. 1b_animal_predictions_six_models.csv,pred,int64,768,768
+Extended Data Fig. 1b_animal_predictions_six_models.csv,threshold_objective,object,768,768
+Extended Data Fig. 1b_animal_predictions_six_models.csv,checkpoint_id,object,768,768
+Extended Data Fig. 1b_animal_predictions_six_models.csv,model_name,object,768,768
+Extended Data Fig. 1b_animal_predictions_six_models.csv,analysis_mode,object,768,768
+Extended Data Fig. 2abcdef_animal_predictions_six_models.csv,model,object,768,768
+Extended Data Fig. 2abcdef_animal_predictions_six_models.csv,ablation,object,768,768
+Extended Data Fig. 2abcdef_animal_predictions_six_models.csv,id,object,768,768
+Extended Data Fig. 2abcdef_animal_predictions_six_models.csv,label,int64,768,768
+Extended Data Fig. 2abcdef_animal_predictions_six_models.csv,fold,int64,768,768
+Extended Data Fig. 2abcdef_animal_predictions_six_models.csv,p,float64,768,768
+Extended Data Fig. 2abcdef_animal_predictions_six_models.csv,t,float64,768,768
+Extended Data Fig. 2abcdef_animal_predictions_six_models.csv,pred,int64,768,768
+Extended Data Fig. 2abcdef_animal_predictions_six_models.csv,threshold_objective,object,768,768
+Extended Data Fig. 2abcdef_animal_predictions_six_models.csv,checkpoint_id,object,768,768
+Extended Data Fig. 2abcdef_animal_predictions_six_models.csv,model_name,object,768,768
+Extended Data Fig. 2abcdef_animal_predictions_six_models.csv,analysis_mode,object,768,768
+Extended Data Fig. 4abcdef_calibration_quantile_bins.csv,model,object,30,30
+Extended Data Fig. 4abcdef_calibration_quantile_bins.csv,bin,int64,30,30
+Extended Data Fig. 4abcdef_calibration_quantile_bins.csv,n,int64,30,30
+Extended Data Fig. 4abcdef_calibration_quantile_bins.csv,mean_probability,float64,30,30
+Extended Data Fig. 4abcdef_calibration_quantile_bins.csv,observed_fraction,float64,30,30
+Extended Data Fig. 4abcdef_calibration_quantile_bins.csv,ci_low,float64,30,30
+Extended Data Fig. 4abcdef_calibration_quantile_bins.csv,ci_high,float64,30,30
+Extended Data Fig. 5a_prediction_spearman.csv,model,object,6,6
+Extended Data Fig. 5a_prediction_spearman.csv,RetinaFuse,float64,6,6
+Extended Data Fig. 5a_prediction_spearman.csv,Frame-only,float64,6,6
+Extended Data Fig. 5a_prediction_spearman.csv,Statistics-only,float64,6,6
+Extended Data Fig. 5a_prediction_spearman.csv,RF ensemble,float64,6,6
+Extended Data Fig. 5a_prediction_spearman.csv,Set attention,float64,6,6
+Extended Data Fig. 5a_prediction_spearman.csv,SNN V1,float64,6,6
+Extended Data Fig. 5b_animal_error_matrix.csv,id,object,128,128
+Extended Data Fig. 5b_animal_error_matrix.csv,label,int64,128,128
+Extended Data Fig. 5b_animal_error_matrix.csv,RetinaFuse,int64,128,128
+Extended Data Fig. 5b_animal_error_matrix.csv,Frame-only,int64,128,128
+Extended Data Fig. 5b_animal_error_matrix.csv,Statistics-only,int64,128,128
+Extended Data Fig. 5b_animal_error_matrix.csv,RF ensemble,int64,128,128
+Extended Data Fig. 5b_animal_error_matrix.csv,Set attention,int64,128,128
+Extended Data Fig. 5b_animal_error_matrix.csv,SNN V1,int64,128,128
+Extended Data Fig. 7ab_exact_error_intersections.csv,n,int64,28,28
+Extended Data Fig. 7ab_exact_error_intersections.csv,RetinaFuse,int64,28,28
+Extended Data Fig. 7ab_exact_error_intersections.csv,Frame-only,int64,28,28
+Extended Data Fig. 7ab_exact_error_intersections.csv,Statistics-only,int64,28,28
+Extended Data Fig. 7ab_exact_error_intersections.csv,RF ensemble,int64,28,28
+Extended Data Fig. 7ab_exact_error_intersections.csv,Set attention,int64,28,28
+Extended Data Fig. 7ab_exact_error_intersections.csv,SNN V1,int64,28,28
+Extended Data Fig. 9ab_feature_ablation_paired_deltas.csv,model,object,66,66
+Extended Data Fig. 9ab_feature_ablation_paired_deltas.csv,ablation,object,66,66
+Extended Data Fig. 9ab_feature_ablation_paired_deltas.csv,metric,object,66,66
+Extended Data Fig. 9ab_feature_ablation_paired_deltas.csv,estimate,float64,66,66
+Extended Data Fig. 9ab_feature_ablation_paired_deltas.csv,difference_from_full,float64,66,66
+Extended Data Fig. 9ab_feature_ablation_paired_deltas.csv,ci_low,float64,66,66
+Extended Data Fig. 9ab_feature_ablation_paired_deltas.csv,ci_high,float64,66,66
+Extended Data Fig. 3abc_metrics_bootstrap_95CI.csv,model,object,42,42
+Extended Data Fig. 3abc_metrics_bootstrap_95CI.csv,metric,object,42,42
+Extended Data Fig. 3abc_metrics_bootstrap_95CI.csv,estimate,float64,42,42
+Extended Data Fig. 3abc_metrics_bootstrap_95CI.csv,ci_low,float64,42,42
+Extended Data Fig. 3abc_metrics_bootstrap_95CI.csv,ci_high,float64,42,42
+Extended Data Fig. 3abc_metrics_bootstrap_95CI.csv,n,int64,42,42
+Extended Data Fig. 3abc_metrics_bootstrap_95CI.csv,n_bootstrap,int64,42,42
+Extended Data Fig. 3abc_metrics_bootstrap_95CI.csv,unit,object,42,42
+Extended Data Fig. 3abc_metrics_bootstrap_95CI.csv,analysis_mode,object,42,42
+Extended Data Fig. 10abcdef_inner_oof_predictions_for_thresholds.csv,model,object,3072,3072
+Extended Data Fig. 10abcdef_inner_oof_predictions_for_thresholds.csv,outer_fold,int64,3072,3072
+Extended Data Fig. 10abcdef_inner_oof_predictions_for_thresholds.csv,id,object,3072,3072
+Extended Data Fig. 10abcdef_inner_oof_predictions_for_thresholds.csv,label,int64,3072,3072
+Extended Data Fig. 10abcdef_inner_oof_predictions_for_thresholds.csv,probability,float64,3072,3072
+Extended Data Fig. 10abcdef_inner_oof_predictions_for_thresholds.csv,selected_threshold,float64,3072,3072
+Extended Data Fig. 10abcdef_inner_threshold_scans.csv,model,object,2730,2730
+Extended Data Fig. 10abcdef_inner_threshold_scans.csv,outer_fold,int64,2730,2730
+Extended Data Fig. 10abcdef_inner_threshold_scans.csv,threshold,float64,2730,2730
+Extended Data Fig. 10abcdef_inner_threshold_scans.csv,inner_balanced_accuracy,float64,2730,2730
+Extended Data Fig. 10abcdef_inner_threshold_scans.csv,selected_threshold,float64,2730,2730
+Extended Data Fig. 10abcdef_inner_threshold_scans.csv,inner_n,int64,2730,2730
+Extended Data Fig. 6ab_class_specific_error_transitions.csv,id,object,640,640
+Extended Data Fig. 6ab_class_specific_error_transitions.csv,label,int64,640,640
+Extended Data Fig. 6ab_class_specific_error_transitions.csv,comparator,object,640,640
+Extended Data Fig. 6ab_class_specific_error_transitions.csv,comparator_probability,float64,640,640
+Extended Data Fig. 6ab_class_specific_error_transitions.csv,fusion_probability,float64,640,640
+Extended Data Fig. 6ab_class_specific_error_transitions.csv,comparator_threshold,float64,640,640
+Extended Data Fig. 6ab_class_specific_error_transitions.csv,fusion_threshold,float64,640,640
+Extended Data Fig. 6ab_class_specific_error_transitions.csv,comparator_prediction,int64,640,640
+Extended Data Fig. 6ab_class_specific_error_transitions.csv,fusion_prediction,int64,640,640
+Extended Data Fig. 6ab_class_specific_error_transitions.csv,comparator_correct,bool,640,640
+Extended Data Fig. 6ab_class_specific_error_transitions.csv,fusion_correct,bool,640,640
+Fig. 1a_cohort_and_architecture_parameters.csv,component,object,13,13
+Fig. 1a_cohort_and_architecture_parameters.csv,parameter,object,13,13
+Fig. 1a_cohort_and_architecture_parameters.csv,value,int64,13,13
+Fig. 1b_decoding_and_representation_dimensions.csv,component,object,13,13
+Fig. 1b_decoding_and_representation_dimensions.csv,parameter,object,13,13
+Fig. 1b_decoding_and_representation_dimensions.csv,value,int64,13,13
+Fig. 1c_RetinaFuse_architecture_parameters.csv,component,object,13,13
+Fig. 1c_RetinaFuse_architecture_parameters.csv,parameter,object,13,13
+Fig. 1c_RetinaFuse_architecture_parameters.csv,value,int64,13,13
+Fig. 1d_outer_fold_animal_allocation.csv,model,object,128,128
+Fig. 1d_outer_fold_animal_allocation.csv,ablation,object,128,128
+Fig. 1d_outer_fold_animal_allocation.csv,id,object,128,128
+Fig. 1d_outer_fold_animal_allocation.csv,label,int64,128,128
+Fig. 1d_outer_fold_animal_allocation.csv,fold,int64,128,128
+Fig. 1d_outer_fold_animal_allocation.csv,p,float64,128,128
+Fig. 1d_outer_fold_animal_allocation.csv,t,float64,128,128
+Fig. 1d_outer_fold_animal_allocation.csv,pred,int64,128,128
+Fig. 1d_outer_fold_animal_allocation.csv,threshold_objective,object,128,128
+Fig. 1d_outer_fold_animal_allocation.csv,checkpoint_id,object,128,128
+Fig. 1d_outer_fold_animal_allocation.csv,model_name,object,128,128
+Fig. 1d_outer_fold_animal_allocation.csv,analysis_mode,object,128,128
+Fig. 2a_animal_predictions.csv,model,object,768,768
+Fig. 2a_animal_predictions.csv,ablation,object,768,768
+Fig. 2a_animal_predictions.csv,id,object,768,768
+Fig. 2a_animal_predictions.csv,label,int64,768,768
+Fig. 2a_animal_predictions.csv,fold,int64,768,768
+Fig. 2a_animal_predictions.csv,p,float64,768,768
+Fig. 2a_animal_predictions.csv,t,float64,768,768
+Fig. 2a_animal_predictions.csv,pred,int64,768,768
+Fig. 2a_animal_predictions.csv,threshold_objective,object,768,768
+Fig. 2a_animal_predictions.csv,checkpoint_id,object,768,768
+Fig. 2a_animal_predictions.csv,model_name,object,768,768
+Fig. 2a_animal_predictions.csv,analysis_mode,object,768,768
+Fig. 2a_empirical_roc_Frame-only.csv,FPR,float64,129,129
+Fig. 2a_empirical_roc_Frame-only.csv,TPR,float64,129,129
+Fig. 2a_empirical_roc_Frame-only.csv,threshold,float64,129,129
+Fig. 2a_empirical_roc_RetinaFuse.csv,FPR,float64,129,129
+Fig. 2a_empirical_roc_RetinaFuse.csv,TPR,float64,129,129
+Fig. 2a_empirical_roc_RetinaFuse.csv,threshold,float64,129,129
+Fig. 2a_empirical_roc_RF_ensemble.csv,FPR,float64,129,129
+Fig. 2a_empirical_roc_RF_ensemble.csv,TPR,float64,129,129
+Fig. 2a_empirical_roc_RF_ensemble.csv,threshold,float64,129,129
+Fig. 2a_empirical_roc_Set_attention.csv,FPR,float64,129,129
+Fig. 2a_empirical_roc_Set_attention.csv,TPR,float64,129,129
+Fig. 2a_empirical_roc_Set_attention.csv,threshold,float64,129,129
+Fig. 2a_empirical_roc_SNN_V1.csv,FPR,float64,129,129
+Fig. 2a_empirical_roc_SNN_V1.csv,TPR,float64,129,129
+Fig. 2a_empirical_roc_SNN_V1.csv,threshold,float64,129,129
+Fig. 2a_empirical_roc_Statistics-only.csv,FPR,float64,129,129
+Fig. 2a_empirical_roc_Statistics-only.csv,TPR,float64,129,129
+Fig. 2a_empirical_roc_Statistics-only.csv,threshold,float64,129,129
+Fig. 2ab_smoothed_display_coordinates.csv,context,object,8016,8016
+Fig. 2ab_smoothed_display_coordinates.csv,model,object,8016,8016
+Fig. 2ab_smoothed_display_coordinates.csv,curve,object,8016,8016
+Fig. 2ab_smoothed_display_coordinates.csv,x,float64,8016,8016
+Fig. 2ab_smoothed_display_coordinates.csv,y,float64,8016,8016
+Fig. 2b_animal_predictions.csv,model,object,768,768
+Fig. 2b_animal_predictions.csv,ablation,object,768,768
+Fig. 2b_animal_predictions.csv,id,object,768,768
+Fig. 2b_animal_predictions.csv,label,int64,768,768
+Fig. 2b_animal_predictions.csv,fold,int64,768,768
+Fig. 2b_animal_predictions.csv,p,float64,768,768
+Fig. 2b_animal_predictions.csv,t,float64,768,768
+Fig. 2b_animal_predictions.csv,pred,int64,768,768
+Fig. 2b_animal_predictions.csv,threshold_objective,object,768,768
+Fig. 2b_animal_predictions.csv,checkpoint_id,object,768,768
+Fig. 2b_animal_predictions.csv,model_name,object,768,768
+Fig. 2b_animal_predictions.csv,analysis_mode,object,768,768
+Fig. 2b_empirical_pr_Frame-only.csv,precision,float64,129,129
+Fig. 2b_empirical_pr_Frame-only.csv,recall,float64,129,129
+Fig. 2b_empirical_pr_Frame-only.csv,threshold,float64,128,129
+Fig. 2b_empirical_pr_RetinaFuse.csv,precision,float64,129,129
+Fig. 2b_empirical_pr_RetinaFuse.csv,recall,float64,129,129
+Fig. 2b_empirical_pr_RetinaFuse.csv,threshold,float64,128,129
+Fig. 2b_empirical_pr_RF_ensemble.csv,precision,float64,129,129
+Fig. 2b_empirical_pr_RF_ensemble.csv,recall,float64,129,129
+Fig. 2b_empirical_pr_RF_ensemble.csv,threshold,float64,128,129
+Fig. 2b_empirical_pr_Set_attention.csv,precision,float64,129,129
+Fig. 2b_empirical_pr_Set_attention.csv,recall,float64,129,129
+Fig. 2b_empirical_pr_Set_attention.csv,threshold,float64,128,129
+Fig. 2b_empirical_pr_SNN_V1.csv,precision,float64,129,129
+Fig. 2b_empirical_pr_SNN_V1.csv,recall,float64,129,129
+Fig. 2b_empirical_pr_SNN_V1.csv,threshold,float64,128,129
+Fig. 2b_empirical_pr_Statistics-only.csv,precision,float64,129,129
+Fig. 2b_empirical_pr_Statistics-only.csv,recall,float64,129,129
+Fig. 2b_empirical_pr_Statistics-only.csv,threshold,float64,128,129
+Fig. 2c_metrics_and_95CI.csv,model,object,6,6
+Fig. 2c_metrics_and_95CI.csv,metric,object,6,6
+Fig. 2c_metrics_and_95CI.csv,estimate,float64,6,6
+Fig. 2c_metrics_and_95CI.csv,ci_low,float64,6,6
+Fig. 2c_metrics_and_95CI.csv,ci_high,float64,6,6
+Fig. 2c_metrics_and_95CI.csv,n,int64,6,6
+Fig. 2c_metrics_and_95CI.csv,n_bootstrap,int64,6,6
+Fig. 2c_metrics_and_95CI.csv,unit,object,6,6
+Fig. 2c_metrics_and_95CI.csv,analysis_mode,object,6,6
+Fig. 2d_metrics_and_95CI.csv,model,object,6,6
+Fig. 2d_metrics_and_95CI.csv,metric,object,6,6
+Fig. 2d_metrics_and_95CI.csv,estimate,float64,6,6
+Fig. 2d_metrics_and_95CI.csv,ci_low,float64,6,6
+Fig. 2d_metrics_and_95CI.csv,ci_high,float64,6,6
+Fig. 2d_metrics_and_95CI.csv,n,int64,6,6
+Fig. 2d_metrics_and_95CI.csv,n_bootstrap,int64,6,6
+Fig. 2d_metrics_and_95CI.csv,unit,object,6,6
+Fig. 2d_metrics_and_95CI.csv,analysis_mode,object,6,6
+Fig. 2e_animal_predictions.csv,model,object,768,768
+Fig. 2e_animal_predictions.csv,ablation,object,768,768
+Fig. 2e_animal_predictions.csv,id,object,768,768
+Fig. 2e_animal_predictions.csv,label,int64,768,768
+Fig. 2e_animal_predictions.csv,fold,int64,768,768
+Fig. 2e_animal_predictions.csv,p,float64,768,768
+Fig. 2e_animal_predictions.csv,t,float64,768,768
+Fig. 2e_animal_predictions.csv,pred,int64,768,768
+Fig. 2e_animal_predictions.csv,threshold_objective,object,768,768
+Fig. 2e_animal_predictions.csv,checkpoint_id,object,768,768
+Fig. 2e_animal_predictions.csv,model_name,object,768,768
+Fig. 2e_animal_predictions.csv,analysis_mode,object,768,768
+Fig. 3d_RetinaFuse_gate_weights.csv,animal_id,object,128,128
+Fig. 3d_RetinaFuse_gate_weights.csv,label,int64,128,128
+Fig. 3d_RetinaFuse_gate_weights.csv,outer_fold,int64,128,128
+Fig. 3d_RetinaFuse_gate_weights.csv,probability,float64,128,128
+Fig. 3d_RetinaFuse_gate_weights.csv,threshold,float64,128,128
+Fig. 3d_RetinaFuse_gate_weights.csv,correct,int64,128,128
+Fig. 3d_RetinaFuse_gate_weights.csv,alpha_frame,float64,128,128
+Fig. 3d_RetinaFuse_gate_weights.csv,alpha_summary,float64,128,128
+Fig. 3d_RetinaFuse_gate_weights.csv,alpha_frame_checkpoint_sd,float64,128,128
+Fig. 3d_RetinaFuse_gate_weights.csv,alpha_summary_checkpoint_sd,float64,128,128
+Fig. 3e_RetinaFuse_gate_weights.csv,animal_id,object,128,128
+Fig. 3e_RetinaFuse_gate_weights.csv,label,int64,128,128
+Fig. 3e_RetinaFuse_gate_weights.csv,outer_fold,int64,128,128
+Fig. 3e_RetinaFuse_gate_weights.csv,probability,float64,128,128
+Fig. 3e_RetinaFuse_gate_weights.csv,threshold,float64,128,128
+Fig. 3e_RetinaFuse_gate_weights.csv,correct,int64,128,128
+Fig. 3e_RetinaFuse_gate_weights.csv,alpha_frame,float64,128,128
+Fig. 3e_RetinaFuse_gate_weights.csv,alpha_summary,float64,128,128
+Fig. 3e_RetinaFuse_gate_weights.csv,alpha_frame_checkpoint_sd,float64,128,128
+Fig. 3e_RetinaFuse_gate_weights.csv,alpha_summary_checkpoint_sd,float64,128,128
+Fig. 3f_controlled_perturbation_animal_predictions.csv,animal_id,object,1280,1280
+Fig. 3f_controlled_perturbation_animal_predictions.csv,label,int64,1280,1280
+Fig. 3f_controlled_perturbation_animal_predictions.csv,outer_fold,int64,1280,1280
+Fig. 3f_controlled_perturbation_animal_predictions.csv,condition,object,1280,1280
+Fig. 3f_controlled_perturbation_animal_predictions.csv,probability,float64,1280,1280
+Fig. 3f_controlled_perturbation_animal_predictions.csv,threshold,float64,1280,1280
+Fig. 3f_controlled_perturbation_animal_predictions.csv,prediction,int64,1280,1280
+Fig. 3f_controlled_perturbation_paired_estimates.csv,condition,object,10,10
+Fig. 3f_controlled_perturbation_paired_estimates.csv,metric,object,10,10
+Fig. 3f_controlled_perturbation_paired_estimates.csv,estimate,float64,10,10
+Fig. 3f_controlled_perturbation_paired_estimates.csv,baseline,float64,10,10
+Fig. 3f_controlled_perturbation_paired_estimates.csv,delta,float64,10,10
+Fig. 3f_controlled_perturbation_paired_estimates.csv,ci_low,float64,10,10
+Fig. 3f_controlled_perturbation_paired_estimates.csv,ci_high,float64,10,10
+Fig. 3f_controlled_perturbation_paired_estimates.csv,n,int64,10,10
+Fig. 3f_controlled_perturbation_paired_estimates.csv,n_bootstrap,int64,10,10
+Fig. 3g_controlled_perturbation_animal_predictions.csv,animal_id,object,1280,1280
+Fig. 3g_controlled_perturbation_animal_predictions.csv,label,int64,1280,1280
+Fig. 3g_controlled_perturbation_animal_predictions.csv,outer_fold,int64,1280,1280
+Fig. 3g_controlled_perturbation_animal_predictions.csv,condition,object,1280,1280
+Fig. 3g_controlled_perturbation_animal_predictions.csv,probability,float64,1280,1280
+Fig. 3g_controlled_perturbation_animal_predictions.csv,threshold,float64,1280,1280
+Fig. 3g_controlled_perturbation_animal_predictions.csv,prediction,int64,1280,1280
+Fig. 3g_controlled_perturbation_paired_estimates.csv,condition,object,10,10
+Fig. 3g_controlled_perturbation_paired_estimates.csv,metric,object,10,10
+Fig. 3g_controlled_perturbation_paired_estimates.csv,estimate,float64,10,10
+Fig. 3g_controlled_perturbation_paired_estimates.csv,baseline,float64,10,10
+Fig. 3g_controlled_perturbation_paired_estimates.csv,delta,float64,10,10
+Fig. 3g_controlled_perturbation_paired_estimates.csv,ci_low,float64,10,10
+Fig. 3g_controlled_perturbation_paired_estimates.csv,ci_high,float64,10,10
+Fig. 3g_controlled_perturbation_paired_estimates.csv,n,int64,10,10
+Fig. 3g_controlled_perturbation_paired_estimates.csv,n_bootstrap,int64,10,10
+Supplementary Fig. 4a_matched_RetinaFuse_Frameonly_Statisticsonly_predictions.csv,animal_id,object,384,384
+Supplementary Fig. 4a_matched_RetinaFuse_Frameonly_Statisticsonly_predictions.csv,label,int64,384,384
+Supplementary Fig. 4a_matched_RetinaFuse_Frameonly_Statisticsonly_predictions.csv,outer_fold,int64,384,384
+Supplementary Fig. 4a_matched_RetinaFuse_Frameonly_Statisticsonly_predictions.csv,model,object,384,384
+Supplementary Fig. 4a_matched_RetinaFuse_Frameonly_Statisticsonly_predictions.csv,probability,float64,384,384
+Supplementary Fig. 4a_matched_RetinaFuse_Frameonly_Statisticsonly_predictions.csv,threshold,float64,384,384
+Supplementary Fig. 4a_matched_RetinaFuse_Frameonly_Statisticsonly_predictions.csv,prediction,int64,384,384
+Supplementary Fig. 4a_matched_RetinaFuse_Frameonly_Statisticsonly_predictions.csv,analysis,object,384,384
+Supplementary Fig. 4a_matched_RetinaFuse_Frameonly_Statisticsonly_predictions.csv,threshold_policy,object,384,384
+Supplementary Fig. 4a_trained_branch_paired_estimates.csv,comparator,object,2,2
+Supplementary Fig. 4a_trained_branch_paired_estimates.csv,metric,object,2,2
+Supplementary Fig. 4a_trained_branch_paired_estimates.csv,delta,float64,2,2
+Supplementary Fig. 4a_trained_branch_paired_estimates.csv,ci_low,float64,2,2
+Supplementary Fig. 4a_trained_branch_paired_estimates.csv,ci_high,float64,2,2
+Supplementary Fig. 4b_matched_RetinaFuse_Frameonly_Statisticsonly_predictions.csv,animal_id,object,384,384
+Supplementary Fig. 4b_matched_RetinaFuse_Frameonly_Statisticsonly_predictions.csv,label,int64,384,384
+Supplementary Fig. 4b_matched_RetinaFuse_Frameonly_Statisticsonly_predictions.csv,outer_fold,int64,384,384
+Supplementary Fig. 4b_matched_RetinaFuse_Frameonly_Statisticsonly_predictions.csv,model,object,384,384
+Supplementary Fig. 4b_matched_RetinaFuse_Frameonly_Statisticsonly_predictions.csv,probability,float64,384,384
+Supplementary Fig. 4b_matched_RetinaFuse_Frameonly_Statisticsonly_predictions.csv,threshold,float64,384,384
+Supplementary Fig. 4b_matched_RetinaFuse_Frameonly_Statisticsonly_predictions.csv,prediction,int64,384,384
+Supplementary Fig. 4b_matched_RetinaFuse_Frameonly_Statisticsonly_predictions.csv,analysis,object,384,384
+Supplementary Fig. 4b_matched_RetinaFuse_Frameonly_Statisticsonly_predictions.csv,threshold_policy,object,384,384
+Supplementary Fig. 4b_trained_branch_paired_estimates.csv,comparator,object,2,2
+Supplementary Fig. 4b_trained_branch_paired_estimates.csv,metric,object,2,2
+Supplementary Fig. 4b_trained_branch_paired_estimates.csv,delta,float64,2,2
+Supplementary Fig. 4b_trained_branch_paired_estimates.csv,ci_low,float64,2,2
+Supplementary Fig. 4b_trained_branch_paired_estimates.csv,ci_high,float64,2,2
+Fig. 4a_fold_metrics.csv,model,object,30,30
+Fig. 4a_fold_metrics.csv,fold,int64,30,30
+Fig. 4a_fold_metrics.csv,AUROC,float64,30,30
+Fig. 4a_fold_metrics.csv,AP,float64,30,30
+Fig. 4a_fold_metrics.csv,Brier,float64,30,30
+Fig. 4a_fold_metrics.csv,Accuracy,float64,30,30
+Fig. 4a_fold_metrics.csv,Sensitivity,float64,30,30
+Fig. 4a_fold_metrics.csv,Specificity,float64,30,30
+Fig. 4a_fold_metrics.csv,Balanced accuracy,float64,30,30
+Fig. 4a_fold_metrics.csv,n,int64,30,30
+Fig. 4a_fold_metrics.csv,stroke,int64,30,30
+Fig. 4a_fold_metrics.csv,health,int64,30,30
+Fig. 4a_fold_metrics.csv,TP,int64,30,30
+Fig. 4a_fold_metrics.csv,TN,int64,30,30
+Fig. 4a_fold_metrics.csv,FP,int64,30,30
+Fig. 4a_fold_metrics.csv,FN,int64,30,30
+Fig. 4b_group_allocation.csv,group_type,object,128,128
+Fig. 4b_group_allocation.csv,held_out_group,object,128,128
+Fig. 4b_group_allocation.csv,id,object,128,128
+Fig. 4b_group_allocation.csv,label,int64,128,128
+Fig. 4b_group_allocation.csv,p,float64,128,128
+Fig. 4b_group_allocation.csv,t,float64,128,128
+Fig. 4b_group_allocation.csv,pred,int64,128,128
+Fig. 4b_group_allocation.csv,group,object,128,128
+Fig. 4b_group_allocation.csv,model_name,object,128,128
+Fig. 4b_group_allocation.csv,group_semantics,object,128,128
+Fig. 4c_heldout_group_AUROC_and_95CI.csv,model,object,12,12
+Fig. 4c_heldout_group_AUROC_and_95CI.csv,group,object,12,12
+Fig. 4c_heldout_group_AUROC_and_95CI.csv,metric,object,12,12
+Fig. 4c_heldout_group_AUROC_and_95CI.csv,estimate,float64,12,12
+Fig. 4c_heldout_group_AUROC_and_95CI.csv,ci_low,float64,12,12
+Fig. 4c_heldout_group_AUROC_and_95CI.csv,ci_high,float64,12,12
+Fig. 4c_heldout_group_AUROC_and_95CI.csv,n,int64,12,12
+Fig. 4c_heldout_group_AUROC_and_95CI.csv,stroke,int64,12,12
+Fig. 4c_heldout_group_AUROC_and_95CI.csv,health,int64,12,12
+Fig. 4d_group_animal_predictions.csv,group_type,object,512,512
+Fig. 4d_group_animal_predictions.csv,held_out_group,object,512,512
+Fig. 4d_group_animal_predictions.csv,id,object,512,512
+Fig. 4d_group_animal_predictions.csv,label,int64,512,512
+Fig. 4d_group_animal_predictions.csv,p,float64,512,512
+Fig. 4d_group_animal_predictions.csv,t,float64,512,512
+Fig. 4d_group_animal_predictions.csv,pred,int64,512,512
+Fig. 4d_group_animal_predictions.csv,group,object,512,512
+Fig. 4d_group_animal_predictions.csv,model_name,object,512,512
+Fig. 4d_group_animal_predictions.csv,group_semantics,object,512,512
+Fig. 4d_smoothed_display_coordinates.csv,model,object,2004,2004
+Fig. 4d_smoothed_display_coordinates.csv,fpr,float64,2004,2004
+Fig. 4d_smoothed_display_coordinates.csv,tpr,float64,2004,2004
+Fig. 4e_heldout_group_Brier.csv,model,object,12,12
+Fig. 4e_heldout_group_Brier.csv,group,object,12,12
+Fig. 4e_heldout_group_Brier.csv,metric,object,12,12
+Fig. 4e_heldout_group_Brier.csv,estimate,float64,12,12
+Fig. 4e_heldout_group_Brier.csv,ci_low,float64,12,12
+Fig. 4e_heldout_group_Brier.csv,ci_high,float64,12,12
+Fig. 4e_heldout_group_Brier.csv,n,int64,12,12
+Fig. 4e_heldout_group_Brier.csv,stroke,int64,12,12
+Fig. 4e_heldout_group_Brier.csv,health,int64,12,12
+Source_Data_Index.csv,figure_panel,object,70,70
+Source_Data_Index.csv,file,object,70,70
+Source_Data_Index.csv,description,object,70,70
+Source_Data_Index.csv,analysis_mode,object,70,70
+Source_Data_Index.csv,rows,float64,69,70
+Source_Data_Index.csv,source_file,object,70,70
+Source_Data_Index.csv,source_sha256,object,70,70
+Source_Data_Index.csv,sha256,object,70,70
+Supplementary Fig. 6ab_all_feature_ablation_predictions.csv,model,object,2816,2816
+Supplementary Fig. 6ab_all_feature_ablation_predictions.csv,ablation,object,2816,2816
+Supplementary Fig. 6ab_all_feature_ablation_predictions.csv,id,object,2816,2816
+Supplementary Fig. 6ab_all_feature_ablation_predictions.csv,label,int64,2816,2816
+Supplementary Fig. 6ab_all_feature_ablation_predictions.csv,fold,int64,2816,2816
+Supplementary Fig. 6ab_all_feature_ablation_predictions.csv,p,float64,2816,2816
+Supplementary Fig. 6ab_all_feature_ablation_predictions.csv,t,float64,2816,2816
+Supplementary Fig. 6ab_all_feature_ablation_predictions.csv,pred,int64,2816,2816
+Supplementary Fig. 6ab_all_feature_ablation_predictions.csv,threshold_objective,object,2816,2816
+Supplementary Fig. 6ab_all_feature_ablation_predictions.csv,checkpoint_id,object,2816,2816
+Supplementary Fig. 6ab_all_feature_ablation_predictions.csv,model_name,object,2816,2816
+Supplementary Fig. 6ab_all_feature_ablation_predictions.csv,ablation_name,object,2816,2816
+Supplementary Fig. 7ab_all_feature_ablation_predictions.csv,model,object,2816,2816
+Supplementary Fig. 7ab_all_feature_ablation_predictions.csv,ablation,object,2816,2816
+Supplementary Fig. 7ab_all_feature_ablation_predictions.csv,id,object,2816,2816
+Supplementary Fig. 7ab_all_feature_ablation_predictions.csv,label,int64,2816,2816
+Supplementary Fig. 7ab_all_feature_ablation_predictions.csv,fold,int64,2816,2816
+Supplementary Fig. 7ab_all_feature_ablation_predictions.csv,p,float64,2816,2816
+Supplementary Fig. 7ab_all_feature_ablation_predictions.csv,t,float64,2816,2816
+Supplementary Fig. 7ab_all_feature_ablation_predictions.csv,pred,int64,2816,2816
+Supplementary Fig. 7ab_all_feature_ablation_predictions.csv,threshold_objective,object,2816,2816
+Supplementary Fig. 7ab_all_feature_ablation_predictions.csv,checkpoint_id,object,2816,2816
+Supplementary Fig. 7ab_all_feature_ablation_predictions.csv,model_name,object,2816,2816
+Supplementary Fig. 7ab_all_feature_ablation_predictions.csv,ablation_name,object,2816,2816
+Supplementary Fig. 8a_risk_coverage.csv,model,object,768,768
+Supplementary Fig. 8a_risk_coverage.csv,coverage,float64,768,768
+Supplementary Fig. 8a_risk_coverage.csv,error_rate,float64,768,768
+Supplementary Fig. 8a_risk_coverage.csv,retained_n,int64,768,768
+Supplementary Fig. 8b_metrics_point_estimates.csv,model,object,6,6
+Supplementary Fig. 8b_metrics_point_estimates.csv,AUROC,float64,6,6
+Supplementary Fig. 8b_metrics_point_estimates.csv,AP,float64,6,6
+Supplementary Fig. 8b_metrics_point_estimates.csv,Brier,float64,6,6
+Supplementary Fig. 8b_metrics_point_estimates.csv,Accuracy,float64,6,6
+Supplementary Fig. 8b_metrics_point_estimates.csv,Sensitivity,float64,6,6
+Supplementary Fig. 8b_metrics_point_estimates.csv,Specificity,float64,6,6
+Supplementary Fig. 8b_metrics_point_estimates.csv,Balanced accuracy,float64,6,6
+Supplementary Fig. 8b_metrics_point_estimates.csv,n,int64,6,6
+Supplementary Fig. 8b_metrics_point_estimates.csv,stroke,int64,6,6
+Supplementary Fig. 8b_metrics_point_estimates.csv,health,int64,6,6
+Supplementary Fig. 8b_metrics_point_estimates.csv,TP,int64,6,6
+Supplementary Fig. 8b_metrics_point_estimates.csv,TN,int64,6,6
+Supplementary Fig. 8b_metrics_point_estimates.csv,FP,int64,6,6
+Supplementary Fig. 8b_metrics_point_estimates.csv,FN,int64,6,6
+Supplementary Fig. 5a_illustrative_decision_curve.csv,model,object,1032,1032
+Supplementary Fig. 5a_illustrative_decision_curve.csv,threshold,float64,1032,1032
+Supplementary Fig. 5a_illustrative_decision_curve.csv,net_benefit,float64,1032,1032
+Supplementary Fig. 5a_illustrative_decision_curve.csv,sample_prevalence,float64,1032,1032
+Supplementary Fig. 5b_supplied_group_pooled_metrics.csv,model,object,4,4
+Supplementary Fig. 5b_supplied_group_pooled_metrics.csv,AUROC,float64,4,4
+Supplementary Fig. 5b_supplied_group_pooled_metrics.csv,AP,float64,4,4
+Supplementary Fig. 5b_supplied_group_pooled_metrics.csv,Brier,float64,4,4
+Supplementary Fig. 5b_supplied_group_pooled_metrics.csv,Accuracy,float64,4,4
+Supplementary Fig. 5b_supplied_group_pooled_metrics.csv,Sensitivity,float64,4,4
+Supplementary Fig. 5b_supplied_group_pooled_metrics.csv,Specificity,float64,4,4
+Supplementary Fig. 5b_supplied_group_pooled_metrics.csv,Balanced accuracy,float64,4,4
+Supplementary Fig. 5b_supplied_group_pooled_metrics.csv,n,int64,4,4
+Supplementary Fig. 5b_supplied_group_pooled_metrics.csv,stroke,int64,4,4
+Supplementary Fig. 5b_supplied_group_pooled_metrics.csv,health,int64,4,4
+Supplementary Fig. 5b_supplied_group_pooled_metrics.csv,TP,int64,4,4
+Supplementary Fig. 5b_supplied_group_pooled_metrics.csv,TN,int64,4,4
+Supplementary Fig. 5b_supplied_group_pooled_metrics.csv,FP,int64,4,4
+Supplementary Fig. 5b_supplied_group_pooled_metrics.csv,FN,int64,4,4
+Supplementary Fig. 9abcdef_animal_predictions_six_models.csv,model,object,768,768
+Supplementary Fig. 9abcdef_animal_predictions_six_models.csv,ablation,object,768,768
+Supplementary Fig. 9abcdef_animal_predictions_six_models.csv,id,object,768,768
+Supplementary Fig. 9abcdef_animal_predictions_six_models.csv,label,int64,768,768
+Supplementary Fig. 9abcdef_animal_predictions_six_models.csv,fold,int64,768,768
+Supplementary Fig. 9abcdef_animal_predictions_six_models.csv,p,float64,768,768
+Supplementary Fig. 9abcdef_animal_predictions_six_models.csv,t,float64,768,768
+Supplementary Fig. 9abcdef_animal_predictions_six_models.csv,pred,int64,768,768
+Supplementary Fig. 9abcdef_animal_predictions_six_models.csv,threshold_objective,object,768,768
+Supplementary Fig. 9abcdef_animal_predictions_six_models.csv,checkpoint_id,object,768,768
+Supplementary Fig. 9abcdef_animal_predictions_six_models.csv,model_name,object,768,768
+Supplementary Fig. 9abcdef_animal_predictions_six_models.csv,analysis_mode,object,768,768
+Supplementary Fig. 9abcdef_fold_metrics.csv,model,object,30,30
+Supplementary Fig. 9abcdef_fold_metrics.csv,fold,int64,30,30
+Supplementary Fig. 9abcdef_fold_metrics.csv,AUROC,float64,30,30
+Supplementary Fig. 9abcdef_fold_metrics.csv,AP,float64,30,30
+Supplementary Fig. 9abcdef_fold_metrics.csv,Brier,float64,30,30
+Supplementary Fig. 9abcdef_fold_metrics.csv,Accuracy,float64,30,30
+Supplementary Fig. 9abcdef_fold_metrics.csv,Sensitivity,float64,30,30
+Supplementary Fig. 9abcdef_fold_metrics.csv,Specificity,float64,30,30
+Supplementary Fig. 9abcdef_fold_metrics.csv,Balanced accuracy,float64,30,30
+Supplementary Fig. 9abcdef_fold_metrics.csv,n,int64,30,30
+Supplementary Fig. 9abcdef_fold_metrics.csv,stroke,int64,30,30
+Supplementary Fig. 9abcdef_fold_metrics.csv,health,int64,30,30
+Supplementary Fig. 9abcdef_fold_metrics.csv,TP,int64,30,30
+Supplementary Fig. 9abcdef_fold_metrics.csv,TN,int64,30,30
+Supplementary Fig. 9abcdef_fold_metrics.csv,FP,int64,30,30
+Supplementary Fig. 9abcdef_fold_metrics.csv,FN,int64,30,30
+Fig. 3ab_paired_fusion_deltas_95CI.csv,reference,object,35,35
+Fig. 3ab_paired_fusion_deltas_95CI.csv,comparator,object,35,35
+Fig. 3ab_paired_fusion_deltas_95CI.csv,metric,object,35,35
+Fig. 3ab_paired_fusion_deltas_95CI.csv,difference,float64,35,35
+Fig. 3ab_paired_fusion_deltas_95CI.csv,ci_low,float64,35,35
+Fig. 3ab_paired_fusion_deltas_95CI.csv,ci_high,float64,35,35
+Fig. 3ab_paired_fusion_deltas_95CI.csv,n_bootstrap,int64,35,35
+Supplementary Fig. 1a_fusion_complementarity_source.csv,id,object,128,128
+Supplementary Fig. 1a_fusion_complementarity_source.csv,label,int64,128,128
+Supplementary Fig. 1a_fusion_complementarity_source.csv,frame_margin,float64,128,128
+Supplementary Fig. 1a_fusion_complementarity_source.csv,stat_margin,float64,128,128
+Supplementary Fig. 1a_fusion_complementarity_source.csv,fusion_correct,bool,128,128
+Supplementary Fig. 1a_fusion_complementarity_source.csv,squared_error_gain_over_frame,float64,128,128
+Fig. 3c_paired_error_transitions.csv,comparator,object,5,5
+Fig. 3c_paired_error_transitions.csv,corrected_by_fusion,int64,5,5
+Fig. 3c_paired_error_transitions.csv,introduced_by_fusion,int64,5,5
+Fig. 3c_paired_error_transitions.csv,both_correct,int64,5,5
+Fig. 3c_paired_error_transitions.csv,both_wrong,int64,5,5
+Fig. 3c_paired_error_transitions.csv,mcnemar_exact_p,float64,5,5
+Supplementary Fig. 1b_fusion_complementarity_source.csv,id,object,128,128
+Supplementary Fig. 1b_fusion_complementarity_source.csv,label,int64,128,128
+Supplementary Fig. 1b_fusion_complementarity_source.csv,frame_margin,float64,128,128
+Supplementary Fig. 1b_fusion_complementarity_source.csv,stat_margin,float64,128,128
+Supplementary Fig. 1b_fusion_complementarity_source.csv,fusion_correct,bool,128,128
+Supplementary Fig. 1b_fusion_complementarity_source.csv,squared_error_gain_over_frame,float64,128,128
+Supplementary Fig. 3abc_complete_perturbation_animal_predictions.csv,animal_id,object,1280,1280
+Supplementary Fig. 3abc_complete_perturbation_animal_predictions.csv,label,int64,1280,1280
+Supplementary Fig. 3abc_complete_perturbation_animal_predictions.csv,outer_fold,int64,1280,1280
+Supplementary Fig. 3abc_complete_perturbation_animal_predictions.csv,condition,object,1280,1280
+Supplementary Fig. 3abc_complete_perturbation_animal_predictions.csv,probability,float64,1280,1280
+Supplementary Fig. 3abc_complete_perturbation_animal_predictions.csv,threshold,float64,1280,1280
+Supplementary Fig. 3abc_complete_perturbation_animal_predictions.csv,prediction,int64,1280,1280
+Supplementary Fig. 3abc_complete_perturbation_paired_estimates.csv,condition,object,40,40
+Supplementary Fig. 3abc_complete_perturbation_paired_estimates.csv,metric,object,40,40
+Supplementary Fig. 3abc_complete_perturbation_paired_estimates.csv,estimate,float64,40,40
+Supplementary Fig. 3abc_complete_perturbation_paired_estimates.csv,baseline,float64,40,40
+Supplementary Fig. 3abc_complete_perturbation_paired_estimates.csv,delta,float64,40,40
+Supplementary Fig. 3abc_complete_perturbation_paired_estimates.csv,ci_low,float64,40,40
+Supplementary Fig. 3abc_complete_perturbation_paired_estimates.csv,ci_high,float64,40,40
+Supplementary Fig. 3abc_complete_perturbation_paired_estimates.csv,n,int64,40,40
+Supplementary Fig. 3abc_complete_perturbation_paired_estimates.csv,n_bootstrap,int64,40,40
+Supplementary Fig. 2ab_RetinaFuse_gate_stability.csv,animal_id,object,128,128
+Supplementary Fig. 2ab_RetinaFuse_gate_stability.csv,label,int64,128,128
+Supplementary Fig. 2ab_RetinaFuse_gate_stability.csv,outer_fold,int64,128,128
+Supplementary Fig. 2ab_RetinaFuse_gate_stability.csv,probability,float64,128,128
+Supplementary Fig. 2ab_RetinaFuse_gate_stability.csv,threshold,float64,128,128
+Supplementary Fig. 2ab_RetinaFuse_gate_stability.csv,correct,int64,128,128
+Supplementary Fig. 2ab_RetinaFuse_gate_stability.csv,alpha_frame,float64,128,128
+Supplementary Fig. 2ab_RetinaFuse_gate_stability.csv,alpha_summary,float64,128,128
+Supplementary Fig. 2ab_RetinaFuse_gate_stability.csv,alpha_frame_checkpoint_sd,float64,128,128
+Supplementary Fig. 2ab_RetinaFuse_gate_stability.csv,alpha_summary_checkpoint_sd,float64,128,128
+Supplementary Table 3_original_branch_metrics.csv,model,object,21,21
+Supplementary Table 3_original_branch_metrics.csv,metric,object,21,21
+Supplementary Table 3_original_branch_metrics.csv,estimate,float64,21,21
+Supplementary Table 3_original_branch_metrics.csv,ci_low,float64,21,21
+Supplementary Table 3_original_branch_metrics.csv,ci_high,float64,21,21

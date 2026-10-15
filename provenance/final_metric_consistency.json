@@ -1,0 +1,267 @@
+{
+  "status": "PASS",
+  "ensembles_recomputed": 43,
+  "paired_point_estimates_recomputed": 46,
+  "prediction_sha256": "701e2d30ec93aa4ff535138e9fd898b7752de258b6df7d9a9da7ac0a2f113492",
+  "scope": "AUROC, AP, Brier and secondary paired point estimates; not independent replication of bootstrap intervals or animal identity",
+  "series": [
+    {
+      "model": "Concat-fusion",
+      "design": "filename_date",
+      "condition": "graychange_4fps_t002",
+      "n": 118
+    },
+    {
+      "model": "Concat-fusion",
+      "design": "filename_date",
+      "condition": "legacy",
+      "n": 118
+    },
+    {
+      "model": "Concat-fusion",
+      "design": "fivefold",
+      "condition": "graychange_4fps_t002",
+      "n": 120
+    },
+    {
+      "model": "Concat-fusion",
+      "design": "fivefold",
+      "condition": "legacy",
+      "n": 120
+    },
+    {
+      "model": "Equal-fusion",
+      "design": "filename_date",
+      "condition": "graychange_4fps_t002",
+      "n": 118
+    },
+    {
+      "model": "Equal-fusion",
+      "design": "filename_date",
+      "condition": "legacy",
+      "n": 118
+    },
+    {
+      "model": "Equal-fusion",
+      "design": "fivefold",
+      "condition": "graychange_4fps_t002",
+      "n": 120
+    },
+    {
+      "model": "Equal-fusion",
+      "design": "fivefold",
+      "condition": "legacy",
+      "n": 120
+    },
+    {
+      "model": "Frame-difference-video",
+      "design": "fivefold",
+      "condition": "legacy",
+      "n": 120
+    },
+    {
+      "model": "Frame-only",
+      "design": "filename_date",
+      "condition": "graychange_4fps_t002",
+      "n": 118
+    },
+    {
+      "model": "Frame-only",
+      "design": "filename_date",
+      "condition": "legacy",
+      "n": 118
+    },
+    {
+      "model": "Frame-only",
+      "design": "fivefold",
+      "condition": "graychange_2fps_brightness_normalized_t002",
+      "n": 120
+    },
+    {
+      "model": "Frame-only",
+      "design": "fivefold",
+      "condition": "graychange_2fps_complement_mask_t002",
+      "n": 120
+    },
+    {
+      "model": "Frame-only",
+      "design": "fivefold",
+      "condition": "graychange_2fps_t001",
+      "n": 120
+    },
+    {
+      "model": "Frame-only",
+      "design": "fivefold",
+      "condition": "graychange_2fps_t002",
+      "n": 120
+    },
+    {
+      "model": "Frame-only",
+      "design": "fivefold",
+      "condition": "graychange_2fps_t004",
+      "n": 120
+    },
+    {
+      "model": "Frame-only",
+      "design": "fivefold",
+      "condition": "graychange_2fps_translation_registered_t002",
+      "n": 120
+    },
+    {
+      "model": "Frame-only",
+      "design": "fivefold",
+      "condition": "graychange_4fps_t002",
+      "n": 120
+    },
+    {
+      "model": "Frame-only",
+      "design": "fivefold",
+      "condition": "graychange_dedup_t002",
+      "n": 120
+    },
+    {
+      "model": "Frame-only",
+      "design": "fivefold",
+      "condition": "legacy",
+      "n": 120
+    },
+    {
+      "model": "Global-weight-fusion",
+      "design": "filename_date",
+      "condition": "graychange_4fps_t002",
+      "n": 118
+    },
+    {
+      "model": "Global-weight-fusion",
+      "design": "filename_date",
+      "condition": "legacy",
+      "n": 118
+    },
+    {
+      "model": "Global-weight-fusion",
+      "design": "fivefold",
+      "condition": "graychange_4fps_t002",
+      "n": 120
+    },
+    {
+      "model": "Global-weight-fusion",
+      "design": "fivefold",
+      "condition": "legacy",
+      "n": 120
+    },
+    {
+      "model": "Mean-image",
+      "design": "fivefold",
+      "condition": "legacy",
+      "n": 120
+    },
+    {
+      "model": "Raw-video",
+      "design": "fivefold",
+      "condition": "legacy",
+      "n": 120
+    },
+    {
+      "model": "RetinaFuse",
+      "design": "filename_date",
+      "condition": "graychange_4fps_t002",
+      "n": 118
+    },
+    {
+      "model": "RetinaFuse",
+      "design": "filename_date",
+      "condition": "legacy",
+      "n": 118
+    },
+    {
+      "model": "RetinaFuse",
+      "design": "fivefold",
+      "condition": "graychange_2fps_brightness_normalized_t002",
+      "n": 120
+    },
+    {
+      "model": "RetinaFuse",
+      "design": "fivefold",
+      "condition": "graychange_2fps_complement_mask_t002",
+      "n": 120
+    },
+    {
+      "model": "RetinaFuse",
+      "design": "fivefold",
+      "condition": "graychange_2fps_t001",
+      "n": 120
+    },
+    {
+      "model": "RetinaFuse",
+      "design": "fivefold",
+      "condition": "graychange_2fps_t002",
+      "n": 120
+    },
+    {
+      "model": "RetinaFuse",
+      "design": "fivefold",
+      "condition": "graychange_2fps_t004",
+      "n": 120
+    },
+    {
+      "model": "RetinaFuse",
+      "design": "fivefold",
+      "condition": "graychange_2fps_translation_registered_t002",
+      "n": 120
+    },
+    {
+      "model": "RetinaFuse",
+      "design": "fivefold",
+      "condition": "graychange_4fps_t002",
+      "n": 120
+    },
+    {
+      "model": "RetinaFuse",
+      "design": "fivefold",
+      "condition": "graychange_dedup_t002",
+      "n": 120
+    },
+    {
+      "model": "RetinaFuse",
+      "design": "fivefold",
+      "condition": "legacy",
+      "n": 120
+    },
+    {
+      "model": "Single-frame",
+      "design": "fivefold",
+      "condition": "legacy",
+      "n": 120
+    },
+    {
+      "model": "Statistics-only",
+      "design": "filename_date",
+      "condition": "graychange_4fps_t002",
+      "n": 118
+    },
+    {
+      "model": "Statistics-only",
+      "design": "filename_date",
+      "condition": "legacy",
+      "n": 118
+    },
+    {
+      "model": "Statistics-only",
+      "design": "fivefold",
+      "condition": "graychange_4fps_t002",
+      "n": 120
+    },
+    {
+      "model": "Statistics-only",
+      "design": "fivefold",
+      "condition": "legacy",
+      "n": 120
+    },
+    {
+      "model": "Unordered-frames",
+      "design": "fivefold",
+      "condition": "legacy",
+      "n": 120
+    }
+  ]
+}

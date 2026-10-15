@@ -1,0 +1,32 @@
+{
+  "repository": "taotao9029/OCTA_Segment-set-attention",
+  "head_commit": "7f3855eef6117519e75f2742c86dbde966baa0f2",
+  "file_changing_commits": [
+    {
+      "commit": "95e0034186192c3dcab3ed4a63d31fae33ace7ba",
+      "date": "2026-08-27T02:42:50Z",
+      "message": "add attention project",
+      "sha256": "c661d59d8dafa0508517aba34c44ff0a9527645741147c61932c45ecd1f75ae6",
+      "settings": {
+        "SAMPLE_FPS": 2.0,
+        "MAX_SAMPLE_FRAMES": 120,
+        "THETA": 0.02,
+        "USE_LOG_RELATIVE_CHANGE": true,
+        "EPS": 1e-06,
+        "MAX_EVENTS": 2000000
+      },
+      "frame_clock_expression": "current_t = frame_index / fps",
+      "url": "https://github.com/taotao9029/OCTA_Segment-set-attention/blob/95e0034186192c3dcab3ed4a63d31fae33ace7ba/Video2Events.py"
+    }
+  ],
+  "history_query_limit": 100,
+  "history_exhausted": true,
+  "head_file_sha256": "c661d59d8dafa0508517aba34c44ff0a9527645741147c61932c45ecd1f75ae6",
+  "audited_legacy_records": 120,
+  "records_off_phase_zero_2fps_grid": 62,
+  "legacy_event_count_min": 18312,
+  "legacy_event_count_max": 1897967,
+  "status": "SOURCE_PINNED_ACTUAL_GENERATION_UNCONFIRMED",
+  "conclusion": "Public defaults and timestamp mapping do not reproduce the off-0.5-second timestamps in the stored legacy CSVs. A modified configuration or different converter may have been used. Repository identity alone does not establish actual generation provenance. The event cap can truncate duration but cannot create off-grid timestamps.",
+  "scope": "Read-only repository/version verification; no training inputs changed."
+}

@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+benchmark/vendor/*.py
+benchmark/data/
+benchmark/runs/
+benchmark/logs/
+*.pt
+*.avi
+*.docx
+*.zip
+~$*

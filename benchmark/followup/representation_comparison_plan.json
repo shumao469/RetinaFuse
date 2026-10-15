@@ -1,0 +1,19 @@
+{
+  "scope": "Additional descriptive paired analyses for the already fixed training queue",
+  "training_changes": false,
+  "selection_basis": "Required static/video and acquisition/decoding questions; specified before any complete five-fold model-seed series",
+  "design": "fivefold",
+  "reference_event_condition": "graychange_2fps_t002",
+  "full_export_event_condition": "graychange_4fps_t002",
+  "raw_video_comparators": ["Single-frame", "Mean-image", "Unordered-frames", "Frame-difference-video"],
+  "full_export_retinafuse_comparators": ["Single-frame", "Mean-image", "Unordered-frames", "Raw-video", "Frame-difference-video"],
+  "decoder_models": ["RetinaFuse", "Frame-only"],
+  "bootstrap_resamples": 5000,
+  "bootstrap_seed": 20261013,
+  "endpoints": ["auroc", "brier"],
+  "difference_direction": "first named pipeline minus second named pipeline",
+  "interval": "95% descriptive pointwise percentile interval from class-stratified paired source-recording bootstrap",
+  "multiplicity": "These secondary intervals are not simultaneous family-wise evidence and do not replace the frozen primary comparison family",
+  "unit": "Unique source recording; seed and checkpoint are not independent biological samples",
+  "interpretation": "Pipeline comparisons, not isolated causal effects of temporal information: architectures, retained frame budgets and preprocessing can differ. Both full-export event and raw-image baselines originate from the same AVI cohort. Legacy event timestamps are not used to claim matched physical duration."
+}

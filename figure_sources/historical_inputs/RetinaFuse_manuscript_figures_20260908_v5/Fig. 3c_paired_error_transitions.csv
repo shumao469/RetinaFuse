@@ -1,0 +1,6 @@
+﻿comparator,corrected_by_fusion,introduced_by_fusion,both_correct,both_wrong,mcnemar_exact_p
+Frame-only,7,2,109,10,0.1796875
+Statistics-only,33,6,83,6,1.429926123819314e-05
+RF ensemble,31,7,85,5,0.0001161670079454
+Set attention,39,9,77,3,1.5221826110689564e-05
+SNN V1,16,10,100,2,0.326939582824707

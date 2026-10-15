@@ -1,0 +1,43 @@
+design,condition,comparator,metric,delta,ci99_low,ci99_high,finding
+filename_date,graychange_4fps_t002,Frame-only,auroc,-0.0689655172413793,-0.1871387059279348,0.0193742735373887,interval includes zero
+filename_date,graychange_4fps_t002,Frame-only,brier,0.0339800747879714,-0.0009895114038938,0.0725860202939192,interval includes zero
+filename_date,graychange_4fps_t002,Global-weight-fusion,auroc,-0.0286710577295621,-0.0751646648585819,0.0065865943432777,interval includes zero
+filename_date,graychange_4fps_t002,Global-weight-fusion,brier,0.0239574927666293,0.0022824735983125,0.0468304621494886,unfavourable interval
+filename_date,graychange_4fps_t002,Concat-fusion,auroc,-0.0185974428516079,-0.0472704378148004,0.0073614877954281,interval includes zero
+filename_date,graychange_4fps_t002,Concat-fusion,brier,0.0079512150446971,-0.0093115713035264,0.0238607987398848,interval includes zero
+filename_date,legacy,Frame-only,auroc,-0.0197597830298334,-0.0747772181325067,0.0340953118946145,interval includes zero
+filename_date,legacy,Frame-only,brier,0.0155669458090857,-0.0035037618367515,0.0375989944090427,interval includes zero
+filename_date,legacy,Global-weight-fusion,auroc,0.0027121270825261,-0.0356470360325455,0.0375842696629214,interval includes zero
+filename_date,legacy,Global-weight-fusion,brier,0.0337520224333557,0.0170866139702935,0.0512009405411977,unfavourable interval
+filename_date,legacy,Concat-fusion,auroc,-0.002324680356451,-0.0325455249903137,0.0278981015110422,interval includes zero
+filename_date,legacy,Concat-fusion,brier,0.0088262692206542,-0.0063098028100713,0.0226906768060644,interval includes zero
+fivefold,graychange_2fps_brightness_normalized_t002,Frame-only,auroc,0.0039869517941283,-0.0268213120695904,0.0308100761145343,interval includes zero
+fivefold,graychange_2fps_brightness_normalized_t002,Frame-only,brier,0.0005143031149927,-0.019186646782714,0.0187593542657063,interval includes zero
+fivefold,graychange_2fps_complement_mask_t002,Frame-only,auroc,0.0061616527727437,-0.0366110909749909,0.0503823849220731,interval includes zero
+fivefold,graychange_2fps_complement_mask_t002,Frame-only,brier,-0.005214301407808,-0.0277944075317178,0.017431478962803,interval includes zero
+fivefold,graychange_2fps_t001,Frame-only,auroc,-0.0003624501631026,-0.0213863718738673,0.0199365712214571,interval includes zero
+fivefold,graychange_2fps_t001,Frame-only,brier,0.0049034745891856,-0.0117538888105372,0.0207508691918794,interval includes zero
+fivefold,graychange_2fps_t002,Frame-only,auroc,-0.0036245016310256,-0.0311725262776367,0.0195723088075389,interval includes zero
+fivefold,graychange_2fps_t002,Frame-only,brier,0.0065709636853604,-0.0121203864684351,0.0234167782528842,interval includes zero
+fivefold,graychange_2fps_t004,Frame-only,auroc,-0.0010873504893077,-0.0358825661471546,0.0340721275824575,interval includes zero
+fivefold,graychange_2fps_t004,Frame-only,brier,0.0081603044936899,-0.0121055117143892,0.0281537842525095,interval includes zero
+fivefold,graychange_2fps_translation_registered_t002,Frame-only,auroc,0.0420442189198985,0.0039851395433127,0.1007611453425152,favourable interval
+fivefold,graychange_2fps_translation_registered_t002,Frame-only,brier,-0.0294668579552678,-0.0549473739698195,-0.0071759747536263,favourable interval
+fivefold,graychange_4fps_t002,Frame-only,auroc,0.022109459949257,-0.0094255164914824,0.0619807901413555,interval includes zero
+fivefold,graychange_4fps_t002,Frame-only,brier,-0.0129622764977243,-0.0379207889761218,0.0091281208016337,interval includes zero
+fivefold,graychange_4fps_t002,Global-weight-fusion,auroc,0.0144980065241028,-0.0036245016310256,0.0391464298658935,interval includes zero
+fivefold,graychange_4fps_t002,Global-weight-fusion,brier,-0.0105800327214469,-0.0295724023060971,0.0061772583108514,interval includes zero
+fivefold,graychange_4fps_t002,Concat-fusion,auroc,0.0039869517941283,-0.017399420079739,0.0246484233417906,interval includes zero
+fivefold,graychange_4fps_t002,Concat-fusion,brier,0.0017023509578432,-0.016043980283834,0.0196855646468982,interval includes zero
+fivefold,graychange_dedup_t002,Frame-only,auroc,0.022109459949257,-0.0094255164914824,0.0619807901413555,interval includes zero
+fivefold,graychange_dedup_t002,Frame-only,brier,-0.0129622764977243,-0.0379207889761218,0.0091281208016337,interval includes zero
+fivefold,legacy,Frame-only,auroc,0.0308082638637188,-0.0057992026096411,0.0833653497644074,interval includes zero
+fivefold,legacy,Frame-only,brier,-0.0020841382647065,-0.032840883159277,0.0270003803799337,interval includes zero
+fivefold,legacy,Global-weight-fusion,auroc,0.0231968104385648,-0.0036245016310256,0.0627056904675607,interval includes zero
+fivefold,legacy,Global-weight-fusion,brier,-0.0110821616070246,-0.0305143174002787,0.0063412514761958,interval includes zero
+fivefold,legacy,Concat-fusion,auroc,0.0166727075027184,-0.0126875679594056,0.0703153316418991,interval includes zero
+fivefold,legacy,Concat-fusion,brier,0.0089279508509784,-0.0118146468620433,0.0286283423959981,interval includes zero
+fivefold,legacy,Unordered-frames,auroc,0.0018122508155129,-0.0550924247915911,0.0572707502718377,interval includes zero
+fivefold,legacy,Unordered-frames,brier,-0.0299768395376761,-0.0690165858281523,0.0109752932940212,interval includes zero
+fivefold,legacy,Raw-video,auroc,0.0188474084813339,-0.0663301920985864,0.1239688292859733,interval includes zero
+fivefold,legacy,Raw-video,brier,-0.0078965270787426,-0.0583867029689254,0.037432665343741,interval includes zero

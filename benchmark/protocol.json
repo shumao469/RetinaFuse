@@ -1,0 +1,84 @@
+{
+  "study_id": "RetinaFuse_NCS_training_20261013",
+  "event_root": "data/events",
+  "video_root": "data/videos",
+  "rename_manifest": "data/events/copy_manifest.csv",
+  "legacy_split": "data/legacy_split_manifest.csv",
+  "legacy_groups": "data/legacy_group_manifest.csv",
+  "company_source": "benchmark/vendor/retinafuse_core.py",
+  "seeds": [
+    42,
+    1042,
+    2042
+  ],
+  "gpu": 0,
+  "cpu_threads": 4,
+  "batch_size": 8,
+  "max_epochs": 120,
+  "patience": 15,
+  "warmup_epochs": 10,
+  "learning_rate": 0.0002,
+  "weight_decay": 0.001,
+  "focal_gamma": 1.5,
+  "focal_alpha": [
+    0.55,
+    0.45
+  ],
+  "checkpoint_ensemble": 3,
+  "inner_folds": 5,
+  "mixed_precision": false,
+  "outer_test_adaptation": false,
+  "external_cohort": null,
+  "bootstrap_resamples": 5000,
+  "models": [
+    "RetinaFuse",
+    "Frame-only",
+    "Statistics-only",
+    "Equal-fusion",
+    "Global-weight-fusion",
+    "Concat-fusion",
+    "Single-frame",
+    "Mean-image",
+    "Unordered-frames",
+    "Raw-video",
+    "Frame-difference-video"
+  ],
+  "group_models": [
+    "RetinaFuse",
+    "Frame-only",
+    "Statistics-only",
+    "Equal-fusion",
+    "Global-weight-fusion",
+    "Concat-fusion"
+  ],
+  "decoder_conditions": [
+    "graychange_2fps_t002",
+    "graychange_4fps_t002",
+    "graychange_dedup_t002",
+    "graychange_2fps_t001",
+    "graychange_2fps_t004",
+    "graychange_2fps_brightness_normalized_t002",
+    "graychange_2fps_translation_registered_t002",
+    "graychange_2fps_complement_mask_t002"
+  ],
+  "decoder_event_cap": null,
+  "raw_frame_controls": "native-resolution decoding; fixed first-frame vascular mask; brightness normalized to first-frame median; translation estimated per-recording at 64x64 and applied to native grayscale; complement-mask control is outside estimated vessel mask, not known nonvascular tissue",
+  "decoder_models": [
+    "RetinaFuse",
+    "Frame-only"
+  ],
+  "primary_analysis": "120 unique source recordings after exact AVI and event-content deduplication (89 MCAO, 31 healthy); keep all 128 identities in audit/crosswalk; no offline augmented test copies",
+  "cohort_correction": "8 identical AVI/event pairs all cross legacy outer folds; rebuild shared nested source-family splits before training; do not reuse leaked historical scores as new independent-animal benchmarks",
+  "expected_primary_n": 120,
+  "primary_seed_summary": "average held-out seed probabilities per animal with averaged training-selected fold thresholds; also report every seed separately",
+  "selection_rule": "inner balanced accuracy; no architecture selection using outer-test results",
+  "decision_rule": "Report all prespecified comparisons including negative findings. Evidence of gain requires paired animal-bootstrap CI excluding zero for the named metric; no automated journal-readiness or acceptance certification.",
+  "completion_rule": "Finish the finite prespecified queue, verify manifests and prediction lineage, and report passed, inconclusive or failed comparisons. Do not keep changing models or resampling until a positive outer-test result appears.",
+  "missing_metadata": [
+    "shared acquisition session",
+    "operator",
+    "device",
+    "independent external animals",
+    "same-animal scientific reference measurements"
+  ]
+}
