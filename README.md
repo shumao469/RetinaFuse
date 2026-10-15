@@ -104,6 +104,12 @@ Repeat the five outer folds and three fixed seeds for every prespecified model, 
 
 Checkpoint files are omitted to avoid large binary Git history. Published hashes and training entry points document the results, but a hash is not a substitute for the checkpoint file. Re-inference of the original fitted networks requires the corresponding author-provided checkpoint bundles.
 
+## Exact descriptor SHAP
+
+The full fitted RetinaFuse network can be explained with exact, finite-background Shapley enumeration while retaining the observed event-volume input. The analysis recomputes the descriptor encoder, gate and classifier for each descriptor coalition, rather than explaining a surrogate model. Individual-feature and joint-family attributions, source-family bootstrap intervals and local additive decompositions are exported with panel-resolved source tables. The figure mapping follows the revised Fig. 2g,h and the supplementary descriptor-attribution panels.
+
+See [descriptor SHAP methods and reproduction](docs/DESCRIPTOR_SHAP.md) for input formats, configuration, commands, interpretation boundaries and editable-text SVG/vector-PDF output. This explains the archived original-recording functional analysis and must not be substituted for the multiview benchmark or source-disjoint performance estimates. Positive SHAP values increase the predicted MCAO probability relative to donor substitutions with the same event input; they do not identify blood-flow direction or physiological causation.
+
 ## Input geometry and figure display
 
 The reported static/video controls used direct full-frame resizing from 1,936 × 1,216 to 64 × 64. That changes spatial aspect ratio. Fig. 5b now uses **aspect-preserving, padded illustrations only**; its displayed arrays are not substituted into the frozen models, and the probabilities remain those of the original training tensors. The actual cached tensors and the display transform are kept separate in the figure source data. No letterbox-trained performance is claimed. See `docs/INPUT_GEOMETRY.md`.

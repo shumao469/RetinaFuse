@@ -1,0 +1,20 @@
+{
+  "model_source": "../vendor/retinafuse_core.py",
+  "model_source_sha256": "34f0bd0d1c2f60788b0ae0dd181f9eb958f39cb7bfdd603e67159ca3790366b8",
+  "checkpoint_root": "../../local_inputs/archived_retinafuse",
+  "checkpoint_pattern": "output/full/outer_fold_{fold}/outer_final_train/final_model_bundle.pt",
+  "checkpoint_manifest": "../../local_inputs/matched_bundle_manifest.csv",
+  "predictions": "../../local_inputs/matched_original_predictions.csv",
+  "input_cache": "../../local_inputs/original_input_cache.npz",
+  "embedding_cache": "../../local_inputs/heldout_embeddings.npz",
+  "lineage": "../../data/manifests/all_128_record_manifest.csv",
+  "output_dir": "../../local_outputs/descriptor_shap",
+  "device": "cpu",
+  "cpu_threads": 6,
+  "seed": 20261015,
+  "healthy_donors": 4,
+  "mcao_donors": 12,
+  "coalition_batch": 256,
+  "prediction_tolerance": 0.000003,
+  "embedding_tolerance": 0.0003
+}

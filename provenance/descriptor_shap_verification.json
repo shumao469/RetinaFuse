@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "exact_individual_attribution_max_error": 9.974659986866641e-17,
+  "exact_group_attribution_max_error": 9.974659986866641e-17,
+  "cpu_coalition_replay_max_error": 5.960464477539063e-08,
+  "cluster_summary_max_error": 8.673617379884035e-19,
+  "donor_selection": "matches archived training-only donor identities",
+  "plotting": "SVG and PDF smoke test passed",
+  "device": "CPU only",
+  "scope": "archived original-recording explanation; no model retraining or performance update"
+}

@@ -10,3 +10,6 @@ benchmark/logs/
 *.docx
 *.zip
 ~$*
+local_inputs/
+local_outputs/
+benchmark/explain/config.local.json
