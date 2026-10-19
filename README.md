@@ -8,11 +8,7 @@ The recordings are **fundus videos**. Events encode changes in grayscale intensi
 
 ## Model and scientific comparisons
 
-RetinaFuse encodes a two-polarity, 60-bin event volume with a 3D CNN and a Transformer. A parallel MLP encodes twelve recording-level descriptors. Both embeddings have 256 dimensions. For frame and statistics embeddings $h_f$ and $h_s$,
-
-$$\alpha=\operatorname{softmax}(g([h_f;h_s])),\qquad z=\alpha_fh_f+\alpha_sh_s,$$
-
-and a shared-dimensional classification head maps $z$ to $P(\mathrm{MCAO})$. The gate coefficients describe computational allocation, not fractions of physiological information.
+RetinaFuse encodes a two-polarity, 60-bin event volume with a 3D CNN and a Transformer. A parallel MLP encodes twelve recording-level descriptors. Both embeddings have 256 dimensions. The gate coefficients describe computational allocation, not fractions of physiological information.
 
 | Manuscript model | Input and computation | Comparison addressed |
 |---|---|---|
