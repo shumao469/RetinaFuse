@@ -2,11 +2,9 @@
 
 RetinaFuse integrates a learned spatiotemporal event representation and recording-level event statistics for experimental ischaemic stroke phenotyping from conventional, contrast-agent-free retinal fundus videos.
 
-The recordings are **fundus videos, not OCT angiography**. Events encode changes in grayscale intensity computed from video frames. Their signs do not denote blood-flow direction, and they are not native event-camera measurements.
+The recordings are **fundus videos**. Events encode changes in grayscale intensity computed from video frames.
 
 <img src="docs/assets/health_002.png" width="360" alt="Native healthy reference fundus frame"/> <img src="docs/assets/stroke_002.png" width="360" alt="Native MCAO reference fundus frame"/>
-
-Native frames from the fixed examples `health_002` and `stroke_002`, at 25 s. The images retain the exported 1,936 × 1,216 aspect ratio. These RGB references are not the 64 × 64 tensors received by the networks.
 
 ## Model and scientific comparisons
 
@@ -88,8 +86,8 @@ The script independently recomputes all released seed-ensemble AUROC, AP, Brier 
 
 ## Reproduce model training and inference
 
-1. Obtain the original AVI/event dataset through the manuscript Data availability statement. Raw videos and checkpoints are **not embedded in this Git repository**. Keep the original identity and content-hash mapping. Do not treat frame crops, repeated files, seeds or checkpoints as independent animals.
-2. Inspect `environment-lock.txt` and `provenance/runtime.json`. The recorded environment used Python 3.13.7, PyTorch 2.10.0.dev20251206+cu128, CUDA 12.8 and an RTX 5090. The lock is the actual snapshot. Availability of that historical nightly wheel is not guaranteed; if using another compatible PyTorch/CUDA build, record it as a different runtime rather than claiming bitwise identity.
+1. Obtain the original AVI/event dataset through the manuscript Data availability statement. 
+2. Inspect `environment-lock.txt` and `provenance/runtime.json`. The recorded environment used Python 3.13.7, PyTorch 2.10.0.dev20251206+cu128, CUDA 12.8 and an RTX 5090. The lock is the actual snapshot. Availability of that historical nightly wheel is not guaranteed; if using another compatible PyTorch/CUDA build, record it as a different runtime.
 3. Install the compute dependencies in `requirements-compute.txt`, plus a compatible PyTorch build. Run `python scripts/fetch_sources.py`. This checks out the pinned components and obtains the exact upstream model/mask files by Git blob, verifying their SHA-256 hashes. It does not relicense the upstream code.
 4. To reuse prepared inputs, create a **new** working directory with the supplied `data/animal_manifest.csv`, `data/split_manifest.csv`, cached per-source NPZ files and decoder NPZ files. `python scripts/prepare_workdir.py --workdir /path/to/new_run --cached-data /path/to/prepared/data` copies those prepared inputs and writes a portable protocol. This may copy substantial data; it never edits the original run.
 5. Run one predefined outer task, for example:
@@ -98,24 +96,16 @@ The script independently recomputes all released seed-ensemble AUROC, AP, Brier 
 python scripts/run_task.py --workdir /path/to/new_run --model RetinaFuse --condition graychange_4fps_t002 --fold 1 --seed 42
 ```
 
-Repeat the five outer folds and three fixed seeds for every prespecified model, rather than selecting a preferred seed or split. The task runner uses five inner folds, training-partition standardization, inner-OOF balanced-accuracy threshold selection and a median inner-selected epoch count. It averages final checkpoint logits within each seed. The analysis then averages seed probabilities per source. **Training requires CUDA**; numerical table verification does not.
+Repeat the five outer folds and three fixed seeds for every prespecified model. The task runner uses five inner folds, training-partition standardization, inner-OOF balanced-accuracy threshold selection and a median inner-selected epoch count. It averages final checkpoint logits within each seed. The analysis then averages seed probabilities per source. **Training requires CUDA**; numerical table verification does not.
 
 6. Run `python benchmark/code/analyze.py` with `RETINAFUSE_WORKDIR` pointing to the new run, then the paired-comparison and gate-control entry points documented in `docs/TRAINING_METHODS.md`. Frozen-clean means each checkpoint retains its own clean-input gate for the same source; “equal” replaces the gate by 0.5/0.5 without retraining.
 
-Checkpoint files are omitted to avoid large binary Git history. Published hashes and training entry points document the results, but a hash is not a substitute for the checkpoint file. Re-inference of the original fitted networks requires the corresponding author-provided checkpoint bundles.
-
 ## Exact descriptor SHAP
 
-The full fitted RetinaFuse network can be explained with exact, finite-background Shapley enumeration while retaining the observed event-volume input. The analysis recomputes the descriptor encoder, gate and classifier for each descriptor coalition, rather than explaining a surrogate model. Individual-feature and joint-family attributions, source-family bootstrap intervals and local additive decompositions are exported with panel-resolved source tables. The figure mapping follows the revised Fig. 2g,h and the supplementary descriptor-attribution panels.
+The full fitted RetinaFuse network can be explained with exact, finite-background Shapley enumeration while retaining the observed event-volume input. The analysis recomputes the descriptor encoder, gate and classifier for each descriptor coalition, rather than explaining a surrogate model. 
 
-See [descriptor SHAP methods and reproduction](docs/DESCRIPTOR_SHAP.md) for input formats, configuration, commands, interpretation boundaries and editable-text SVG/vector-PDF output. This explains the archived original-recording functional analysis and must not be substituted for the multiview benchmark or source-disjoint performance estimates. Positive SHAP values increase the predicted MCAO probability relative to donor substitutions with the same event input; they do not identify blood-flow direction or physiological causation.
-
-## Input geometry and figure display
-
-The reported static/video controls used direct full-frame resizing from 1,936 × 1,216 to 64 × 64. That changes spatial aspect ratio. Fig. 5b now uses **aspect-preserving, padded illustrations only**; its displayed arrays are not substituted into the frozen models, and the probabilities remain those of the original training tensors. The actual cached tensors and the display transform are kept separate in the figure source data. No letterbox-trained performance is claimed. See `docs/INPUT_GEOMETRY.md`.
+See [descriptor SHAP methods and reproduction](docs/DESCRIPTOR_SHAP.md) for input formats, configuration, commands, interpretation boundaries and editable-text SVG/vector-PDF output.
 
 ## Attribution, scope and rights
 
-Gate weights describe fitted computations. Event-space CAMs are sensitivity maps, not direct perfusion or pathological-vessel measurements. Deletion and parameter-randomization results belong to the archived fitted-network analysis unless explicitly marked as corrected-cohort results.
-
-The upstream projects retain their original rights and are incorporated by pinned gitlinks. See [rights](RIGHTS.md) and [source provenance](provenance/upstream_sources.json). Use the manuscript model names in the table above. This research code does not authorize clinical use.
+The upstream projects retain original rights and are incorporated by pinned gitlinks. See [rights](RIGHTS.md) and [source provenance](provenance/upstream_sources.json). 
