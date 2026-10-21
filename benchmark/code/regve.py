@@ -1,4 +1,9 @@
-"""Reconstruct native-resolution grayscale-change events with actual video times and a label-blind first-frame vascular mask."""
+"""Retinal grayscale-variation event encoding (ReGVE).
+
+Native-resolution, signed log-intensity changes within estimated retinal vascular
+support produce a polarity-resolved event volume and twelve linked descriptors.
+Renamed from decoder.py; numerical conversion and cache contracts are unchanged.
+"""
 from pathlib import Path
 import importlib.util,shutil
 import cv2,numpy as np,pandas as pd

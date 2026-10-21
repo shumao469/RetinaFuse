@@ -6,6 +6,9 @@ Archived development predictions, the source-disjoint nested benchmark and the g
 
 ## Inputs
 
+Retinal grayscale-variation event encoding (**ReGVE**) is implemented in [benchmark/code/regve.py](../benchmark/code/regve.py), renamed from decoder.py without changing the encoding algorithm or existing cache identifiers.
+
+
 The full-export condition `graychange_4fps_t002` decodes native-resolution fundus frames at the confirmed 4-fps export rate. Grayscale intensities are divided by 255 before adding a log-intensity offset of 1e-6. Successive log-intensity changes above +0.02 or below −0.02 generate positive or negative events within estimated first-frame vascular support. Timestamps use original frame indices divided by four. Simultaneous events do not add independent temporal resolution. No event/frame cap truncates this condition. Sixty normalized bins form the two-polarity 64 × 64 event volume; the parallel input contains twelve event descriptors.
 
 The static/video controls directly resize grayscale frames to 64 × 64. Single-frame takes the midpoint. Mean-image uses ECC translation registration to the first resized frame (35 iterations, epsilon 1e-4, reflected boundaries); failed registration retains the unregistered frame. Unordered-frames averages independently encoded frame embeddings. Raw-video encodes sixty uniformly selected frames in order. Frame-difference-video takes signed differences of those frames with a zero first bin. These compare complete pipelines, not an isolated causal effect of temporal ordering. Display-only padding is described in [input geometry](INPUT_GEOMETRY.md).

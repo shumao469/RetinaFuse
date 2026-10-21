@@ -19,7 +19,7 @@ def digest(path):
 
 def main():
     vendor = ROOT / 'vendor/retinafuse_core.py'
-    decoder = ROOT / 'code/decoder.py'
+    decoder = ROOT / 'code/regve.py'
     env = dict(np=np, ORIG_H=1216, ORIG_W=1936, IMG_H=64, IMG_W=64,
                TIME_WINDOW=.02, SEQ_LEN=60)
     functions(vendor, {'build_event_frames', 'extract_stat_features'}, env)

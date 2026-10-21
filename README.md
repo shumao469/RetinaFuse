@@ -2,13 +2,80 @@
 
 RetinaFuse integrates a learned spatiotemporal event representation and recording-level event statistics for ischaemic stroke phenotyping from contrast-agent-free retinal fundus videos.
 
-The recordings are **fundus videos**. Events encode changes in grayscale intensity computed from video frames.
+The framework connects **retinal grayscale-variation event encoding (ReGVE)** with adaptive fusion of spatial-sequential and recording-level information. ReGVE preserves signed intensity-change events, their coordinates and frame-index times, and supplies both inputs to RetinaFuse.
 
 <img src="docs/assets/health_002.png" width="360" alt="Native healthy reference fundus frame"/> <img src="docs/assets/stroke_002.png" width="360" alt="Native MCAO reference fundus frame"/>
 
 ![RetinaFuse architecture](docs/assets/retinafuse_architecture.svg)
 
 *Architecture schematic verified against the pinned model source*
+
+## ReGVE: retinal grayscale-variation event encoding
+
+**ReGVE is the representation-building stage that connects conventional fundus video to RetinaFuse.** It converts signed retinal grayscale changes into one event table, from which both the polarity-resolved event volume and twelve recording-level descriptors are derived. This linked representation exposes detailed spatial-sequential arrangement and global distributions to two complementary encoders.
+
+### Method and implementation
+
+The main implementation is **[benchmark/code/regve.py](benchmark/code/regve.py)**, renamed from decoder.py. The numerical encoding algorithm, condition identifiers and cache format are unchanged.
+
+1. Decode the native-resolution fundus video. The full-export condition uses the confirmed 4 fps rate.
+2. Estimate vascular support from the first frame using the pinned segmentation implementation.
+3. Normalize grayscale intensity by 255 and compute consecutive signed log-intensity changes within that support.
+4. Retain positive and negative threshold crossings with their native pixel coordinates and original frame-index timestamps.
+5. Build a 60-bin, two-polarity 64×64 event volume and the twelve recording-level descriptors from the same retained events.
+
+```text
+L_k(x,y) = log(I_k(x,y)/255 + 1e-6)
+ΔL_k(x,y) = L_k(x,y) − L_previous(x,y)
+
+Within estimated vascular support:
+  ΔL > +θ  → event (t_k, x, y, +1)
+  ΔL < −θ  → event (t_k, x, y, −1)
+
+Default full-export setting:
+  θ = 0.02; t_k = original_frame_index / 4
+  no frame/event cap
+```
+
+Events are stably sorted by timestamp, retaining the implemented within-frame polarity order. Shared timestamps retain the video acquisition clock. The event volume represents normalized temporal bins; event timestamps do not imply finer acquisition resolution.
+
+| Function / stage | Location | Role |
+|---|---|---|
+| `convert(...)` | [regve.py](benchmark/code/regve.py) | Frame selection, optional duplicate removal, signed thresholding, mask support, event timestamps and coordinates |
+| `main()` | [regve.py](benchmark/code/regve.py) | Dataset-level conversion, controlled encoding variants, NPZ caches and metadata |
+| Vascular support | `benchmark/vendor/seg.py`, fetched by [fetch_sources.py](scripts/fetch_sources.py) | First-frame support estimation |
+| Event-volume construction | `build_event_frames` in pinned `benchmark/vendor/retinafuse_core.py` | Spatial binning and polarity-resolved temporal accumulation |
+| Descriptor extraction | `extract_stat_features` in the same pinned source | Twelve descriptors in fixed order |
+| Encoding contracts | [test_decoder_contract.py](benchmark/audit_tools/test_decoder_contract.py) | Synthetic checks of timing, polarity, mask, threshold and count conservation |
+
+ReGVE retains the existing `graychange_4fps_t002` condition key and `data/decoder/` cache directory for compatibility with released predictions and checkpoints. “Decoder” in historical metadata refers to this event-encoding pipeline.
+
+### Why this representation matters
+
+A single fundus frame captures appearance at one instant. ReGVE makes changes across the recording accessible through signed events while keeping local arrangement and recording-level summaries connected. It is the common input-generation step for the event-volume and descriptor branches, rather than an interchangeable display operation.
+
+In the released source-disjoint nested five-fold comparison on 120 unique sources, ReGVE + RetinaFuse achieved AUROC **0.975**, AP **0.992**, and Brier **0.066**. The Single-frame control achieved AUROC 0.896 and Brier 0.189; registered Mean-image achieved AUROC 0.951 and Brier 0.154. RetinaFuse reduced Brier relative to Mean-image by 0.088 (paired 95% interval, 0.056–0.119).
+
+For context, Raw-video, Frame-difference-video and Unordered-frames achieved AUROCs 0.945, 0.906 and 0.962, respectively. These results motivate the explicit representation comparison: the strongest reported AUROC comes from the complete ReGVE–RetinaFuse pipeline. They compare trained pipelines, rather than proving that every architecture requires ReGVE to exceed a single-frame baseline.
+
+Numerical sources: [released metrics](results/corrected/seed_ensemble_metrics.csv) and [paired comparisons](results/corrected/paired_comparisons.csv).
+
+### Running ReGVE in a prepared study work directory
+
+After fetching the pinned sources and preparing the study manifests, videos and protocol paths, set `RETINAFUSE_WORKDIR` and run:
+
+```bash
+python benchmark/code/regve.py
+```
+
+When using the runnable code copied by prepare_workdir.py:
+
+```bash
+python /path/to/new_run/code/regve.py
+```
+
+The entry point reads the work directory's protocol and animal manifest. It creates per-source NPZ/JSON files in `data/decoder/`, with condition-specific `<condition>_events` and `<condition>_stats` arrays, plus `audit/decoder_manifest.csv`. It also implements sampling-rate, threshold, duplicate-removal, brightness-normalization, translation-registration and complement-mask controls.
+
 
 ## Model and scientific comparisons
 
@@ -84,6 +151,25 @@ Repeat the five outer folds and three fixed seeds for every prespecified model. 
 
 The full fitted RetinaFuse network can be explained with exact, finite-background Shapley enumeration while retaining the observed event-volume input. The analysis recomputes the descriptor encoder, gate and classifier for each descriptor coalition, rather than explaining a surrogate model. 
 
+| Code | Model index | SHAP feature key | Descriptor | ReGVE definition | Family |
+|---|---:|---|---|---|---|
+| 01 | 0 | `total_events` | Total event count | Number of retained events N | Abundance / polarity |
+| 02 | 1 | `positive_events` | Positive events | Count of p > 0 | Abundance / polarity |
+| 03 | 2 | `negative_events` | Negative events | Count of p < 0 | Abundance / polarity |
+| 04 | 3 | `positive_fraction` | Positive fraction | Positive count / N | Abundance / polarity |
+| 05 | 4 | `mean_interval` | Mean event interval | Mean of consecutive timestamp differences | Timestamp intervals |
+| 06 | 5 | `interval_sd` | Interval SD | Population SD of consecutive timestamp differences | Timestamp intervals |
+| 07 | 6 | `maximum_interval` | Maximum interval | Maximum consecutive timestamp difference | Timestamp intervals |
+| 08 | 7 | `mean_x` | Mean horizontal coordinate | Mean event x coordinate | Spatial distribution |
+| 09 | 8 | `sd_x` | Horizontal-coordinate SD | Population SD of event x coordinates | Spatial distribution |
+| 10 | 9 | `mean_y` | Mean vertical coordinate | Mean event y coordinate | Spatial distribution |
+| 11 | 10 | `sd_y` | Vertical-coordinate SD | Population SD of event y coordinates | Spatial distribution |
+| 12 | 11 | `polarity_switches` | Polarity switches | Count of consecutive polarity changes with abs(diff(p)) > 1.1 | Polarity switching |
+
+Codes **01–12** are the plotting codes exported by the SHAP summary, while model indices **0–11** are zero-based array positions. This is model input order, not an importance ranking. The keys exactly match `FEATURES` in [exact_shap.py](benchmark/explain/exact_shap.py).
+
+Positive SHAP values raise the fitted MCAO probability; negative values lower it. The event-volume input remains fixed while descriptor coalitions are evaluated, with the descriptor encoder, gate and classifier recomputed. Exact enumeration uses all 4,096 coalitions; family-level attribution uses the corresponding 16 grouped coalitions.
+
 See [descriptor SHAP methods and reproduction](docs/DESCRIPTOR_SHAP.md) for input formats, configuration, commands, interpretation boundaries and editable-text SVG/vector-PDF output.
 
 ## Detailed architecture and feature definitions
@@ -113,20 +199,7 @@ logits = classifier(h_fused)
 
 Concatenation is used to compute the gate; **the final RetinaFuse fusion is weighted addition**. Both branches describe the same recording. They are complementary representations rather than independent imaging modalities.
 
-The twelve descriptor inputs, in model order, are:
-
-1. Total event count.
-2. Positive event count.
-3. Negative event count.
-4. Positive event fraction.
-5. Mean consecutive event interval.
-6. Standard deviation of consecutive intervals.
-7. Maximum consecutive interval.
-8. Mean horizontal coordinate.
-9. Horizontal-coordinate standard deviation.
-10. Mean vertical coordinate.
-11. Vertical-coordinate standard deviation.
-12. Polarity-switch count in stored event order.
+The twelve descriptors are defined in the SHAP correspondence table above. ReGVE supplies them in the same fixed order to the descriptor MLP and attribution pipeline.
 
 Training-partition means and standard deviations are applied to descriptors. Positive/negative events represent increasing/decreasing grayscale intensity, not flow direction. Timestamp intervals depend on video frame timing; many events can share a timestamp. Spatial summaries are not calibrated vessel density, and polarity switches are not cardiac frequency.
 
@@ -134,7 +207,7 @@ Training-partition means and standard deviations are applied to descriptors. Pos
 
 | Capability | Relevant implementation / documentation |
 |---|---|
-| Event reconstruction and decoder controls | [decoder.py](benchmark/code/decoder.py): full-export, sampling-rate, threshold, deduplication, brightness, translation and complement-mask conditions |
+| Event reconstruction and decoder controls | [regve.py](benchmark/code/regve.py): full-export, sampling-rate, threshold, deduplication, brightness, translation and complement-mask conditions |
 | Source identity and cohort preparation | [prepare.py](benchmark/code/prepare.py), [manifests](data/manifests): content hashes, duplicate aliases, grouped nested splits |
 | Representation and fusion models | [models.py](benchmark/code/models.py): event, descriptor, static/video and independently trained fusion controls |
 | Nested fitting and threshold selection | [train.py](benchmark/code/train.py), [protocol](benchmark/protocol.json) |
@@ -202,7 +275,7 @@ Then run the fixed task command shown above. Five outer folds and three seeds me
 
 The recorded runtime is a historical snapshot, not a portable environment installer. In particular, the recorded Python 3.13 runtime and requirements-compute.txt's NumPy 1.26.4 pin are not a guaranteed installable combination. Use an isolated compatible runtime, inspect imported dependencies, and record every substitution. Decoder/source modules additionally import packages such as OpenCV, einops and plotting utilities that are not all listed in the short compute requirements file.
 
-Raw-data preparation via benchmark/code/prepare.py and decoder.py is study-specific. It expects copy/rename lineage, legacy manifests, directory conventions and protocol paths; it is not an automatic converter for arbitrary AVI files. The documented cache route avoids presenting this as a generic raw-video quick start.
+Raw-data preparation via benchmark/code/prepare.py and regve.py is study-specific. It expects copy/rename lineage, legacy manifests, directory conventions and protocol paths; it is not an automatic converter for arbitrary AVI files. The documented cache route avoids presenting this as a generic raw-video quick start.
 
 ### Route 3: re-inference and descriptor SHAP
 
@@ -241,7 +314,7 @@ The healthy/MCAO images at the top are native-aspect reference fundus frames, no
 | Results differ from archived figures | Keep archived development, corrected source-disjoint and date-held-out analyses separate |
 | Apparently improved figure geometry | A display transform is not retraining or new inference |
 
-The corrected protocol identifies 120 unique source recordings (31 healthy, 89 MCAO) after exact-content deduplication, while retaining 128 identities for audit. These are source-accounting statements from the released protocol; unresolved acquisition metadata must not be inferred from them. No independent external clinical cohort is supplied, and the adverse acquisition-date hold-out result above remains part of the evidence.
+The corrected protocol identifies 120 unique source recordings (31 healthy, 89 MCAO) after exact-content deduplication, while retaining 128 identities for audit. These are source-accounting statements from the released protocol; unresolved acquisition metadata must not be inferred from them. Acquisition-series analyses and their full numerical results are retained in the released result tables.
 
 
 ## Attribution, scope and rights

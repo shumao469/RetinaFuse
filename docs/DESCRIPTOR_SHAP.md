@@ -41,20 +41,23 @@ $$\phi_{ij}=\sum_{S\subseteq\mathcal F\setminus\{j\}}\frac{|S|!(M-|S|-1)!}{M!}\l
 
 Here $i$ indexes the recording, $j$ the descriptor, $S$ a coalition excluding $j$, and $v_i(S)$ the donor-averaged MCAO probability with the event volume retained. Positive $\phi$ raises the MCAO probability. The baseline $v_i(\varnothing)$ depends on the same recording's retained frame input and is **not** the unconditional class prevalence. The implementation verifies baseline prediction replay and exact additivity. No test-label threshold is optimized.
 
-The twelve inputs, in model order, are:
+| Code | Model index | SHAP feature key | Descriptor | ReGVE definition | Family |
+|---|---:|---|---|---|---|
+| 01 | 0 | `total_events` | Total event count | Number of retained events N | Abundance / polarity |
+| 02 | 1 | `positive_events` | Positive events | Count of p > 0 | Abundance / polarity |
+| 03 | 2 | `negative_events` | Negative events | Count of p < 0 | Abundance / polarity |
+| 04 | 3 | `positive_fraction` | Positive fraction | Positive count / N | Abundance / polarity |
+| 05 | 4 | `mean_interval` | Mean event interval | Mean of consecutive timestamp differences | Timestamp intervals |
+| 06 | 5 | `interval_sd` | Interval SD | Population SD of consecutive timestamp differences | Timestamp intervals |
+| 07 | 6 | `maximum_interval` | Maximum interval | Maximum consecutive timestamp difference | Timestamp intervals |
+| 08 | 7 | `mean_x` | Mean horizontal coordinate | Mean event x coordinate | Spatial distribution |
+| 09 | 8 | `sd_x` | Horizontal-coordinate SD | Population SD of event x coordinates | Spatial distribution |
+| 10 | 9 | `mean_y` | Mean vertical coordinate | Mean event y coordinate | Spatial distribution |
+| 11 | 10 | `sd_y` | Vertical-coordinate SD | Population SD of event y coordinates | Spatial distribution |
+| 12 | 11 | `polarity_switches` | Polarity switches | Count of consecutive polarity changes with abs(diff(p)) > 1.1 | Polarity switching |
 
-1. Total event count
-2. Positive event count
-3. Negative event count
-4. Positive event fraction
-5. Mean consecutive event interval
-6. Standard deviation of consecutive intervals
-7. Maximum consecutive interval
-8. Mean horizontal coordinate
-9. Horizontal-coordinate standard deviation
-10. Mean vertical coordinate
-11. Vertical-coordinate standard deviation
-12. Polarity-switch count in stored event order
+Codes **01–12** are the plotting codes exported by the SHAP summary, while model indices **0–11** are zero-based array positions. This is model input order, not an importance ranking. The keys exactly match `FEATURES` in [exact_shap.py](../benchmark/explain/exact_shap.py).
+
 
 The four joint-masking families are abundance/polarity (1–4), timestamp intervals (5–7), spatial distribution (8–11), and polarity switching (12). Joint-family Shapley values come from the corresponding sixteen group coalitions. They are not generally equal to sums of individual-feature values because grouping changes the coalition game.
 

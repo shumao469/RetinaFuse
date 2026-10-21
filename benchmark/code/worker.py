@@ -64,7 +64,7 @@ def main():
                 assert json.loads(complete.read_text())['protocol_sha256']==sha(ROOT/'protocol.json'),'Completed task belongs to another protocol'
                 continue
             if job['condition']!='legacy'and not(ROOT/'data/decoder/prepared.json').exists():
-                if call('decoder.py')!=0:raise RuntimeError('Native video decoder preparation failed')
+                if call('regve.py')!=0:raise RuntimeError('Native video decoder preparation failed')
             print(f'QUEUE {index}/{len(jobs)} {job["id"]}',flush=True)
             write_json(ROOT/'progress.json',dict(total=len(jobs),done=sum((ROOT/'runs'/q['id']/'complete.json').exists()for q in jobs),current=job,state='training',updated=time.time()))
             returncode=call('train.py',['--task',json.dumps(job)],job['id']+'.log')
