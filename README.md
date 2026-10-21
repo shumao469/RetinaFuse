@@ -69,11 +69,11 @@ python /path/to/new_run/code/regve.py
 The entry point reads the work directory's protocol and animal manifest. It creates per-source NPZ/JSON files in `data/decoder/`, with condition-specific `<condition>_events` and `<condition>_stats` arrays, plus `audit/decoder_manifest.csv`. It also implements sampling-rate, threshold, duplicate-removal, brightness-normalization, translation-registration and complement-mask controls.
 
 
-## Model and scientific comparisons
+## Model and comparisons
 
 RetinaFuse encodes a two-polarity, 60-bin event volume with a 3D CNN and a Transformer. A parallel MLP encodes twelve recording-level descriptors. Both embeddings have 256 dimensions. The gate coefficients describe computational allocation.
 
-| Manuscript model | Input and computation | Comparison addressed |
+| Model | Input and computation | Comparison addressed |
 |---|---|---|
 | RetinaFuse | Event-volume CNN–Transformer and 12-descriptor MLP with an input-dependent gate | Complementary representations of one video |
 | Frame-only | The event-frame CNN–Transformer alone | Contribution of the learned event representation; **not a static-image baseline** |
