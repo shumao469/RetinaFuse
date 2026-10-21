@@ -1,6 +1,6 @@
 # RetinaFuse
 
-RetinaFuse integrates a learned spatiotemporal event representation and recording-level event statistics for experimental ischaemic stroke phenotyping from conventional, contrast-agent-free retinal fundus videos.
+RetinaFuse integrates a learned spatiotemporal event representation and recording-level event statistics for ischaemic stroke phenotyping from contrast-agent-free retinal fundus videos.
 
 The recordings are **fundus videos**. Events encode changes in grayscale intensity computed from video frames.
 
@@ -8,11 +8,11 @@ The recordings are **fundus videos**. Events encode changes in grayscale intensi
 
 ![RetinaFuse architecture](docs/assets/retinafuse_architecture.svg)
 
-*Architecture schematic verified against the pinned model source; not a performance figure.*
+*Architecture schematic verified against the pinned model source*
 
 ## Model and scientific comparisons
 
-RetinaFuse encodes a two-polarity, 60-bin event volume with a 3D CNN and a Transformer. A parallel MLP encodes twelve recording-level descriptors. Both embeddings have 256 dimensions. The gate coefficients describe computational allocation, not fractions of physiological information.
+RetinaFuse encodes a two-polarity, 60-bin event volume with a 3D CNN and a Transformer. A parallel MLP encodes twelve recording-level descriptors. Both embeddings have 256 dimensions. The gate coefficients describe computational allocation.
 
 | Manuscript model | Input and computation | Comparison addressed |
 |---|---|---|
@@ -30,28 +30,6 @@ RetinaFuse encodes a two-polarity, 60-bin event volume with a 3D CNN and a Trans
 | RF ensemble | ExtraTrees, random forest and logistic-regression combination | A tree-based engineered-feature comparator |
 | Set attention | Segment embeddings with attention and maximum pooling | Permutation-invariant segment aggregation |
 | SNN | Convolutional spiking stages with surrogate-gradient training | A spiking-network comparator for event representations |
-
-The RF, Set attention and SNN implementations have different representations and training budgets. Their archived comparison is not a parameter-matched experiment. The three independently trained fusion alternatives are also different experiments from replacing weights in a frozen RetinaFuse network.
-
-## Analyses and released results
-
-The source-disjoint benchmark uses exact-content identification and fixed, source-family-grouped nested folds. Original-only probabilities are averaged over the three prespecified seeds, 42, 1042 and 2042. Cohort accounting is detailed in the manuscript Supplementary Information.
-
-| Corrected, full-export 4-fps pipeline | AUROC | AP | Brier |
-|---|---:|---:|---:|
-| RetinaFuse | 0.975 | 0.992 | 0.066 |
-| Frame-only | 0.953 | 0.984 | 0.079 |
-| Single-frame | 0.896 | 0.951 | 0.189 |
-| Mean-image | 0.951 | 0.983 | 0.154 |
-| Unordered-frames | 0.962 | 0.986 | 0.109 |
-| Raw-video | 0.945 | 0.973 | 0.087 |
-| Frame-difference-video | 0.906 | 0.957 | 0.134 |
-
-RetinaFuse minus Single-frame AUROC is +0.080 (paired 95% interval +0.022 to +0.149). Its AUROC difference from Mean-image is +0.024 (−0.015 to +0.069). The paired Brier difference from Mean-image is −0.088 (−0.119 to −0.056). These comparisons evaluate entire pipelines, not a causal effect of temporal order.
-
-No universal adaptive-fusion advantage is established: the supplied 99% intervals against Frame-only, Global-weight-fusion and Concat-fusion include zero. At 75% event thinning, learned gating has higher Brier error than frozen-clean weighting. True filename-date-held-out performance is poor (RetinaFuse pooled AUROC 0.361, Brier 0.305). These results are retained rather than selected out.
-
-Archived development figures and three-group rotations are explicitly separate from the source-disjoint experiment. The historical three groups are not verified acquisition dates or external cohorts. Neither analysis is external clinical validation.
 
 ## Repository layout
 
@@ -84,14 +62,14 @@ python scripts/recompute_results.py --output recomputed_metrics.csv
 python -m unittest discover -s tests -v
 ```
 
-The script independently recomputes all released seed-ensemble AUROC, AP, Brier and binary metrics from the source-level predictions and checks their agreement with the stored values. It does not smooth curves or fit a model.
+The script independently recomputes all released seed-ensemble AUROC, AP, Brier and binary metrics from the source-level predictions and checks their agreement with the stored values. 
 
 ## Reproduce model training and inference
 
 1. Obtain the original AVI/event dataset through the manuscript Data availability statement. 
 2. Inspect `environment-lock.txt` and `provenance/runtime.json`. The recorded environment used Python 3.13.7, PyTorch 2.10.0.dev20251206+cu128, CUDA 12.8 and an RTX 5090. The lock is the actual snapshot. Availability of that historical nightly wheel is not guaranteed; if using another compatible PyTorch/CUDA build, record it as a different runtime.
-3. Install the compute dependencies in `requirements-compute.txt`, plus a compatible PyTorch build. Run `python scripts/fetch_sources.py`. This checks out the pinned components and obtains the exact upstream model/mask files by Git blob, verifying their SHA-256 hashes. It does not relicense the upstream code.
-4. To reuse prepared inputs, create a **new** working directory with the supplied `data/animal_manifest.csv`, `data/split_manifest.csv`, cached per-source NPZ files and decoder NPZ files. `python scripts/prepare_workdir.py --workdir /path/to/new_run --cached-data /path/to/prepared/data` copies those prepared inputs and writes a portable protocol. This may copy substantial data; it never edits the original run.
+3. Install the compute dependencies in `requirements-compute.txt`, plus a compatible PyTorch build. Run `python scripts/fetch_sources.py`. This checks out the pinned components and obtains the exact upstream model/mask files by Git blob, verifying their SHA-256 hashes.
+4. To reuse prepared inputs, create a **new** working directory with the supplied `data/animal_manifest.csv`, `data/split_manifest.csv`, cached per-source NPZ files and decoder NPZ files. `python scripts/prepare_workdir.py --workdir /path/to/new_run --cached-data /path/to/prepared/data` copies those prepared inputs and writes a portable protocol. 
 5. Run one predefined outer task, for example:
 
 ```bash
@@ -197,7 +175,7 @@ new_run/
       <animal_id>.json
 ```
 
-The published manifests alone are not the cache. Obtain matching original data/prepared tensors through the study's data-access arrangements. Check identity, source hashes, decoder condition, geometry and split lineage before reuse. Do not assemble caches from unrelated experiments merely because filenames match.
+ Obtain matching original data/prepared tensors through the study's data-access arrangements. Check identity, source hashes, decoder condition, geometry and split lineage before reuse. Do not assemble caches from unrelated experiments merely because filenames match.
 
 Fetch the pinned upstream source before preparing the work directory:
 
