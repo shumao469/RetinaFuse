@@ -16,7 +16,7 @@ The framework connects **retinal grayscale-variation event encoding (ReGVE)** wi
 
 ### Method and implementation
 
-The main implementation is **[benchmark/code/regve.py](benchmark/code/regve.py)**, renamed from decoder.py. The numerical encoding algorithm, condition identifiers and cache format are unchanged.
+ReGVE implementation file is **[benchmark/code/regve.py](benchmark/code/regve.py)**. 
 
 1. Decode the native-resolution fundus video. The full-export condition uses the confirmed 4 fps rate.
 2. Estimate vascular support from the first frame using the pinned segmentation implementation.
@@ -37,7 +37,7 @@ Default full-export setting:
   no frame/event cap
 ```
 
-Events are stably sorted by timestamp, retaining the implemented within-frame polarity order. Shared timestamps retain the video acquisition clock. The event volume represents normalized temporal bins; event timestamps do not imply finer acquisition resolution.
+Events are stably sorted by timestamp, retaining the implemented within-frame polarity order. Shared timestamps retain the video acquisition clock. The event volume represents normalized temporal bins.
 
 | Function / stage | Location | Role |
 |---|---|---|
@@ -52,11 +52,9 @@ ReGVE retains the existing `graychange_4fps_t002` condition key and `data/decode
 
 ### Why this representation matters
 
-A single fundus frame captures appearance at one instant. ReGVE makes changes across the recording accessible through signed events while keeping local arrangement and recording-level summaries connected. It is the common input-generation step for the event-volume and descriptor branches, rather than an interchangeable display operation.
+A single fundus frame captures appearance at one instant. ReGVE makes changes across the recording accessible through signed events while keeping local arrangement and recording-level summaries connected. 
 
-In the released source-disjoint nested five-fold comparison on 120 unique sources, ReGVE + RetinaFuse achieved AUROC **0.975**, AP **0.992**, and Brier **0.066**. The Single-frame control achieved AUROC 0.896 and Brier 0.189; registered Mean-image achieved AUROC 0.951 and Brier 0.154. RetinaFuse reduced Brier relative to Mean-image by 0.088 (paired 95% interval, 0.056–0.119).
-
-For context, Raw-video, Frame-difference-video and Unordered-frames achieved AUROCs 0.945, 0.906 and 0.962, respectively. These results motivate the explicit representation comparison: the strongest reported AUROC comes from the complete ReGVE–RetinaFuse pipeline. They compare trained pipelines, rather than proving that every architecture requires ReGVE to exceed a single-frame baseline.
+In the released source-disjoint nested five-fold comparison on 120 unique sources, ReGVE + RetinaFuse achieved AUROC **0.975**, AP **0.992**, and Brier **0.066**. The Single-frame control achieved AUROC 0.896 and Brier 0.189; registered Mean-image achieved AUROC 0.951 and Brier 0.154. RetinaFuse reduced Brier relative to Mean-image by 0.088 (paired 95% interval, 0.056–0.119). For context, Raw-video, Frame-difference-video and Unordered-frames achieved AUROCs 0.945, 0.906 and 0.962, respectively. These results motivate the explicit representation comparison: the strongest reported AUROC comes from the complete ReGVE–RetinaFuse pipeline. 
 
 Numerical sources: [released metrics](results/corrected/seed_ensemble_metrics.csv) and [paired comparisons](results/corrected/paired_comparisons.csv).
 
@@ -216,8 +214,6 @@ Training-partition means and standard deviations are applied to descriptors. Pos
 | Exact descriptor attribution | [descriptor SHAP guide](docs/DESCRIPTOR_SHAP.md): full-network finite-background enumeration and source-family summaries |
 | Integrity and provenance checks | [audit tools](benchmark/audit_tools), [provenance](provenance) |
 | Figure traceability | [figure analyses](docs/FIGURE_ANALYSES.md), [source tables](figure_sources) |
-
-There is no packaged web interface, clinical diagnostic service, or generic upload-and-predict command in this repository. A reference fundus image alone is insufficient input for the event-volume model.
 
 ## Reproduction checklist and practical operation
 
