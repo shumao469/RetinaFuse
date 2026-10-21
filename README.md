@@ -48,13 +48,7 @@ Events are stably sorted by timestamp, retaining the implemented within-frame po
 | Descriptor extraction | `extract_stat_features` in the same pinned source | Twelve descriptors in fixed order |
 | Encoding contracts | [test_decoder_contract.py](benchmark/audit_tools/test_decoder_contract.py) | Synthetic checks of timing, polarity, mask, threshold and count conservation |
 
-ReGVE retains the existing `graychange_4fps_t002` condition key and `data/decoder/` cache directory for compatibility with released predictions and checkpoints. “Decoder” in historical metadata refers to this event-encoding pipeline.
-
-### Why this representation matters
-
-A single fundus frame captures appearance at one instant. ReGVE makes changes across the recording accessible through signed events while keeping local arrangement and recording-level summaries connected. 
-
-In the released source-disjoint nested five-fold comparison on 120 unique sources, ReGVE + RetinaFuse achieved AUROC **0.975**, AP **0.992**, and Brier **0.066**. The Single-frame control achieved AUROC 0.896 and Brier 0.189; registered Mean-image achieved AUROC 0.951 and Brier 0.154. RetinaFuse reduced Brier relative to Mean-image by 0.088 (paired 95% interval, 0.056–0.119). For context, Raw-video, Frame-difference-video and Unordered-frames achieved AUROCs 0.945, 0.906 and 0.962, respectively. These results motivate the explicit representation comparison: the strongest reported AUROC comes from the complete ReGVE–RetinaFuse pipeline. 
+ReGVE retains the existing `graychange_4fps_t002` condition key and `data/decoder/` cache directory for compatibility with released predictions and checkpoints. A single fundus frame captures appearance at one instant. ReGVE makes changes across the recording accessible through signed events while keeping local arrangement and recording-level summaries connected. 
 
 Numerical sources: [released metrics](results/corrected/seed_ensemble_metrics.csv) and [paired comparisons](results/corrected/paired_comparisons.csv).
 
