@@ -164,7 +164,7 @@ Positive SHAP values raise the fitted MCAO probability; negative values lower it
 
 See [descriptor SHAP methods and reproduction](docs/DESCRIPTOR_SHAP.md) for input formats, configuration, commands, interpretation boundaries and editable-text SVG/vector-PDF output.
 
-## Detailed architecture and feature definitions
+## Architecture and feature definitions
 
 The corrected benchmark wrapper is [benchmark/code/models.py](benchmark/code/models.py). Its event and descriptor encoders are fetched from the exact revision recorded in [frozen vendor sources](provenance/frozen_vendor_sources.json). Use the benchmark wrapper for corrected-series checkpoints; the upstream training entry point is not a drop-in replacement.
 
