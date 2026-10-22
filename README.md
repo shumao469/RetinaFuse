@@ -8,11 +8,9 @@ The framework connects **retinal grayscale-variation event encoding (ReGVE)** wi
 
 ![RetinaFuse architecture](docs/assets/retinafuse_architecture.svg)
 
-*Architecture schematic verified against the pinned model source*
-
 ## ReGVE: retinal grayscale-variation event encoding
 
-**ReGVE is the representation-building stage that connects conventional fundus video to RetinaFuse.** It converts signed retinal grayscale changes into one event table, from which both the polarity-resolved event volume and twelve recording-level descriptors are derived. This linked representation exposes detailed spatial-sequential arrangement and global distributions to two complementary encoders.
+**ReGVE is the representation-building stage that connects fundus video to RetinaFuse.** It converts signed retinal grayscale changes into one event table, from which both the polarity-resolved event volume and twelve recording-level descriptors are derived. This linked representation exposes detailed spatial-sequential arrangement and global distributions to two encoders.
 
 ### Method and implementation
 
@@ -52,7 +50,7 @@ ReGVE retains the existing `graychange_4fps_t002` condition key and `data/decode
 
 Numerical sources: [released metrics](results/corrected/seed_ensemble_metrics.csv) and [paired comparisons](results/corrected/paired_comparisons.csv).
 
-### Running ReGVE in a prepared study work directory
+### Running ReGVE
 
 After fetching the pinned sources and preparing the study manifests, videos and protocol paths, set `RETINAFUSE_WORKDIR` and run:
 
