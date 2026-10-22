@@ -305,6 +305,6 @@ The healthy/MCAO images at the top are native-aspect reference fundus frames, no
 The corrected protocol identifies 120 unique source recordings (31 healthy, 89 MCAO) after exact-content deduplication, while retaining 128 identities for audit. These are source-accounting statements from the released protocol; unresolved acquisition metadata must not be inferred from them. Acquisition-series analyses and their full numerical results are retained in the released result tables.
 
 
-## Attribution, scope and rights
+## Attribution and rights
 
-The upstream projects retain original rights and are incorporated by pinned gitlinks. See [rights](RIGHTS.md) and [source provenance](provenance/upstream_sources.json). 
+Xu lab, Fudan University
